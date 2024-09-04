@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-To be presented at CIST 2024 and INFORMS Data Science Workshop 2024, Seattle
+I will present at CIST 2024 and INFORMS Data Science Workshop 2024, Seattle.
