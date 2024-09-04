@@ -1,7 +1,7 @@
 ---
-layout: cv
+layout: 
 permalink: /cv/
-title: cv
+title: 
 nav: true
 nav_order: 7
 cv_pdf: resume.pdf
@@ -12,4 +12,4 @@ toc:
 
 
 <embed src="/assets/pdf/resume.pdf" width="100%" height="800px" type="application/pdf">
-<a href="/assets/pdf/resume.pdf" download="resume.pdf">Download PDF</a>
+#<a href="/assets/pdf/resume.pdf" download="resume.pdf">Download PDF</a>
