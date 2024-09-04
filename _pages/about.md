@@ -16,4 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I am a 4th year Ph.D. student in Information Systems at the The University of Hong Kong. My advisor is [Prof.Hailiang Chen](https://www.hkubs.hku.hk/people/hailiang-chen/). Broadly, I am interested in Artificial Intelligence (AI), digital platforms, and FinTech. Leveraging econometric models, field and online experiments, and advanced machine learning techniques, I strive to understand and enhance the well-being of stakeholders in the ever-evolving landscape of the future of work. I currently use design science methods and online experiments to study human-AI interactions in service contexts.
+Hi! I am a 4th year candidate in Information Systems at the Faculty of Business and Economics (IIM), the The University of Hong Kong. My advisor is [Prof.Hailiang Chen](https://www.hkubs.hku.hk/people/hailiang-chen/). Broadly, I am interested in Artificial Intelligence (AI), digital platforms, and FinTech. Leveraging econometric models, field and online experiments, and advanced machine learning techniques, I strive to understand and enhance the well-being of stakeholders in the ever-evolving landscape of the future of work. I currently use design science methods and online experiments to study human-AI interactions in service contexts.
+
+Contact: miaoyu@connect.hku.hk
