@@ -23,7 +23,6 @@ nav_order: 2
       <strong>Measuring Sales Impacts of Influencers' Emotions: Evidence from Taobao Live Platform</strong><br>
       Miao Yu, Hailiang Chen, Yifan Dou 
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4141860" target="_blank"> [Paper link]</a><br>
-      Under Review at Production and Operations Management
     </li>
   </ul>
 </div>
