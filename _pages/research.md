@@ -30,7 +30,7 @@ nav_order: 2
 <!-- Work in Progress Section -->
 
 <div class="work-in-progress">
-  <h2>Work-in-progress</h2>
+  <h2>Work in Progress</h2>
   <ul>
     <li>
       <strong>Mimicking the Expert: A Transformer-Based Artifact for Leakage Detection in Auto Insurance</strong><br>
