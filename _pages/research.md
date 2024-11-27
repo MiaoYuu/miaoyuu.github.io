@@ -18,11 +18,13 @@ nav_order: 2
       Miao Yu, Hailiang Chen, Yuan Cheng, Yu Jeffery Hu 
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank">[Paper link]</a><br>
       Under Major Revision at Information Systems Research
+      Presented at SCECR 2022, JUSWIS 2023, WISE 2024
     </li>
     <li>
       <strong>Measuring Sales Impacts of Influencers' Emotions: Evidence from Taobao Live Platform</strong><br>
       Miao Yu, Hailiang Chen, Yifan Dou 
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4141860" target="_blank"> [Paper link]</a><br>
+      Presented at WISE 2021, CSWIM 2023
     </li>
   </ul>
 </div>
@@ -35,12 +37,12 @@ nav_order: 2
     <li>
       <strong>Mimicking the Expert: A Transformer-Based Artifact for Leakage Detection in Auto Insurance</strong><br>
       Miao Yu, Hailiang Chen, Shengjun Mao <br>
-      To be presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
+      Presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
     </li>
     <li>
       <strong>GovLegal-RAG: Leveraging Retrieval-Augmented Generation for Government and Legal Consultation</strong><br>
       Miao Yu, Hailiang Chen <br>
-      To be presented at CIST 2024, Seattle, October 2024.
+      Presented at CIST 2024, Seattle, October 2024.
     </li>
   </ul>
 </div>
