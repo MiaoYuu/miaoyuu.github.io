@@ -2,10 +2,12 @@
 layout: page
 permalink: /Research/
 title: Research
-description: 
+description: Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services
+keywords: Gov-RAG, E-Government
 nav: true
 nav_order: 2
 ---
+
 <!-- _pages/research.md -->
 
 <!-- Working Papers Section -->
