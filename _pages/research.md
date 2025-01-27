@@ -34,6 +34,7 @@ nav_order: 2
   </ul>
 </div>
 
+
 <!-- Work in Progress Section -->
 
 <div class="work-in-progress">
@@ -44,6 +45,5 @@ nav_order: 2
       Miao Yu, Hailiang Chen, Shengjun Mao <br>
       Presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
     </li>
-   
   </ul>
 </div>
