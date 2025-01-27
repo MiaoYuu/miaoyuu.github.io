@@ -13,6 +13,11 @@ nav_order: 2
 <div class="working-papers">
   <h2>Working Papers</h2>
   <ul>
+     <li>
+      <strong>Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services</strong><br>
+      Miao Yu, Hailiang Chen <br>
+      Presented at CIST 2024, Seattle, October 2024.
+    </li>
     <li>
       <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
       Miao Yu, Hailiang Chen, Yuan Cheng, Yu Jeffery Hu 
@@ -39,10 +44,6 @@ nav_order: 2
       Miao Yu, Hailiang Chen, Shengjun Mao <br>
       Presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
     </li>
-    <li>
-      <strong>Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services</strong><br>
-      Miao Yu, Hailiang Chen <br>
-      Presented at CIST 2024, Seattle, October 2024.
-    </li>
+   
   </ul>
 </div>
