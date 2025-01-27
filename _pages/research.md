@@ -40,7 +40,7 @@ nav_order: 2
       Presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
     </li>
     <li>
-      <strong>GovLegal-RAG: Leveraging Retrieval-Augmented Generation for Government and Legal Consultation</strong><br>
+      <strong>Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services</strong><br>
       Miao Yu, Hailiang Chen <br>
       Presented at CIST 2024, Seattle, October 2024.
     </li>
