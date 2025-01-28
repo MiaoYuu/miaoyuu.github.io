@@ -17,7 +17,9 @@ nav_order: 2
   <ul>
      <li>
       <strong>Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services</strong><br>
-      Miao Yu, Hailiang Chen <br>
+      Miao Yu, Hailiang Chen
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank">[Paper link]</a><br>
+
       Presented at CIST 2024, Seattle, October 2024.
     </li>
     <li>
