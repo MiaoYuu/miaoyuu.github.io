@@ -2,7 +2,7 @@
 layout: page
 permalink: /Research/
 title: Research
-description: "Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services"
+description: " "
 keywords: "Gov-RAG, E-Government"
 nav: true
 nav_order: 2
