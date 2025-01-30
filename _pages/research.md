@@ -3,7 +3,7 @@ layout: page
 permalink: /Research/
 title: Research
 description: " "
-keywords: "Gov-RAG, E-Government"
+keywords: "Gov-RAG, E-Government, RAG, Retrieval-Augmented Generation"
 nav: true
 nav_order: 2
 ---
