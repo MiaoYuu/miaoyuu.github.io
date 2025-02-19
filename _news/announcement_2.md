@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I will present at WISE 2024, Bangkok, Thailand.
+I presented at WISE 2024, Bangkok, Thailand.
 
