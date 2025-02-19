@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I presented at WISE 2024, Bangkok, Thailand.
-
+Recent Talks @Bangkok, Thailand
+Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors
