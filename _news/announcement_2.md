@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-@Bangkok, Thailand
-Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors
+
+Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors at WISE 2024
