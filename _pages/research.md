@@ -28,7 +28,6 @@ nav_order: 2
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank">[Paper link]</a><br>
       Presented at SCECR 2022, JUSWIS 2023, WISE 2024<br>
       Under Major Revision at Information Systems Research<br>
-
     </li>
     <li>
       <strong>Measuring Sales Impacts of Influencers' Emotions: Evidence from Taobao Live Platform</strong><br>
