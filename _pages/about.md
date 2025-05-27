@@ -16,12 +16,7 @@ selected_papers: true
 social: true
 ---
 
-<style>
-p {
-  text-indent: 0 !important;
-  margin-left: 0 !important;
-}
-</style>
+
 
 <div style="max-width:820px; margin:auto; margin-top:20px;">
 
