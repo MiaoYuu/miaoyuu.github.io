@@ -18,7 +18,7 @@ social: true
 
 <div style="max-width:820px; margin:auto; margin-top:20px;">
 
-  <p style="font-weight:700; margin-bottom:14px;">Welcome to my personal website!</p>
+  <p>Welcome to my personal website!</p>
   
   <p>
     I am a fourth-year Ph.D. candidate in Information Systems at the Faculty of Business and Economics (IIM), The University of Hong Kong.
