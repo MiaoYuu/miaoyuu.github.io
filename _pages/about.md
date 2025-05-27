@@ -30,7 +30,7 @@ social: true
 
   <p>
     You can find more about my work in my <a href="/cv/" target="_blank">CV</a>, or connect with me on <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank">LinkedIn</a>, <a href="https://scholar.google.com/citations?user=Psa2zHcAAAAJ" target="_blank">Google Scholar</a>, or <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank">SSRN</a>.<br>
-    Feel free to <a href="mailto:miaoyu@connect.hku.hk">email me</a> if you are interested in collaboration or would like to discuss research.
+    Feel free to <a href="mailto:miaoyu@connect.hku.hk">email me</a> — I am always open to new collaborations and conversations!
   </p>
   
 </div>
