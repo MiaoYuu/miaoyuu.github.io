@@ -17,7 +17,7 @@ nav_order: 4
   </p>
   <ul style="list-style-type: none; padding-left: 0;">
     <li style="margin-bottom: 44px; display: flex; align-items: flex-start;">
-      <img src="/assets/imag/Ping-An-Logo.jpg" alt="Ping An Technology Logo" style="height:64px; width:auto; margin-right:28px; border-radius:8px; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+      <img src="/assets/img/Ping-An-Logo.jpg" alt="Ping An Technology Logo" style="height:64px; width:auto; margin-right:28px; border-radius:8px; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
       <div>
         <strong style="font-size:1.15em;">Ping An Technology</strong><br>
         <span style="line-height:1.7;">
