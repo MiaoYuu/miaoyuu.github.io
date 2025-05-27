@@ -2,22 +2,42 @@
 layout: about
 title: Home
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p></p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: true
+selected_papers: true
+social: true
 ---
 
-Hi! I am a 4th year Ph.D. candidate in Information Systems at the Faculty of Business and Economics (IIM), the University of Hong Kong. My advisor is [Prof.Hailiang Chen](https://www.hkubs.hku.hk/people/hailiang-chen/). Broadly, I am interested in Artificial Intelligence (AI), digital platforms, and FinTech. Leveraging econometric models, field experiments, and advanced machine learning techniques, I strive to understand and enhance human-AI collaboration in the ever-evolving landscape of the future of work. Right now, I use design science methods and online experiments to study human-LLM interactions in service contexts.
+<div style="max-width:820px; margin:auto; margin-top:20px;">
 
-Contact: miaoyu@connect.hku.hk
+  <h1 style="font-weight:700; margin-bottom:14px;">Welcome to my personal website!</h1>
+  
+  <p style="font-size:1.15em; color:#444; margin-bottom:30px;">
+    I am a fourth-year Ph.D. candidate in Information Systems at the Faculty of Business and Economics (IIM), The University of Hong Kong.
+  </p>
+  
+  <div style="margin-bottom:26px;">
+    <strong>Advisor:</strong> <a href="https://www.hkubs.hku.hk/people/hailiang-chen/" target="_blank">Prof. Hailiang Chen</a>
+  </div>
+  
+  <p style="line-height:1.8;">
+    My research focuses on Artificial Intelligence, digital platforms, and FinTech. I am particularly interested in understanding and improving human–AI collaboration in the future of work.
+    I use econometric models, field experiments, and advanced machine learning techniques to analyze real-world questions in gig economy, service operations, and digital government.
+    Currently, I use design science approaches and online experiments to study how humans interact with large language models (LLMs) in service contexts.
+  </p>
 
-
+  <p style="margin-top:22px;">
+    To learn more about my work, you can access my <a href="/cv/" target="_blank">CV</a>, or connect via <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank">LinkedIn</a>, <a href="https://scholar.google.com/citations?user=Psa2zHcAAAAJ" target="_blank">Google Scholar</a>, or <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank">SSRN</a>. 
+    <br>
+    Feel free to <a href="mailto:miaoyu@connect.hku.hk">email me</a> — I am always open to new collaborations and conversations!
+  </p>
+  
+</div>
