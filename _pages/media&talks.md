@@ -5,7 +5,7 @@ title: Media & Talks
 description: " "
 keywords: "Media, Talks, Presentations, Press"
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
 <!-- _pages/media-talks.md -->
