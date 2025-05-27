@@ -11,7 +11,7 @@ nav_order: 4
 <!-- _pages/industry-collaboration.md -->
 
 <div class="industry-collaboration" style="max-width:820px; margin:auto;">
-  <h2 style="margin-bottom:18px;">Industry Collaboration</h2>
+ 
   <p style="margin-bottom:32px;">
     We actively collaborate with leading technology companies to bridge research and real-world applications.
   </p>
