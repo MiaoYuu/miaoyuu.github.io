@@ -5,7 +5,7 @@ title: Awards
 description: " "
 keywords: "Awards, Scholarships, Honors"
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <!-- _pages/awards.md -->
