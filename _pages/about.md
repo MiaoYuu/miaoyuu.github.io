@@ -29,15 +29,13 @@ social: true
   </div>
   
   <p style="line-height:1.8;">
-    My research focuses on Artificial Intelligence, digital platforms, and FinTech. I am particularly interested in understanding and improving human–AI collaboration in the future of work.
-    I use econometric models, field experiments, and advanced machine learning techniques to analyze real-world questions in gig economy, service operations, and digital government.
-    Currently, I use design science approaches and online experiments to study how humans interact with large language models (LLMs) in service contexts.
+    My research examines Artificial Intelligence, digital platforms, and FinTech, with a focus on human–AI collaboration and the future of work. I use econometric models, field experiments, and machine learning to address real-world questions in the gig economy, service operations, and digital government. My recent projects apply design science methods and online experiments to study how people interact with large language models (LLMs) in service contexts.
   </p>
 
   <p style="margin-top:22px;">
-    To learn more about my work, you can access my <a href="/cv/" target="_blank">CV</a>, or connect via <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank">LinkedIn</a>, <a href="https://scholar.google.com/citations?user=Psa2zHcAAAAJ" target="_blank">Google Scholar</a>, or <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank">SSRN</a>. 
+    To learn more about my work, you can view my <a href="/cv/" target="_blank">CV</a>, or connect on <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank">LinkedIn</a>, <a href="https://scholar.google.com/citations?user=Psa2zHcAAAAJ" target="_blank">Google Scholar</a>, or <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank">SSRN</a>. 
     <br>
-    Feel free to <a href="mailto:miaoyu@connect.hku.hk">email me</a> — I am always open to new collaborations and conversations!
+    You are welcome to <a href="mailto:miaoyu@connect.hku.hk">email me</a> if you are interested in collaboration or wish to discuss research.
   </p>
   
 </div>
