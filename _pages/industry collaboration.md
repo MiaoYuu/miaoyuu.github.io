@@ -13,7 +13,7 @@ nav_order: 4
 <div class="industry-collaboration" style="max-width:820px; margin:auto;">
  
   <p style="margin-bottom:32px;">
-    We actively collaborate with leading technology companies to bridge research and real-world applications.
+    I actively collaborate with leading technology companies to bridge research and real-world applications.
   </p>
   <ul style="list-style-type: none; padding-left: 0;">
     <li style="margin-bottom: 44px; display: flex; align-items: flex-start;">
