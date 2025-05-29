@@ -5,7 +5,6 @@ permalink: /
 subtitle:
 
 profile:
-  align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
@@ -16,9 +15,7 @@ selected_papers: true
 social: true
 ---
 
-
-
-<div style="max-width:820px; margin:auto; margin-top:20px;">
+<div style="margin-top:20px;">
 
 <div>Welcome to my personal website!</div>
 <div>
@@ -30,4 +27,3 @@ My research explores the impact of algorithms and the design of algorithmic syst
 <div>
 To learn more about my work, please see my <a href="/cv/" target="_blank">CV</a>, or connect with me on <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank">LinkedIn</a>, <a href="https://scholar.google.com/citations?user=Psa2zHcAAAAJ" target="_blank">Google Scholar</a>, or <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank">SSRN</a>. You are also welcome to <a href="mailto:miaoyu@connect.hku.hk">email me</a> about potential collaborations or research discussions.
 </div>
-
