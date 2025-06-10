@@ -45,6 +45,11 @@ nav_order: 2
   <h2>Work in Progress</h2>
   <ul>
     <li>
+      <strong>Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers’ Engagement and Retention</strong><br>
+      Vivek Choudhary, Li Ding, Miao Yu <br>
+      Presented at INFORMS MSOM Conference 2025, London, June 2025.
+    </li>
+    <li>
       <strong>Mimicking the Expert: A Transformer-Based Artifact for Leakage Detection in Auto Insurance</strong><br>
       Miao Yu, Hailiang Chen, Shengjun Mao <br>
       Presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
