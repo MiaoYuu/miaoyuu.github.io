@@ -4,7 +4,7 @@ permalink: /IndustryCollaboration/
 title: Industry Collaboration
 description: " "
 keywords: "Industry Collaboration, Ping An Technology, Research Partnership"
-nav: true
+nav: false
 nav_order: 4
 ---
 
