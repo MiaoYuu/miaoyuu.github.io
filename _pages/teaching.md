@@ -27,23 +27,15 @@ nav_order: 5
 **Selected Positive Comments (2021-22, 2022-23):**
 
 > The tutor explained clearly and helped us to understand the concepts more in depth after the lecture and would also reply to any questions we have. Examples are also given to further take into real practice.
-
 > She is knowledgeable and able to give clear explanation instantly to our questions.
-
 > Very helpful. Thanks a lot.  
 > Detailed and patient.
-
 > The teaching is very detailed. The tutor is very responsive on the questions.
 > The TA for this course is one of the best TAs in the programme. Tutorials are very well-organized and clear in teaching, English is fluent, and she is very responsive to my questions and very nice. I like this TA a lot.
-
 > Very helpful tutorial, explained the concepts clearly, responded to my email enquiry very promptly.
-
 > The demonstration of code is quite clear.
-
 > Her clarity of lecture.
-
 > The teaching on code helps me a lot.
-
 > Clear and patient.
 
 ---
