@@ -34,7 +34,6 @@ nav_order: 5
 > Detailed and patient.
 
 > The teaching is very detailed. The tutor is very responsive on the questions.
-
 > The TA for this course is one of the best TAs in the programme. Tutorials are very well-organized and clear in teaching, English is fluent, and she is very responsive to my questions and very nice. I like this TA a lot.
 
 > Very helpful tutorial, explained the concepts clearly, responded to my email enquiry very promptly.
