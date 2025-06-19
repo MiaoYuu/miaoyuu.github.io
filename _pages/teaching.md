@@ -10,18 +10,22 @@ nav_order: 5
 ## Teaching Assistant
 
 **Course:** MSBA7012 Social Media and Digital Marketing Analytics  
-**Role:** Teaching Assistant (AY2021-22, AY2022-23)
+**Role:** Teaching Assistant (AY2021–22, AY2022–23)
 
-- Delivered tutorials and practical coding demonstrations on social media analytics, text mining, and digital marketing analytics.
-- Provided guidance on assignments and hands-on coding exercises in Python, SQL, and analytics tools.
-- Supported students with prompt responses to questions, additional explanations, and real-world examples.
-- Developed course materials and step-by-step guides for analytics software installation and use.
+- Delivered three tutorials per year with live coding demonstrations in Python, SQL and analytics tools.  
+- Guided and graded text-mining and digital-marketing analytics assignments.  
+- Provided prompt one-on-one support to student questions.  
 
-## Student Comments
 
-**Summary of Student Evaluations**
+## Student Evaluations
 
-- More than 85% of students agreed or strongly agreed that the tutorials helped them learn and that the teaching was effective.
-- “The tutor helped me learn”: up to 82% ‘strongly agree’.
-- “The tutor provided helpful feedback”: up to 83% ‘strongly agree’.
-- “The tutor clearly communicated the subject matter”: up to 95.8% ‘strongly agree’.
+**AY 2021–22 (n = 72):**  
+- 90 % agreed or strongly agreed that the tutorials helped them learn (72 % strongly agree; mean score 87.8 / 100).  
+- 92 % agreed or strongly agreed that the tutor communicated material effectively (71 % strongly agree; mean 87.8 / 100).  
+- 91 % agreed or strongly agreed that the tutor provided helpful feedback (73 % strongly agree; mean 88.4 / 100).
+
+**AY 2022–23 (n = 13):**  
+- 93 % agreed or strongly agreed that the tutorials met learning outcomes (62 % strongly agree; mean 86.5 / 100).  
+- 84.6 % agreed or strongly agreed that the tutor stimulated their interest (62 % strongly agree; mean 84.6 / 100).  
+- 90.4 % agreed or strongly agreed that the tutor communicated clearly (69 % strongly agree; mean 90.4 / 100).  
+- 90.4 % agreed or strongly agreed that the tutor provided helpful feedback (69 % strongly agree; mean 90.4 / 100).
