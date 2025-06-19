@@ -33,7 +33,8 @@ nav_order: 3
       INFORMS Data Science Workshop 2024, Seattle, USA
     </li>
     <li>
-      <strong>The Slower The Better? The Impact of Subsidizing ETA on Customer Satisfaction and Rider Welfare in Online Food Delivery</strong><br>
+      <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
+      Statistical Challenges in Electronic Commerce Research (SCECR) 2025, Paphos, Cyprus<br>
       Workshop on Information Systems and Economics (WISE) 2024, Bangkok, Thailand<br>
       Joint University Summer Workshop on Information Systems (JUSWIS) 2023, Hong Kong, China<br>
       Statistical Challenges in Electronic Commerce Research (SCECR) 2022, Madrid, Spain
