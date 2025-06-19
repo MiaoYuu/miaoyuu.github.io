@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /Miscellaneous/
-title: Miscellaneous
+permalink: /Teaching/
+title: Teaching
 description: 
 nav: true
 nav_order: 5
