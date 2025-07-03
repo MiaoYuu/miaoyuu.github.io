@@ -16,9 +16,10 @@ selected_papers: true
 social: true
 ---
 
-Welcome to my personal website!
 
-I am a fourth-year Ph.D. candidate in Information Systems at the Faculty of Business and Economics (IIM), The University of Hong Kong. My advisor is [Prof. Hailiang Chen](https://www.hkubs.hku.hk/people/hailiang-chen/).
+I am a fifth-year Ph.D. candidate in Information Systems at the Faculty of Business and Economics (IIM), The University of Hong Kong. My advisor is [Prof. Hailiang Chen](https://www.hkubs.hku.hk/people/hailiang-chen/). 
+
+I am on the job market for 2025-2026.
 
 My research explores the impact of algorithms and the design of algorithmic systems that enhance social outcomes in contexts such as the gig economy and the public sector. I use a mix of empirical and behavioral methods, including econometrics, field experiments, applied machine learning, and natural language processing.
 
