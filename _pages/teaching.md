@@ -20,7 +20,7 @@ nav_order: 5
 ## Student Evaluations
 
 **AY 2021–22:**  
-- 90 % agreed or strongly agreed that the tutorials helped them learn (mean score 87.8 / 100).  
+- 90 % agreed or strongly agreed that the tutorials helped them learn (mean 87.8 / 100).  
 - 92 % agreed or strongly agreed that the tutor communicated material effectively (mean 87.8 / 100).  
 - 91 % agreed or strongly agreed that the tutor provided helpful feedback (mean 88.4 / 100).
 
