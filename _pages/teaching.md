@@ -7,6 +7,14 @@ nav: true
 nav_order: 5
 ---
 
+## Teaching Interests
+
+- **Large Language Models (LLMs)**
+- **Retrieval-Augmented Generation (RAG)**
+- **Agentic AI**
+- **Business Analytics**
+
+
 ## Teaching Assistant
 
 **Course:** MSBA7012 Social Media and Digital Marketing Analytics  
