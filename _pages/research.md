@@ -55,8 +55,13 @@ nav_order: 2
       Miao Yu, Hailiang Chen, Shengjun Mao <br>
       Presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
     </li>
+    <li>
+      <strong>Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</strong><br>
+      Miao Yu, Hongwei Zhuang, Hailiang Chen <br>
+    </li>
   </ul>
 </div>
+
 
 
 <!-- Industry Collaboration Section -->
