@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services  
-at CIST 2025 (Altlanta)
+at INFORMS Annual Meeting 2025 (Atlanta)
