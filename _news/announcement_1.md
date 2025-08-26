@@ -4,5 +4,4 @@ date: 2025-10-27:13:30-13:45
 inline: true
 related_posts: false
 ---
-Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services  
-at INFORMS Annual Meeting 2025 (Atlanta)
+Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services at INFORMS Annual Meeting 2025 (Atlanta)
