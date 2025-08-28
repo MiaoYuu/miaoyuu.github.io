@@ -29,16 +29,16 @@ nav_order: 3
       Conference on Information Systems and Technology (CIST) 2024, Seattle, USA
     </li>
     <li>
-      <strong>Mimicking the Expert: A Transformer-Based Artifact for Leakage Detection in Auto Insurance</strong><br>
-      INFORMS Data Science Workshop 2024, Seattle, USA
-    </li>
-    <li>
       <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
       Conference on Information Systems and Technology (CIST) 2025, Atlanta, USA<br>
       Statistical Challenges in Electronic Commerce Research (SCECR) 2025, Paphos, Cyprus<br>
       Workshop on Information Systems and Economics (WISE) 2024, Bangkok, Thailand<br>
       Joint University Summer Workshop on Information Systems (JUSWIS) 2023, Hong Kong, China<br>
       Statistical Challenges in Electronic Commerce Research (SCECR) 2022, Madrid, Spain
+    </li>
+    <li>
+      <strong>Mimicking the Expert: A Transformer-Based Artifact for Leakage Detection in Auto Insurance</strong><br>
+      INFORMS Data Science Workshop 2024, Seattle, USA
     </li>
     <li>
       <strong>Just the Right Emotion: Exploring the Effects of Verbal and Facial Emotions in Live Streaming E-commerce</strong><br>
