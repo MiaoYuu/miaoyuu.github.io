@@ -21,7 +21,6 @@ nav_order: 2
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank">[Paper link]</a><br>
       Presented at INFORMS 2025, CIST 2024, Workshop on AI in Business 2024<br>
       Invited for 2nd Round Review at Information Systems Research<br>
-
     </li>
     <li>
       <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
