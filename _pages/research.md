@@ -62,8 +62,6 @@ nav_order: 2
   </ul>
 </div>
 
-
-
 <!-- Industry Collaboration Section -->
 
 ## Industry Collaboration
