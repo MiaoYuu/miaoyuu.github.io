@@ -28,7 +28,7 @@ nav_order: 2
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank">[Paper link]</a><br>
       Finalist, POMS-HK International Conference Best Student Paper Award, 2026<br>
       Presented at CIST 2025, SCECR 2025, WISE 2024, JUSWIS 2023<br>
-      Invited for 3rd Round Review at Information Systems Research<br>
+      Under 3rd Round Review at Information Systems Research<br>
     </li>
    <li>
       <strong>Measuring Sales Impacts of Influencers' Emotions: Evidence from Taobao Live Platform</strong><br>
