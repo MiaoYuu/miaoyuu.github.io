@@ -45,6 +45,11 @@ nav_order: 2
 <div class="work-in-progress">
   <h2>Work in Progress</h2>
   <ul>
+     <li>
+      <strong>Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</strong><br>
+       Hongwei Zhuang, Miao Yu, Hailiang Chen <br>
+      Presented at ICIS 2025, Nashville, Dec 2025
+    </li>
     <li>
       <strong>Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers’ Engagement and Retention</strong><br>
       Vivek Choudhary, Li Ding, Miao Yu <br>
@@ -55,11 +60,7 @@ nav_order: 2
       Miao Yu, Hailiang Chen, Shengjun Mao <br>
       Presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
     </li>
-    <li>
-      <strong>Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</strong><br>
-       Hongwei Zhuang, Miao Yu, Hailiang Chen <br>
-      Presented at ICIS 2025, Nashville, Dec 2025
-    </li>
+   
   </ul>
 </div>
 
