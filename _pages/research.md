@@ -61,10 +61,9 @@ nav_order: 2
       Presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
     </li>
     <li>
-      <strong>Sequential ETA Disclosure on On-Demand Platforms
-        Miao Yu, Ying-Ju Chen  <br>
-     </li>
-   
+      <strong>Sequential ETA Disclosure on On-Demand Platforms</strong><br>
+        Miao Yu, Ying-Ju Chen 
+    </li>
   </ul>
 </div>
 
