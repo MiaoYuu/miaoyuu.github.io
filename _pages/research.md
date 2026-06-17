@@ -56,11 +56,6 @@ nav_order: 2
       Presented at INFORMS MSOM Conference 2025, London, June 2025.
     </li>
     <li>
-      <strong>Mimicking the Expert: A Transformer-Based Artifact for Leakage Detection in Auto Insurance</strong><br>
-      Miao Yu, Hailiang Chen, Shengjun Mao <br>
-      Presented at INFORMS Data Science Workshop 2024, Seattle, October 2024.
-    </li>
-    <li>
       <strong>Sequential ETA Disclosure on On-Demand Platforms</strong><br>
         Miao Yu, Ying-Ju Chen 
     </li>
