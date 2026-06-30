@@ -59,6 +59,10 @@ nav_order: 2
       <strong>Sequential ETA Disclosure on On-Demand Platforms</strong><br>
         Miao Yu, Ying-Ju Chen 
     </li>
+    <li>
+    <strong>From Operational Speed to Marketing Value: A Field Experiment on Delivery-Time Labels
+      Miao Yu, Jeffrey Hu
+    </li>
   </ul>
 </div>
 
