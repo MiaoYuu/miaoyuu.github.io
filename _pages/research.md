@@ -14,7 +14,7 @@ nav_order: 2
   <h2>Research Topics</h2>
 
   <section class="research-topic">
-    <h3>Large Language Models (LLMs)</h3>
+    <h3>Generative AI for High-Stakes Decision Support (LLMs)</h3>
     <ul>
       <li>
         <strong>Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services</strong><br>
