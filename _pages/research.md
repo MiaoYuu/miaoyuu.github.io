@@ -51,12 +51,6 @@ nav_order: 2
         <strong>Sequential ETA Disclosure on On-Demand Platforms</strong><br>
         Miao Yu, Ying-Ju Chen
       </li>
-    </ul>
-  </section>
-
-  <section class="research-topic">
-    <h3>Digital Marketing, Live Commerce, and Platform Design</h3>
-    <ul>
       <li>
         <strong>Measuring Sales Impacts of Influencers' Emotions: Evidence from Taobao Live Platform</strong><br>
         Miao Yu, Hailiang Chen, Yifan Dou
