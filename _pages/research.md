@@ -3,7 +3,7 @@ layout: page
 permalink: /Research/
 title: Research
 description: " "
-keywords: "Gov-RAG, E-Government, RAG, Retrieval-Augmented Generation, Digital Platforms, Algorithmic Management, Live Commerce, FinTech"
+keywords: "Gov-RAG, E-Government, RAG, Retrieval-Augmented Generation, Large Language Models, LLMs, Digital Platforms, Algorithmic Management, Live Commerce, FinTech"
 nav: true
 nav_order: 2
 ---
@@ -14,7 +14,7 @@ nav_order: 2
   <h2>Research Topics</h2>
 
   <section class="research-topic">
-    <h3>AI, LLMs, and Intelligent Public/Financial Systems</h3>
+    <h3>Large Language Models (LLMs)</h3>
     <ul>
       <li>
         <strong>Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services</strong><br>
@@ -32,7 +32,7 @@ nav_order: 2
   </section>
 
   <section class="research-topic">
-    <h3>Digital Platforms, Algorithmic Management, and Gig Work</h3>
+    <h3>Digital Platforms</h3>
     <ul>
       <li>
         <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
