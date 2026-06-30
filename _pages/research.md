@@ -52,12 +52,6 @@ nav_order: 2
         Miao Yu, Ying-Ju Chen
       </li>
       <li>
-        <strong>Measuring Sales Impacts of Influencers' Emotions: Evidence from Taobao Live Platform</strong><br>
-        Miao Yu, Hailiang Chen, Yifan Dou
-        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4141860" target="_blank">[Paper link]</a><br>
-        Presented at WISE 2021, CSWIM 2023
-      </li>
-      <li>
         <strong>From Operational Speed to Marketing Value: A Field Experiment on Delivery-Time Labels</strong><br>
         Miao Yu, Jeffrey Hu
       </li>
