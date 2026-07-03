@@ -20,8 +20,32 @@ nav_order: 3
       </a>
     </li>
   </ul>
+  
+   <h2 style="margin-top:32px;">Invited Talks</h2>
+  <ul>
+    <li>
+      <strong>City University of Hong Kong</strong><br>
+      2026
+    </li>
+    <li>
+      <strong>Shanghai Jiao Tong University</strong><br>
+      December 2025
+    </li>
+    <li>
+      <strong>University of Queensland</strong><br>
+      December 2025
+    </li>
+    <li>
+      <strong>University of Macau</strong><br>
+      November 2025
+    </li>
+    <li>
+      <strong>Renmin University of China</strong><br>
+      November 2025
+    </li>
+  </ul>
 
-  <h2 style="margin-top:32px;">Talks</h2>
+  <h2 style="margin-top:32px;">Conferences</h2>
   <ul>
     <li>
       <strong>GovLegal-RAG: Leveraging Retrieval-Augmented Generation for Government and Legal Consultation</strong><br>
