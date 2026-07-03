@@ -25,7 +25,7 @@ nav_order: 3
   <ul>
     <li>
       <strong>City University of Hong Kong</strong><br>
-      2026
+      Feb 2026
     </li>
     <li>
       <strong>Shanghai Jiao Tong University</strong><br>
