@@ -11,7 +11,6 @@ nav_order: 2
 <!-- _pages/research.md -->
 
 <div class="research-topics" style="max-width:820px; margin:auto;">
-
   <section class="research-topic">
     <h3>Agentic AI Systems</h3>
     <ul>
