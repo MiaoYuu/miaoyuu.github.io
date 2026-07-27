@@ -10,10 +10,7 @@ nav_order: 2
 
 <!-- _pages/research.md -->
 
-<div class="research-topics">
-  <h2>Research Topics</h2>
 
-  <section class="research-topic">
     <h3>Agentic AI Systems</h3>
     <ul>
       <li>
