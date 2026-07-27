@@ -10,7 +10,9 @@ nav_order: 2
 
 <!-- _pages/research.md -->
 
+<div class="research-topics" style="max-width:820px; margin:auto;">
 
+  <section class="research-topic">
     <h3>Agentic AI Systems</h3>
     <ul>
       <li>
@@ -40,7 +42,7 @@ nav_order: 2
         Under 3rd Round Review at Information Systems Research
       </li>
       <li>
-        <strong>Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers’ Engagement and Retention</strong><br>
+        <strong>Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers' Engagement and Retention</strong><br>
         Vivek Choudhary, Li Ding, Miao Yu<br>
         Presented at INFORMS MSOM Conference 2025, London, June 2025
       </li>
@@ -54,6 +56,7 @@ nav_order: 2
       </li>
     </ul>
   </section>
+
 </div>
 
 <!-- Industry Collaboration Section -->
