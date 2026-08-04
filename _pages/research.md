@@ -9,7 +9,6 @@
       Miao Yu, Hailiang Chen
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank">[Paper link]</a><br>
       Presented at INFORMS 2025, CIST 2024, Workshop on AI in Business 2024<br>
-      Under 2nd Round Review at Information Systems Research
     </li>
     <li>
       <strong>Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</strong><br>
@@ -29,7 +28,6 @@
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank">[Paper link]</a><br>
       Finalist, POMS-HK International Conference Best Student Paper Award, 2026<br>
       Presented at CIST 2025, SCECR 2025, WISE 2024, JUSWIS 2023<br>
-      Under 3rd Round Review at Information Systems Research
     </li>
     <li>
       <strong>Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers' Engagement and Retention</strong><br>
