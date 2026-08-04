@@ -1,16 +1,8 @@
----
-layout: page
-permalink: /Research/
-title: Research
-description: " "
-keywords: "Gov-RAG, E-Government, RAG, Retrieval-Augmented Generation, Large Language Models, LLMs, Digital Platforms, Algorithmic Management, Live Commerce, FinTech"
-nav: true
-nav_order: 2
----
-
 <!-- _pages/research.md -->
 
-<section class="research-topic">
+## Agentic AI Systems
+
+<section class="research">
   <ul>
     <li>
       <strong>Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services</strong><br>
@@ -27,7 +19,9 @@ nav_order: 2
   </ul>
 </section>
 
-<section class="research-topic">
+## Digital Platforms
+
+<section class="research">
   <ul>
     <li>
       <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
@@ -54,23 +48,4 @@ nav_order: 2
 </section>
 
 <!-- Industry Collaboration Section -->
-
-## Industry Collaboration
-
-<div class="industry-collaboration" style="max-width:820px; margin:auto;">
-  <p style="margin-bottom:32px;">
-    I actively collaborate with leading technology companies to bridge research and real-world applications.
-  </p>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li style="margin-bottom: 44px; display: flex; align-items: flex-start;">
-      <img src="/assets/img/Ping-An-Logo.jpg" alt="Ping An Technology Logo" style="height:64px; width:auto; margin-right:28px; border-radius:8px; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
-      <div>
-        <strong style="font-size:1.15em;">Ping An Technology</strong><br>
-        <span style="line-height:1.7;">
-        Ping An Technology is the technology arm of Ping An Group, providing AI-driven solutions for finance, healthcare, and smart city applications.<br>
-        Our partnership involves research on intelligent systems, digital government, and the deployment of AI in real-world scenarios.
-        </span>
-      </div>
-    </li>
-  </ul>
-</div>
+<!-- ... existing content unchanged ... -->
