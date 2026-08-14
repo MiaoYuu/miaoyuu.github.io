@@ -42,7 +42,7 @@ nav_order: 2
       Presented at INFORMS MSOM Conference 2025, London, June 2025
     </li>
     <li>
-      <strong>Sequential ETA Disclosure on On-Demand Platforms</strong><br>
+      <strong>Sequential ETA Disclosure on On-Demand Platforms: Reference Dependence and Field Evidence</strong><br>
       Miao Yu, Ying-Ju Chen
     </li>
     <li>
