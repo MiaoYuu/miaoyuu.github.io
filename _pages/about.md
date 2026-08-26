@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p></p>
 
-news: true
+news: false
 selected_papers: true
 social: true
 ---
