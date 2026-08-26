@@ -37,7 +37,7 @@ nav_order: 2
       Presented at CIST 2025, SCECR 2025, WISE 2024, JUSWIS 2023<br>
     </li>
     <li>
-      <strong>The Information and Coordination Value of LLM-Augmented Vehicle Dispatching: A Field Experiment</strong><br>
+      <strong>The Information and Coordination Value of LLM-Augmented Vehicle Dispatching</strong><br>
       Miao Yu
     </li>
     <li>
