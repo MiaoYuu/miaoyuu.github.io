@@ -22,6 +22,10 @@ nav_order: 2
       Hongwei Zhuang, Miao Yu, Hailiang Chen<br>
       Presented at ICIS 2025, Nashville, Dec 2025
     </li>
+    <li>
+      <strong>From Optimization to Execution: The Information and Coordination Value of LLM-Augmented Vehicle Dispatching</strong><br>
+      Miao Yu
+    </li>
   </ul>
 </section>
 
