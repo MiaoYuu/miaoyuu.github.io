@@ -26,12 +26,12 @@ My research interests involve (a) examining how algorithms influence human behav
 - **City University of Hong Kong** — *Assistant Professor of Information Systems*  
   July 2026 – Present
 
-- **Ping An Technology** — *Assistant Algorithm Engineer, Intelligent Modeling Unit, Risk Control AI Product Team*  
+- **Ping An Technology** — *Algorithm Engineer, Risk Control AI Product Team*  
   May 2023 – June 2026  
   Developed AI-driven models for risk control, including automated feature engineering and agentic AI systems.
 
-- **Meituan** — *Algorithm Strategy Intern*  
+- **Meituan** — *Algorithm Engineer Intern*  
   December 2021 – December 2022  
-  Worked on algorithm strategy for food-delivery ETA and courier operations.
+  Worked on algorithms for food-delivery ETA and courier operations.
 
 To learn more about my work, please see my [CV](/cv/), or connect with me on [LinkedIn](https://www.linkedin.com/in/miao-y-86a492118/), [Google Scholar](https://scholar.google.com/citations?user=Psa2zHcAAAAJ), or [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013). You are also welcome to [email me](mailto:miaoyu@connect.hku.hk) about potential collaborations or research discussions.
