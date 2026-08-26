@@ -23,13 +23,30 @@ My research interests involve (a) examining how algorithms influence human behav
 
 ## Professional Experience
 
-- **City University of Hong Kong** — *Assistant Professor of Information Systems*  
-  July 2026 – Present
+<div class="professional-experience">
+  <div style="margin-bottom: 1.5rem;">
+    <h3 style="margin-bottom: 0.35rem;"><strong>City University of Hong Kong</strong></h3>
+    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+      <em>Assistant Professor of Information Systems</em>
+      <span>July 2026 – Present</span>
+    </div>
+  </div>
 
-- **Ping An Technology** — *Algorithm Engineer Intern, Risk Control AI Product Team*  
-  May 2023 – June 2026
+  <div style="margin-bottom: 1.5rem;">
+    <h3 style="margin-bottom: 0.35rem;"><strong>Ping An Technology</strong></h3>
+    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+      <em>Algorithm Engineer Intern, Risk Control AI Product Team</em>
+      <span>May 2023 – June 2026</span>
+    </div>
+  </div>
 
-- **Meituan** — *Algorithm Engineer Intern*  
-  December 2021 – December 2022
+  <div style="margin-bottom: 1.5rem;">
+    <h3 style="margin-bottom: 0.35rem;"><strong>Meituan</strong></h3>
+    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+      <em>Algorithm Engineer Intern</em>
+      <span>December 2021 – December 2022</span>
+    </div>
+  </div>
+</div>
 
 To learn more about my work, please see my [CV](/cv/), or connect with me on [LinkedIn](https://www.linkedin.com/in/miao-y-86a492118/), [Google Scholar](https://scholar.google.com/citations?user=Psa2zHcAAAAJ), or [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013). You are also welcome to [email me](mailto:miaoyu@connect.hku.hk) about potential collaborations or research discussions.
