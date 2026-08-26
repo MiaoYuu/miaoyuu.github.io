@@ -23,30 +23,34 @@ My research interests involve (a) examining how algorithms influence human behav
 
 ## Professional Experience
 
-<div class="professional-experience">
-  <div style="margin-bottom: 1.5rem;">
-    <h3 style="margin-bottom: 0.35rem;"><strong>City University of Hong Kong</strong></h3>
-    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
-      <em>Assistant Professor of Information Systems</em>
-      <span>July 2026 – Present</span>
-    </div>
-  </div>
+<table style="width: 100%; border: 0; border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <td colspan="2" style="border: 0; padding: 0 0 0.3rem 0;"><strong style="font-size: 1.1rem;">City University of Hong Kong</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 0; padding: 0;"><em>Assistant Professor of Information Systems</em></td>
+      <td style="border: 0; padding: 0; text-align: right; white-space: nowrap;">July 2026 – Present</td>
+    </tr>
+    <tr><td colspan="2" style="border: 0; height: 1.4rem; padding: 0;"></td></tr>
 
-  <div style="margin-bottom: 1.5rem;">
-    <h3 style="margin-bottom: 0.35rem;"><strong>Ping An Technology</strong></h3>
-    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
-      <em>Algorithm Engineer Intern, Risk Control AI Product Team</em>
-      <span>May 2023 – June 2026</span>
-    </div>
-  </div>
+    <tr>
+      <td colspan="2" style="border: 0; padding: 0 0 0.3rem 0;"><strong style="font-size: 1.1rem;">Ping An Technology</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 0; padding: 0;"><em>Algorithm Engineer Intern, Risk Control AI Product Team</em></td>
+      <td style="border: 0; padding: 0; text-align: right; white-space: nowrap;">May 2023 – June 2026</td>
+    </tr>
+    <tr><td colspan="2" style="border: 0; height: 1.4rem; padding: 0;"></td></tr>
 
-  <div style="margin-bottom: 1.5rem;">
-    <h3 style="margin-bottom: 0.35rem;"><strong>Meituan</strong></h3>
-    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
-      <em>Algorithm Engineer Intern</em>
-      <span>December 2021 – December 2022</span>
-    </div>
-  </div>
-</div>
+    <tr>
+      <td colspan="2" style="border: 0; padding: 0 0 0.3rem 0;"><strong style="font-size: 1.1rem;">Meituan</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 0; padding: 0;"><em>Algorithm Engineer Intern</em></td>
+      <td style="border: 0; padding: 0; text-align: right; white-space: nowrap;">December 2021 – December 2022</td>
+    </tr>
+  </tbody>
+</table>
 
 To learn more about my work, please see my [CV](/cv/), or connect with me on [LinkedIn](https://www.linkedin.com/in/miao-y-86a492118/), [Google Scholar](https://scholar.google.com/citations?user=Psa2zHcAAAAJ), or [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013). You are also welcome to [email me](mailto:miaoyu@connect.hku.hk) about potential collaborations or research discussions.
