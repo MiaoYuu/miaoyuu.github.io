@@ -22,10 +22,6 @@ nav_order: 2
       Hongwei Zhuang, Miao Yu, Hailiang Chen<br>
       Presented at ICIS 2025, Nashville, Dec 2025
     </li>
-    <li>
-      <strong>From Optimization to Execution: The Information and Coordination Value of LLM-Augmented Vehicle Dispatching</strong><br>
-      Miao Yu
-    </li>
   </ul>
 </section>
 
@@ -39,6 +35,10 @@ nav_order: 2
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank">[Paper link]</a><br>
       Finalist, POMS-HK International Conference Best Student Paper Award, 2026<br>
       Presented at CIST 2025, SCECR 2025, WISE 2024, JUSWIS 2023<br>
+    </li>
+    <li>
+      <strong>The Information and Coordination Value of LLM-Augmented Vehicle Dispatching: A Field Experiment</strong><br>
+      Miao Yu
     </li>
     <li>
       <strong>Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers' Engagement and Retention</strong><br>
