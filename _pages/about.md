@@ -26,7 +26,7 @@ My research interests involve (a) examining how algorithms influence human behav
 - **City University of Hong Kong** — *Assistant Professor of Information Systems*  
   July 2026 – Present
 
-- **Ping An Technology** — *Algorithm Engineer, Risk Control AI Product Team*  
+- **Ping An Technology** — *Algorithm Engineer Intern, Risk Control AI Product Team*  
   May 2023 – June 2026  
   Developed AI-driven models for risk control, including automated feature engineering and agentic AI systems.
 
