@@ -21,8 +21,7 @@ I am an Assistant Professor of Information Systems at the College of Business, C
 
 My research interests involve (a) examining how algorithms influence human behavior and societal outcomes using econometrics, and (b) developing algorithms to address practical challenges in domains such as public sector services and fraud detection in Fintech, with a particular focus on trustworthy, explainable, and domain-adapted AI.
 
-## Professional Experience
-{: style="clear: both;" }
+<h2 style="clear: both;">Professional Experience</h2>
 
 ### **City University of Hong Kong**
 
