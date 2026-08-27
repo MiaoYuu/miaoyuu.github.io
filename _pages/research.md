@@ -36,10 +36,7 @@ nav_order: 2
       Finalist, POMS-HK International Conference Best Student Paper Award, 2026<br>
       Presented at CIST 2025, SCECR 2025, WISE 2024, JUSWIS 2023<br>
     </li>
-    <li>
-      <strong>The Information and Coordination Value of LLM-Augmented Vehicle Dispatching</strong><br>
-      Miao Yu
-    </li>
+
     <li>
       <strong>Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers' Engagement and Retention</strong><br>
       Vivek Choudhary, Li Ding, Miao Yu<br>
