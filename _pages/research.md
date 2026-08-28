@@ -44,8 +44,7 @@ nav_order: 2
     </li>
     <li>
       <strong>Sequential ETA Disclosure on On-Demand Platforms: Reference Dependence and Field Evidence</strong><br>
-      Miao Yu, Ying-Ju Chen<br>
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank">[Paper link]</a><br>
+      Miao Yu, Ying-Ju Chen <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank">[Paper link]</a><br>
     </li>
     <li>
       <strong>From Operational Speed to Marketing Value: A Field Experiment on Delivery-Time Labels</strong><br>
