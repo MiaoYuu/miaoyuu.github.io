@@ -47,7 +47,7 @@ nav_order: 2
       Miao Yu, Ying-Ju Chen <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank">[Paper link]</a><br>
     </li>
     <li>
-      <strong>From Operational Speed to Marketing Value: A Field Experiment on Delivery-Time Labels</strong><br>
+      <strong>Platform-Generated Information and Marketplace Behavior: A Large-Scale Field Experiment on a Delivery-Speed Badge</strong><br>
       Miao Yu, Jeffrey Hu
     </li>
   </ul>
