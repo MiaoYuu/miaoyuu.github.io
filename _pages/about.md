@@ -43,7 +43,7 @@ To learn more about my work, please see my [CV](/cv/), or connect with me on [Li
   <li style="margin-bottom: 0; padding-left: 0.2rem;">
     <strong style="font-size: 1.08rem;">Meituan</strong>
     <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 0.45rem;">
-      <em>Algorithm Engineer Intern</em>
+      <em>Research Intern</em>
       <span style="white-space: nowrap;">December 2021 – December 2022</span>
     </div>
   </li>
