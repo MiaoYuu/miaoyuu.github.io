@@ -25,9 +25,4 @@ nav_order: 5
 - Guided and graded text-mining and digital-marketing analytics assignments.
 - Provided one-on-one support and answered students' questions.
 
-## Teaching Interests
 
-- **Large Language Models (LLMs)**
-- **Retrieval-Augmented Generation (RAG)**
-- **Agentic AI**
-- **Business Analytics**
