@@ -36,7 +36,6 @@ nav_order: 2
       Finalist, POMS-HK International Conference Best Student Paper Award, 2026<br>
       Presented at CIST 2025, SCECR 2025, WISE 2024, JUSWIS 2023<br>
     </li>
-
     <li>
       <strong>Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers' Engagement and Retention</strong><br>
       Vivek Choudhary, Li Ding, Miao Yu<br>
@@ -49,6 +48,10 @@ nav_order: 2
     <li>
       <strong>Platform-Generated Information and Marketplace Behavior: A Large-Scale Field Experiment on a Delivery-Speed Badge</strong><br>
       Miao Yu, Jeffrey Hu
+    </li>
+    <li>
+      <strong>From Optimization to Action: Augmenting Dispatching Decisions with Large Language Models</strong><br>
+      Miao Yu
     </li>
   </ul>
 </section>
