@@ -7,22 +7,15 @@ nav: true
 nav_order: 5
 ---
 
-## Instructor
+## City University of Hong Kong
 
-**City University of Hong Kong**
+**IS5542 Generative AI for Business**
 
-**Course:** IS5542 Generative AI for Business  
-**Role:** Instructor (AY 2026–27)
+Business applications of generative AI, covering large language models, prompt engineering, retrieval-augmented generation, and AI agents.
 
-## Teaching Assistant
+## The University of Hong Kong
 
-**The University of Hong Kong**
+**MSBA7012 Social Media and Digital Marketing Analytics**  
+Teaching Assistant, 2021–2023
 
-**Course:** MSBA7012 Social Media and Digital Marketing Analytics  
-**Role:** Teaching Assistant (AY 2021–22, AY 2022–23)
-
-- Delivered three tutorials per year with live coding demonstrations in Python, SQL, and analytics tools.
-- Guided and graded text-mining and digital-marketing analytics assignments.
-- Provided one-on-one support and answered students' questions.
-
-
+Python and SQL tutorials with applications in text mining and digital marketing analytics.
