@@ -9,7 +9,8 @@ nav_order: 5
 
 ## City University of Hong Kong
 
-**IS5542 Generative AI for Business**
+**IS5542 Generative AI for Business**  
+2026–2027
 
 Business applications of generative AI, covering large language models, prompt engineering, retrieval-augmented generation, and AI agents.
 
