@@ -20,7 +20,6 @@ nav_order: 2
     <li>
       <strong>Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</strong><br>
       Hongwei Zhuang, Miao Yu, Hailiang Chen<br>
-      Presented at ICIS 2025, Nashville, Dec 2025
     </li>
   </ul>
 </section>
