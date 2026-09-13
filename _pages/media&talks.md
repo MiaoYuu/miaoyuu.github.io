@@ -24,6 +24,10 @@ nav_order: 3
    <h2 style="margin-top:32px;">Invited Talks</h2>
   <ul>
     <li>
+      <strong>Hong Kong University of Science and Technology (Guangzhou) </strong><br>
+      Nov 2026 (scheduled)
+    </li>
+    <li>
       <strong>City University of Hong Kong</strong><br>
       Feb 2026
     </li>
