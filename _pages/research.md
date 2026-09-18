@@ -21,6 +21,10 @@ nav_order: 2
       <strong>Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</strong><br>
       Hongwei Zhuang, Miao Yu, Hailiang Chen<br>
     </li>
+    <li>
+      <strong>From Optimization to Action: Augmenting Dispatching Decisions with Large Language Models</strong><br>
+      Miao Yu
+    </li>
   </ul>
 </section>
 
@@ -47,10 +51,6 @@ nav_order: 2
     <li>
       <strong>Platform-Generated Information and Marketplace Behavior: A Large-Scale Field Experiment on a Delivery-Speed Badge</strong><br>
       Miao Yu, Jeffrey Hu
-    </li>
-    <li>
-      <strong>From Optimization to Action: Augmenting Dispatching Decisions with Large Language Models</strong><br>
-      Miao Yu
     </li>
   </ul>
 </section>
