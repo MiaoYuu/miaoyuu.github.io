@@ -19,11 +19,11 @@ nav_order: 2
     </li>
     <li>
       <strong>Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</strong><br>
-      Hongwei Zhuang, Miao Yu, Hailiang Chen<br>
+      Hongwei Zhuang, Miao Yu, Hailiang Chen, Jianming Wang<br>
     </li>
     <li>
       <strong>From Optimization to Action: Augmenting Dispatching Decisions with Large Language Models</strong><br>
-      Miao Yu
+      Miao Yu, Guangrui Ma
     </li>
   </ul>
 </section>
@@ -33,8 +33,8 @@ nav_order: 2
 <section class="research">
   <ul>
     <li>
-      <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
-      Miao Yu, Hailiang Chen, Yuan Cheng, Yu Jeffery Hu
+      <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithms on Food Delivery Rider Behaviors</strong><br>
+      Miao Yu, Hailiang Chen, Yuan Cheng, Yu Jeffrey Hu
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank">[Paper link]</a><br>
       Finalist, POMS-HK International Conference Best Student Paper Award, 2026<br>
       Presented at CIST 2025, SCECR 2025, WISE 2024, JUSWIS 2023<br>
@@ -50,7 +50,7 @@ nav_order: 2
     </li>
     <li>
       <strong>Platform-Generated Information and Marketplace Behavior: A Large-Scale Field Experiment on a Delivery-Speed Badge</strong><br>
-      Miao Yu, Jeffrey Hu
+      Miao Yu, Yu Jeffrey Hu
     </li>
   </ul>
 </section>

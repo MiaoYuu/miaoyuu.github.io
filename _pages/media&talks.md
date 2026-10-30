@@ -57,7 +57,7 @@ nav_order: 3
       Conference on Information Systems and Technology (CIST) 2024, Seattle, USA
     </li>
     <li>
-      <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
+      <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithms on Food Delivery Rider Behaviors</strong><br>
       Conference on Information Systems and Technology (CIST) 2025, Atlanta, USA<br>
       Statistical Challenges in Electronic Commerce Research (SCECR) 2025, Paphos, Cyprus<br>
       Workshop on Information Systems and Economics (WISE) 2024, Bangkok, Thailand<br>
@@ -71,7 +71,7 @@ nav_order: 3
     <li>
       <strong>Just the Right Emotion: Exploring the Effects of Verbal and Facial Emotions in Live Streaming E-commerce</strong><br>
       China Summer Workshop on Information Management (CSWIM) 2023, Changsha, China<br>
-      Workshop for Information Systems and Economics (WISE) 2021, Austin, USA
+      Workshop on Information Systems and Economics (WISE) 2021, Austin, USA
     </li>
   </ul>
 </div>
