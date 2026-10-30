@@ -219,27 +219,41 @@ body.sticky-bottom-footer {
   }
 }
 
-// Minimal, unfiltered research bibliography inspired by academic publication lists.
-.research-index {
-  .research-paper {
-    padding: 1.25rem 0 1.45rem;
-    border-bottom: 1px solid var(--global-divider-color);
+// Academic pages: a single visual hierarchy, without cards, status badges,
+// filters, redundant links or expandable lists.
+.faculty-page {
+  .faculty-section {
+    margin-top: 1.9rem;
 
     &:first-child {
-      padding-top: 0.15rem;
-    }
-
-    &:last-child {
-      border-bottom: 0;
+      margin-top: 0;
     }
   }
 
-  .research-paper-title {
-    font-size: 1.08rem;
+  .faculty-section-title {
+    font-size: 1.35rem;
+    line-height: 1.4;
     font-weight: 600;
-    line-height: 1.5;
-    margin: 0 0 0.4rem;
-    overflow-wrap: anywhere;
+    margin: 0 0 0.8rem;
+    color: var(--global-text-color);
+  }
+
+  .faculty-list {
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .faculty-entry {
+    border-bottom: 1px solid var(--global-divider-color);
+    padding: 1.05rem 0 1.15rem;
+    margin: 0;
+  }
+
+  .faculty-entry-title {
+    font-size: 1.06rem;
+    font-weight: 600;
+    line-height: 1.52;
+    margin: 0 0 0.35rem;
+    overflow-wrap: break-word;
 
     a {
       color: var(--global-text-color);
@@ -253,76 +267,84 @@ body.sticky-bottom-footer {
     }
   }
 
-  .research-paper-authors {
-    color: var(--global-text-color);
+  .faculty-entry-authors {
     font-size: 0.94rem;
-    line-height: 1.6;
-    margin: 0 0 0.45rem;
-  }
-
-  // Emphasize the website owner's name, following the restrained
-  // underlined-author treatment used in academic publication lists.
-  .research-paper-self {
+    line-height: 1.55;
+    margin: 0;
     color: var(--global-text-color);
+  }
+
+  // Miao Yu is bold only: no underline, italics or other decoration.
+  .research-author-self {
+    font-weight: 700;
     font-style: normal;
-    font-weight: 600;
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 1px;
-  }
-
-  .research-paper-link {
-    display: inline-block;
-    color: var(--global-theme-color);
-    font-size: 0.88rem;
-    line-height: 1.5;
-    margin-top: 0.1rem;
-    margin-bottom: 0.25rem;
     text-decoration: none;
+    border: none;
+    color: inherit;
+  }
 
-    &:hover,
-    &:focus-visible {
-      text-decoration: underline;
+  .faculty-entry-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    column-gap: 1.2rem;
+    row-gap: 0.2rem;
+
+    .faculty-entry-title {
+      flex: 1 1 18rem;
     }
   }
 
-  .research-paper-award {
-    margin: 0.4rem 0 0;
-    font-size: 0.89rem;
-    line-height: 1.55;
+  .faculty-entry-date,
+  .faculty-entry-secondary,
+  .faculty-entry-notes p {
     color: var(--global-text-color-light);
+    font-size: 0.91rem;
+    line-height: 1.6;
   }
 
-  .research-paper-presentations {
-    margin-top: 0.4rem;
-    font-size: 0.88rem;
-    line-height: 1.55;
-    color: var(--global-text-color-light);
+  .faculty-entry-date {
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
 
-    summary {
-      color: var(--global-theme-color);
-      display: list-item;
-      cursor: pointer;
-      width: fit-content;
-      padding: 0.15rem 0;
-    }
+  .faculty-entry-secondary {
+    margin: 0.12rem 0 0;
+  }
 
-    p {
-      font-size: inherit;
-      line-height: inherit;
-      color: inherit;
-      margin: 0.35rem 0 0 1rem;
-    }
+  .faculty-entry-notes p {
+    margin: 0.14rem 0;
+  }
+
+  .faculty-interests p {
+    color: var(--global-text-color);
+    line-height: 1.7;
+    margin: 0;
   }
 }
 
 @media (max-width: 575px) {
-  .research-index {
-    .research-paper {
-      padding: 1rem 0 1.2rem;
+  .faculty-page {
+    .faculty-section {
+      margin-top: 1.5rem;
     }
 
-    .research-paper-title {
-      font-size: 1.02rem;
+    .faculty-entry {
+      padding: 0.95rem 0 1.05rem;
+    }
+
+    .faculty-entry-title {
+      font-size: 1rem;
+    }
+
+    .faculty-entry-heading {
+      display: block;
+
+      .faculty-entry-date {
+        display: block;
+        margin-bottom: 0.25rem;
+      }
     }
   }
 }
