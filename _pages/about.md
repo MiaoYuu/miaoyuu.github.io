@@ -2,34 +2,49 @@
 layout: about
 title: Home
 permalink: /
-description: "Miao Yu, Assistant Professor of Information Systems at City University of Hong Kong."
+subtitle:
+
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p></p>
+
 news: false
 selected_papers: false
 social: true
 ---
 
-I am an **Assistant Professor of Information Systems** in the College of Business at [City University of Hong Kong](https://www.cityu.edu.hk/). I received my Ph.D. in Innovation and Information Management from the University of Hong Kong, where I was advised by Prof. Hailiang Chen.
 
-My research examines how algorithms and information shape behavior and economic outcomes on digital platforms, and how AI systems can support reliable decision-making in complex domains. I combine **large-scale field experiments and econometric analysis** with the design and evaluation of **agentic AI systems**.
+I am an Assistant Professor of Information Systems at the College of Business, City University of Hong Kong. I received my Ph.D. in Information Systems from the HKU Business School. 
 
-### Research Interests
+My research interests involve (a) examining how algorithms influence human behavior and societal outcomes using econometrics, and (b) developing algorithms to address practical challenges in domains such as public sector services and fraud detection in Fintech, with a particular focus on trustworthy, explainable, and domain-adapted AI.
 
-- **Digital platforms and algorithmic decision-making:** algorithmic management, gig work, platform information design, and consumer behavior.
-- **Agentic AI and decision support:** retrieval-augmented generation, interpretable risk-factor engineering, and AI-assisted operational decisions.
+To learn more about my work, please see my [CV](/cv/), or connect with me on [LinkedIn](https://www.linkedin.com/in/miao-y-86a492118/), [Google Scholar](https://scholar.google.com/citations?user=NUOaaFQAAAAJ), or [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013). You are also welcome to [email me](mailto:miaoyu@cityu.edu.hk) about potential collaborations or research discussions.
 
-For details, please see my [Research]({{ '/Research/' | relative_url }}) and [CV]({{ '/cv/' | relative_url }}), or visit [Google Scholar](https://scholar.google.com/citations?user=NUOaaFQAAAAJ), [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013), and [LinkedIn](https://www.linkedin.com/in/miao-y-86a492118/).
+<h2 style="clear: both; font-size: 1.45rem; margin-bottom: 1rem;">Professional Experience</h2>
 
-I welcome research discussions and collaborations. Please contact me at [miaoyu@cityu.edu.hk](mailto:miaoyu@cityu.edu.hk).
-
-### Academic Background
-
-- **2026–present:** Assistant Professor of Information Systems, City University of Hong Kong.
-- **2021–2026:** Ph.D., Innovation and Information Management, University of Hong Kong.
-- **2017–2019:** M.S., Technology and Operations, University of Michigan (Ross School of Business).
-- **2013–2017:** B.S., Logistics Management (highest honors), Nankai University.
+<ul style="list-style-type: square; padding-left: 1.5rem; margin-bottom: 0;">
+  <li style="margin-bottom: 1.5rem; padding-left: 0.2rem;">
+    <strong style="font-size: 1.08rem;">City University of Hong Kong</strong>
+    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 0.45rem;">
+      <em>Assistant Professor of Information Systems</em>
+      <span style="white-space: nowrap;">July 2026 – Present</span>
+    </div>
+  </li>
+  <li style="margin-bottom: 1.5rem; padding-left: 0.2rem;">
+    <strong style="font-size: 1.08rem;">Ping An Technology</strong>
+    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 0.45rem;">
+      <em>Algorithm Engineer Intern, Risk Control AI Product Team</em>
+      <span style="white-space: nowrap;">May 2023 – June 2026</span>
+    </div>
+  </li>
+  <li style="margin-bottom: 0; padding-left: 0.2rem;">
+    <strong style="font-size: 1.08rem;">Meituan</strong>
+    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 0.45rem;">
+      <em>Research Scientist Intern</em>
+      <span style="white-space: nowrap;">December 2021 – December 2022</span>
+    </div>
+  </li>
+</ul>

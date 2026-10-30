@@ -17,6 +17,67 @@
     <!-- 包含基础头部 -->
     {% include head.liquid %}
 
+    <!-- 基础元数据 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 动态网站描述 (优先使用页面描述，否则使用全局描述) -->
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% else %}{{ site.description | strip_html | truncate: 160 }}{% endif %}">
+    
+    <!-- 动态关键词 (优先使用页面关键词，否则使用全局关键词) -->
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    
+    <!-- 作者信息 -->
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- 规范URL (防止重复内容) -->
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <!-- Open Graph 社交媒体协议 -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% else %}{{ site.description | strip_html | truncate: 160 }}{% endif %}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <!-- 优先使用页面图片，否则使用默认图片 -->
+    <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ '/assets/img/og-default.jpg' | absolute_url }}{% endif %}">
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:site_name" content="{{ site.title }}">
+
+    <!-- Twitter 卡片协议 -->
+    <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
+    <meta name="twitter:site" content="@{{ site.social.twitter }}">
+    <meta name="twitter:creator" content="@{{ site.social.twitter }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% else %}{{ site.description | strip_html | truncate: 160 }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ '/assets/img/twitter-card.jpg' | absolute_url }}{% endif %}">
+
+    <!-- 结构化数据 (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.author.name }}",
+      "url": "{{ site.url }}",
+      "jobTitle": "{{ site.author.position }}",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "{{ site.author.affiliation }}",
+        "url": "{{ site.author.affiliation_url }}"
+      },
+      "sameAs": [
+        "https://scholar.google.com/citations?user={{ site.social.google_scholar }}",
+        "https://linkedin.com/in/{{ site.social.linkedin }}",
+        "https://github.com/{{ site.social.github }}"
+      ],
+      "image": "{{ '/assets/img/profile.jpg' | absolute_url }}"
+    }
+    </script>
+
+    <!-- 动态页面标题 -->
+    <title>
+      {% if page.title %}{{ page.title }} | {% endif %}
+      {{ site.title }}
+      {% if site.subtitle %} · {{ site.subtitle }}{% endif %}
+    </title>
   </head>
 
   <!-- 正文 -->
