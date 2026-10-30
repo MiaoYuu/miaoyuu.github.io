@@ -348,3 +348,100 @@ body.sticky-bottom-footer {
     }
   }
 }
+
+
+/* Research: restore the approved two-section academic list design.
+   This is deliberately scoped so Media & Talks, Teaching and Home keep
+   their existing layouts. */
+.research-archive {
+  .research-area + .research-area {
+    margin-top: 2.75rem;
+  }
+
+  .research-area-heading {
+    font-size: 1.28rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0 0 0.75rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .research-papers {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .research-paper {
+    list-style: none;
+    margin: 0;
+    padding: 1.12rem 0 1.35rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .research-paper-title {
+    font-size: 1.05rem;
+    font-weight: 650;
+    line-height: 1.55;
+    color: var(--global-text-color);
+    margin: 0 0 0.36rem;
+  }
+
+  .research-paper-authors {
+    font-size: 0.94rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light);
+    margin: 0 0 0.3rem;
+  }
+
+  .research-owner {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    border: 0;
+    color: inherit;
+  }
+
+  .research-paper-link {
+    font-size: inherit;
+    color: var(--global-theme-color);
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration: underline;
+    }
+  }
+
+  .research-paper-meta {
+    color: var(--global-text-color-light);
+    font-size: 0.86rem;
+    line-height: 1.58;
+    margin: 0.12rem 0 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .research-archive {
+    .research-area + .research-area {
+      margin-top: 2rem;
+    }
+
+    .research-area-heading {
+      font-size: 1.18rem;
+    }
+
+    .research-paper {
+      padding: 0.95rem 0 1.05rem;
+    }
+
+    .research-paper-title {
+      font-size: 1.01rem;
+    }
+  }
+}
