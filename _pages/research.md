@@ -2,58 +2,71 @@
 layout: page
 permalink: /Research/
 title: Research
-description: 
+description: "Research in digital platforms, algorithmic decision-making, field experiments, and agentic AI."
 nav: true
 nav_order: 2
 ---
 
-## Agentic AI Systems
+My research combines empirical analysis of digital platforms with the design and evaluation of domain-specific AI systems. The research statuses below reflect my **October 2026 CV**.
 
-<section class="research">
-  <ul>
-    <li>
-      <strong>Gov-RAG: A Retrieval-Augmented Generation Framework for Enhancing E-Government Services</strong><br>
-      Miao Yu, Hailiang Chen
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank">[Paper link]</a><br>
-      Presented at INFORMS 2025, CIST 2024, Workshop on AI in Business 2024<br>
-    </li>
-    <li>
-      <strong>Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</strong><br>
-      Hongwei Zhuang, Miao Yu, Hailiang Chen<br>
-    </li>
-    <li>
-      <strong>From Optimization to Action: Augmenting Dispatching Decisions with Large Language Models</strong><br>
-      Miao Yu
-    </li>
-  </ul>
-</section>
+## Digital Platforms and Algorithmic Decision-Making
 
-## Digital Platforms
+### Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithms on Food Delivery Rider Behaviors
 
-<section class="research">
-  <ul>
-    <li>
-      <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
-      Miao Yu, Hailiang Chen, Yuan Cheng, Yu Jeffery Hu
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank">[Paper link]</a><br>
-      Finalist, POMS-HK International Conference Best Student Paper Award, 2026<br>
-      Presented at CIST 2025, SCECR 2025, WISE 2024, JUSWIS 2023<br>
-    </li>
-    <li>
-      <strong>Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers' Engagement and Retention</strong><br>
-      Vivek Choudhary, Li Ding, Miao Yu<br>
-      Presented at INFORMS MSOM Conference 2025, London, June 2025
-    </li>
-    <li>
-      <strong>Sequential ETA Disclosure on On-Demand Platforms: Reference Dependence and Field Evidence</strong><br>
-      Miao Yu, Ying-Ju Chen <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank">[Paper link]</a><br>
-    </li>
-    <li>
-      <strong>Platform-Generated Information and Marketplace Behavior: A Large-Scale Field Experiment on a Delivery-Speed Badge</strong><br>
-      Miao Yu, Jeffrey Hu
-    </li>
-  </ul>
-</section>
+**Miao Yu**, Hailiang Chen, Yuan Cheng, Yu Jeffrey Hu  
+*Conditionally accepted at Information Systems Research* · [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152)
 
-<!-- Industry Collaboration Section -->
-<!-- ... existing content unchanged ... -->
+**Research question.** How do conservative delivery-time algorithms affect workers' coordination, earnings, and productivity?
+
+**Approach and findings.** Using platform observational data and a field experiment, we study how additional time slack enables food delivery riders to coordinate interdependent tasks and batch more orders. The field evidence indicates higher earnings and greater batching without detectable deterioration in key consumer outcomes.
+
+### Sequential ETA Disclosure on On-Demand Platforms: Reference Dependence and Field Evidence
+
+**Miao Yu**, Ying-Ju Chen  
+*Under review* · [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599)
+
+**Research question.** How does sequential disclosure of delivery-time estimates influence consumer decisions?
+
+**Approach.** A large-scale field experiment and complementary randomized experiments investigate reference dependence, consumer choice, and delivery outcomes.
+
+### Platform-Generated Information and Marketplace Behavior: A Large-Scale Field Experiment on a Delivery-Speed Badge
+
+**Miao Yu**, Yu Jeffrey Hu  
+*Work in progress*
+
+**Research question.** How do platform-generated speed signals influence demand and its distribution across merchants?
+
+**Approach.** A large-scale randomized field experiment examines a delivery-speed badge and the resulting marketplace behavior.
+
+## Agentic AI and Decision Support
+
+### GovLegal-RAG: Leveraging Retrieval-Augmented Generation for Government and Legal Consultation
+
+**Miao Yu**, Hailiang Chen  
+*Under review* · [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865)
+
+**Research question.** How can retrieval-augmented generation deliver answers grounded in applicable governmental and legal evidence?
+
+**Approach.** A domain-specific RAG architecture integrates structured policy information, multi-channel retrieval, and evidence-based response generation.
+
+### Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control
+
+Hongwei Zhuang, **Miao Yu**, Hailiang Chen, Jianming Wang*  
+*Work in progress*
+
+**Research question.** Can agentic AI generate predictive risk factors while maintaining interpretable business rationales and verifiable calculations?
+
+**Approach.** An agent-based feature engineering system links feature specifications, executable code, and validation results for financial risk applications.
+
+### From Optimization to Action: Augmenting Dispatching Decisions with Large Language Models
+
+**Miao Yu**, Guangrui Ma*  
+*Work in progress*
+
+**Research question.** How can large language models support the implementation of operational dispatching decisions?
+
+**Approach.** Design and evaluation of an LLM-assisted framework for operational decision support.
+
+<small>\* Industry collaborator.</small>
+
+For inquiries about working papers or potential collaborations, email [miaoyu@cityu.edu.hk](mailto:miaoyu@cityu.edu.hk).

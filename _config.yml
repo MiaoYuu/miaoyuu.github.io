@@ -6,14 +6,15 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Miao
 middle_name: 
 last_name: Yu
-email: miaoyu@connect.hku.hk
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+email: miaoyu@cityu.edu.hk
+description: >-
+  Miao Yu is Assistant Professor of Information Systems at City University of Hong Kong. He studies digital platforms, algorithmic decision-making, field experiments, and agentic AI.
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords:  # add your own keywords or leave empty
+keywords: "Miao Yu, City University of Hong Kong, Information Systems, Digital Platforms, Field Experiments, Agentic AI, FinTech, Retrieval-Augmented Generation"
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: M # ⚛ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 #icon: 🅼 # 使用带圈的大写字母 M 作为 favicon
@@ -64,9 +65,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Enable social-sharing metadata
+serve_schema_org: true # Enable structured metadata
+og_image: https://miaoyuu.github.io/assets/img/prof_pic.jpg
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -79,7 +80,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: # your GitHub user name
+github_username: MiaoYuu
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id:  # Inspire HEP author ID
@@ -88,7 +89,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: # your LinkedIn user name
+linkedin_username: miao-y-86a492118
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -97,7 +98,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: Psa2zHcAAAAJ # your Google Scholar ID
+scholar_userid: NUOaaFQAAAAJ # current Google Scholar profile
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -313,8 +314,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yu]
+  first_name: [Miao]
 
   style: apa
   locale: en

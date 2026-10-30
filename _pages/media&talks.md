@@ -2,76 +2,38 @@
 layout: page
 permalink: /MediaTalks/
 title: Media & Talks
-description: " "
-keywords: "Media, Talks, Presentations, Press"
+description: "Media coverage, invited seminars, and conference presentations by Miao Yu."
 nav: true
 nav_order: 3
 ---
 
-<!-- _pages/media-talks.md -->
+## Media
 
-<div class="media-talks">
-  <h2>Media</h2>
-  <ul>
-    <li>
-      <strong>Financial Times</strong><br>
-      <a href="https://www.ftchinese.com/story/001105201" target="_blank">
-        From Manual Windows to Intelligent Question Answering: Large Language Models and RAG Technology Reshape Government Services
-      </a>
-    </li>
-  </ul>
-  
-   <h2 style="margin-top:32px;">Invited Talks</h2>
-  <ul>
-    <li>
-      <strong>Hong Kong University of Science and Technology (Guangzhou) </strong><br>
-      Nov 2026 (scheduled)
-    </li>
-    <li>
-      <strong>City University of Hong Kong</strong><br>
-      Feb 2026
-    </li>
-    <li>
-      <strong>Shanghai Jiao Tong University</strong><br>
-      December 2025
-    </li>
-    <li>
-      <strong>University of Queensland</strong><br>
-      December 2025
-    </li>
-    <li>
-      <strong>University of Macau</strong><br>
-      November 2025
-    </li>
-    <li>
-      <strong>Renmin University of China</strong><br>
-      November 2025
-    </li>
-  </ul>
+- **Financial Times Chinese** — [From Manual Windows to Intelligent Question Answering: Large Language Models and RAG Technology Reshape Government Services](https://www.ftchinese.com/story/001105201).
 
-  <h2 style="margin-top:32px;">Conferences</h2>
-  <ul>
-    <li>
-      <strong>GovLegal-RAG: Leveraging Retrieval-Augmented Generation for Government and Legal Consultation</strong><br>
-      INFORMS Annual Meeting 2025, Atlanta, USA<br>
-      Conference on Information Systems and Technology (CIST) 2024, Seattle, USA
-    </li>
-    <li>
-      <strong>Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithm on Food Delivery Rider Behaviors</strong><br>
-      Conference on Information Systems and Technology (CIST) 2025, Atlanta, USA<br>
-      Statistical Challenges in Electronic Commerce Research (SCECR) 2025, Paphos, Cyprus<br>
-      Workshop on Information Systems and Economics (WISE) 2024, Bangkok, Thailand<br>
-      Joint University Summer Workshop on Information Systems (JUSWIS) 2023, Hong Kong, China<br>
-      Statistical Challenges in Electronic Commerce Research (SCECR) 2022, Madrid, Spain
-    </li>
-    <li>
-      <strong>Mimicking the Expert: A Transformer-Based Artifact for Leakage Detection in Auto Insurance</strong><br>
-      INFORMS Data Science Workshop 2024, Seattle, USA
-    </li>
-    <li>
-      <strong>Just the Right Emotion: Exploring the Effects of Verbal and Facial Emotions in Live Streaming E-commerce</strong><br>
-      China Summer Workshop on Information Management (CSWIM) 2023, Changsha, China<br>
-      Workshop for Information Systems and Economics (WISE) 2021, Austin, USA
-    </li>
-  </ul>
-</div>
+## Invited Talks
+
+- **Hong Kong University of Science and Technology (Guangzhou)** — November 2026 (scheduled).
+- **City University of Hong Kong** — February 2026.
+- **Shanghai Jiao Tong University** — December 2025.
+- **University of Queensland** — December 2025.
+- **University of Macau** — November 2025.
+- **Renmin University of China** — November 2025.
+
+## Conference Presentations
+
+**Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithms on Food Delivery Rider Behaviors**
+
+CIST 2025 (Atlanta); SCECR 2025 (Paphos); WISE 2024 (Bangkok); SCECR 2022 (Madrid).
+
+**GovLegal-RAG: Leveraging Retrieval-Augmented Generation for Government and Legal Consultation**
+
+INFORMS Annual Meeting 2025 (Atlanta); JUSWIS 2025 (Hong Kong); CIST 2024 (Seattle).
+
+**Just the Right Emotion: Exploring the Effects of Verbal and Facial Emotions in Live Streaming E-commerce**
+
+CSWIM 2023 (Changsha); WISE 2021 (Austin).
+
+**Mimicking the Expert: A Transformer-Based Artifact for Leakage Detection in Auto Insurance**
+
+INFORMS Data Science Workshop 2024 (Seattle).
