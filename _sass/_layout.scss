@@ -254,15 +254,20 @@ body.sticky-bottom-footer {
   }
 
   .research-paper-authors {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
     font-size: 0.94rem;
     line-height: 1.6;
     margin: 0 0 0.45rem;
   }
 
+  // Emphasize the website owner's name, following the restrained
+  // underlined-author treatment used in academic publication lists.
   .research-paper-self {
-    color: inherit;
-    font-style: italic;
+    color: var(--global-text-color);
+    font-style: normal;
+    font-weight: 600;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
   }
 
   .research-paper-link {
