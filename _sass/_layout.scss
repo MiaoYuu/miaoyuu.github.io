@@ -219,10 +219,105 @@ body.sticky-bottom-footer {
   }
 }
 
-.research ul { list-style: none; padding-left: 0; margin-bottom: 1.7rem; }
-.research li { list-style: none; margin: 0; padding: 1.15rem 0 1.4rem; border-bottom: 1px solid var(--global-divider-color); line-height: 1.6; }
-.research li:first-child { padding-top: 0.4rem; }
-.research li:last-child { border-bottom: 0; }
-.research-paper-title { font-size: 1.05rem; font-weight: 600; line-height: 1.5; }
-.research-paper-authors { color: var(--global-text-color-light); font-size: 0.94rem; }
-.research-paper-meta { color: var(--global-text-color-light); font-size: 0.88rem; }
+// Minimal, unfiltered research bibliography inspired by academic publication lists.
+.research-index {
+  .research-paper {
+    padding: 1.25rem 0 1.45rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:first-child {
+      padding-top: 0.15rem;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .research-paper-title {
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 0.4rem;
+    overflow-wrap: anywhere;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover,
+      &:focus-visible {
+        color: var(--global-theme-color);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .research-paper-authors {
+    color: var(--global-text-color-light);
+    font-size: 0.94rem;
+    line-height: 1.6;
+    margin: 0 0 0.45rem;
+  }
+
+  .research-paper-self {
+    color: inherit;
+    font-style: italic;
+  }
+
+  .research-paper-link {
+    display: inline-block;
+    color: var(--global-theme-color);
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin-top: 0.1rem;
+    margin-bottom: 0.25rem;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration: underline;
+    }
+  }
+
+  .research-paper-award {
+    margin: 0.4rem 0 0;
+    font-size: 0.89rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light);
+  }
+
+  .research-paper-presentations {
+    margin-top: 0.4rem;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light);
+
+    summary {
+      color: var(--global-theme-color);
+      display: list-item;
+      cursor: pointer;
+      width: fit-content;
+      padding: 0.15rem 0;
+    }
+
+    p {
+      font-size: inherit;
+      line-height: inherit;
+      color: inherit;
+      margin: 0.35rem 0 0 1rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .research-index {
+    .research-paper {
+      padding: 1rem 0 1.2rem;
+    }
+
+    .research-paper-title {
+      font-size: 1.02rem;
+    }
+  }
+}
