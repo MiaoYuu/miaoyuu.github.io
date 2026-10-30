@@ -36,14 +36,6 @@ nav_order: 2
       </details>
   </article>
   <article class="research-paper">
-    <h2 class="research-paper-title">Beyond the Nearest Driver: The Effect of Order Assignment Times on Delivery Drivers' Engagement and Retention</h2>
-    <p class="research-paper-authors">Vivek Choudhary, Li Ding, <em class="research-paper-self">Miao Yu</em></p>
-      <details class="research-paper-presentations">
-        <summary>Presentations</summary>
-        <p>Presented at INFORMS MSOM Conference 2025, London, June 2025</p>
-      </details>
-  </article>
-  <article class="research-paper">
     <h2 class="research-paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank" rel="noopener noreferrer">Sequential ETA Disclosure on On-Demand Platforms: Reference Dependence and Field Evidence</a></h2>
     <p class="research-paper-authors"><em class="research-paper-self">Miao Yu</em>, Ying-Ju Chen</p>
       <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank" rel="noopener noreferrer">Paper</a>
