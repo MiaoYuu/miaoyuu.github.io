@@ -52,37 +52,173 @@ body.sticky-bottom-footer {
 
 // TODO: redefine projects layout.
 
-/* Scoped layout adjustments for Home and Research */
-.home-fixed-columns > article {
-  display: grid;
-  grid-template-columns: minmax(0, 32%) minmax(0, 1fr);
-  column-gap: 1.75rem;
-  align-items: start;
+/* Home: reproduce the approved minimalist layout without text wrapping
+   underneath the portrait (including on narrow screens). */
+.home-fixed-columns {
+  .post-header .post-title {
+    font-size: 2.4rem;
+    letter-spacing: -0.025em;
+  }
+
+  > article {
+    display: grid;
+    grid-template-columns: minmax(0, 29%) minmax(0, 1fr);
+    column-gap: 1.9rem;
+    align-items: start;
+
+    > .profile {
+      grid-column: 1;
+      grid-row: 1;
+      width: 100%;
+      float: none;
+      margin: 0;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    // Expose just the two semantic page sections as grid children.
+    > .clearfix {
+      display: contents;
+
+      &::before,
+      &::after {
+        content: none;
+        display: none;
+      }
+    }
+
+    .home-bio {
+      grid-column: 2;
+      grid-row: 1;
+      min-width: 0;
+      overflow-wrap: anywhere;
+
+      p {
+        margin: 0 0 1.05rem;
+        line-height: 1.73;
+      }
+    }
+
+    .home-experience {
+      grid-column: 1 / -1;
+      grid-row: 2;
+      min-width: 0;
+      margin-top: 2.25rem;
+
+      h2 {
+        font-size: 1.45rem;
+        font-weight: 600;
+        margin: 0 0 1.35rem;
+      }
+
+      .home-experience-list {
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid var(--global-divider-color);
+        list-style: none;
+
+        li {
+          list-style: none;
+          margin: 0;
+          padding: 1.08rem 0;
+          border-bottom: 1px solid var(--global-divider-color);
+
+          strong {
+            display: block;
+            font-size: 1rem;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .home-experience-details {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.35rem 1.25rem;
+        margin-top: 0.35rem;
+        font-size: 0.92rem;
+
+        em {
+          font-style: normal;
+          color: var(--global-text-color-light);
+        }
+
+        span {
+          color: var(--global-text-color-light);
+          white-space: nowrap;
+          font-size: 0.83rem;
+        }
+      }
+    }
+
+    > .social {
+      grid-column: 1 / -1;
+      grid-row: 3;
+      margin-top: 1.7rem;
+
+      .contact-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.35rem;
+        font-size: 1.55rem;
+      }
+    }
+
+    > h2 {
+      grid-column: 1 / -1;
+    }
+  }
 }
-.home-fixed-columns > article > .profile {
-  grid-column: 1;
-  grid-row: 1 / span 3;
-  float: none;
-  width: 100%;
-  margin: 0;
-}
-.home-fixed-columns > article > .clearfix { display: contents; }
-.home-fixed-columns > article > .clearfix::before,
-.home-fixed-columns > article > .clearfix::after { display: none; content: none; }
-.home-fixed-columns > article > .clearfix > p {
-  grid-column: 2;
-  min-width: 0;
-  margin: 0 0 1rem;
-  line-height: 1.7;
-  overflow-wrap: break-word;
-}
-.home-fixed-columns > article > .clearfix > :not(p),
-.home-fixed-columns > article > .social { grid-column: 1 / -1; }
-.home-fixed-columns > article > .clearfix > h2 { margin-top: 1.5rem; }
+
 @media (max-width: 575px) {
-  .home-fixed-columns > article { grid-template-columns: minmax(0, 30%) minmax(0, 1fr); column-gap: 0.8rem; }
-  .home-fixed-columns > article > .clearfix > p { font-size: 0.9rem; line-height: 1.6; }
+  .home-fixed-columns {
+    .post-header .post-title {
+      font-size: 2rem;
+    }
+
+    > article {
+      grid-template-columns: minmax(0, 32%) minmax(0, 1fr);
+      column-gap: 0.85rem;
+
+      .home-bio p {
+        font-size: 0.88rem;
+        line-height: 1.62;
+        margin-bottom: 0.85rem;
+      }
+
+      .home-experience {
+        margin-top: 1.7rem;
+
+        .home-experience-details {
+          display: block;
+
+          span {
+            display: block;
+            margin-top: 0.25rem;
+          }
+        }
+      }
+    }
+  }
 }
+
+@media (max-width: 360px) {
+  .home-fixed-columns > article {
+    column-gap: 0.7rem;
+
+    .home-bio p {
+      font-size: 0.84rem;
+    }
+  }
+}
+
 .research ul { list-style: none; padding-left: 0; margin-bottom: 1.7rem; }
 .research li { list-style: none; margin: 0; padding: 1.15rem 0 1.4rem; border-bottom: 1px solid var(--global-divider-color); line-height: 1.6; }
 .research li:first-child { padding-top: 0.4rem; }
