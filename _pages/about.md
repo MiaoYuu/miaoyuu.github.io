@@ -26,7 +26,7 @@ To learn more about my work, please see my [CV](/cv/), or connect with me on [Li
 </div>
 
 <section class="home-experience" aria-labelledby="home-experience-heading">
-<h2 id="home-experience-heading">Professional Experience</h2>
+<h2 id="home-experience-heading">Academic &amp; Industry Experience</h2>
 <ul class="home-experience-list">
   <li>
     <strong>City University of Hong Kong</strong>
