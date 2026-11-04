@@ -2,7 +2,6 @@
 layout: page
 permalink: /Research/
 title: Research
-description: "Research papers on digital platforms and agentic AI."
 nav: true
 nav_order: 2
 ---
