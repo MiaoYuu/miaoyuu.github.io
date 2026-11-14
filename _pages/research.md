@@ -18,7 +18,7 @@ nav_order: 2
         <p class="research-paper-meta">Presented at CIST 2025, SCECR 2025, WISE 2024, SCECR 2022</p>
       </li>
       <li class="research-paper">
-        <div class="research-paper-title">GovLegal-RAG: Leveraging Retrieval-Augmented Generation for Government and Legal Consultation</div>
+        <div class="research-paper-title">Gov-RAG: Designing AI-Assisted Government Consultation through Institutional Relations</div>
         <div class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank" rel="noopener noreferrer">[Paper link]</a></div>
         <p class="research-paper-meta"><em>Under review</em></p>
         <p class="research-paper-meta">Presented at INFORMS Annual Meeting 2025, JUSWIS 2025, CIST 2024</p>
