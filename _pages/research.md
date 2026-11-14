@@ -28,8 +28,8 @@ nav_order: 2
         <div class="research-paper-authors">Shuang Zheng, Mingzheng Wang, <strong class="research-owner">Miao Yu</strong></div>
       </li>
     </ul>
+    <p class="research-industry-note"><sup>*</sup> Industry collaborator</p>
   </div>
-    <p class="research-paper-meta"><sup>*</sup> Industry collaborator</p>
 
   <div class="research-area">
     <h2 class="research-area-heading">Digital Platforms</h2>
