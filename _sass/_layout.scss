@@ -355,7 +355,7 @@ body.sticky-bottom-footer {
    their existing layouts. */
 .research-archive {
   .research-area + .research-area {
-    margin-top: 2.75rem;
+    margin-top: 3.35rem;
   }
 
   .research-area-heading {
@@ -376,7 +376,7 @@ body.sticky-bottom-footer {
   .research-paper {
     list-style: none;
     margin: 0;
-    padding: 1.12rem 0 1.35rem;
+    padding: 1.18rem 0 1.42rem;
     border-bottom: 1px solid var(--global-divider-color);
 
     &:last-child {
@@ -418,6 +418,14 @@ body.sticky-bottom-footer {
     }
   }
 
+  .research-industry-note {
+    color: var(--global-text-color-light);
+    font-size: 0.83rem;
+    line-height: 1.5;
+    margin: 0.85rem 0 0;
+    padding-left: 0.15rem;
+  }
+
   .research-paper-meta {
     color: var(--global-text-color-light);
     font-size: 0.86rem;
@@ -429,7 +437,7 @@ body.sticky-bottom-footer {
 @media (max-width: 575px) {
   .research-archive {
     .research-area + .research-area {
-      margin-top: 2rem;
+      margin-top: 2.6rem;
     }
 
     .research-area-heading {
