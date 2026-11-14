@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: true
+nav: false
 nav_order: 7
 cv_pdf: resume.pdf
 description: "Full curriculum vitae available for viewing and download."
