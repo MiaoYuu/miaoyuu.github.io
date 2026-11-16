@@ -23,10 +23,6 @@ nav_order: 2
         <div class="research-paper-title">From Optimization to Action: Augmenting Dispatching Decisions with Large Language Models</div>
         <div class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Guangrui Ma<sup>*</sup></div>
       </li>
-      <li class="research-paper">
-        <div class="research-paper-title">An Integrating Large-and-Small Model Collaborative Framework with Domain Knowledge for Smart Trip Planning</div>
-        <div class="research-paper-authors">Shuang Zheng, Mingzheng Wang, <strong class="research-owner">Miao Yu</strong></div>
-      </li>
     </ul>
     <p class="research-industry-note"><sup>*</sup> Industry collaborator</p>
   </div>
