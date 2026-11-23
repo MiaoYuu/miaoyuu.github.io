@@ -1,0 +1,373 @@
+/* Approved homepage treatment: navy academic calling card over warm ivory About.
+   Scoped to the Home page; Research, Teaching and Media & Talks stay separate. */
+
+body.home-dark-header {
+  overflow-x: clip;
+
+  [role="main"].container.mt-5 {
+    margin-top: 0 !important;
+  }
+
+  .navbar.navbar-light {
+    background: #0b1f38;
+    border-bottom: 1px solid rgba(209, 229, 249, 0.14);
+
+    .navbar-brand,
+    .site-wordmark {
+      color: #edf3fa;
+    }
+
+    .site-monogram {
+      color: #edf3fa;
+      background: #203954;
+      border-color: #3b668d;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      color: #cbd8e8;
+
+      &:hover,
+      &:focus-visible { color: #ffffff; }
+    }
+
+    .navbar-nav .nav-item.active > .nav-link {
+      color: #ffffff;
+      box-shadow: inset 0 -2px 0 #3082d9;
+    }
+
+    .navbar-nav .nav-contact > .nav-link {
+      color: #eaf2fb;
+      border-color: rgba(231, 242, 255, 0.54);
+
+      &:hover,
+      &:focus-visible {
+        border-color: #eaf2fb;
+        color: #ffffff;
+      }
+    }
+
+    .navbar-toggler .icon-bar {
+      background-color: #edf3fa;
+    }
+  }
+
+  #light-toggle {
+    color: #edf3fa;
+
+    &:hover,
+    &:focus-visible { color: #ffffff; }
+  }
+}
+
+.home-editorial {
+  .home-hero {
+    position: relative;
+    isolation: isolate;
+    grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+    column-gap: clamp(2.6rem, 5.7vw, 6rem);
+    padding: 3.4rem 0 4.45rem;
+    min-height: 520px;
+    align-items: center;
+
+    // A full-bleed navy field; the content stays aligned with the site grid.
+    &::before {
+      content: "";
+      position: absolute;
+      inset-block: 0;
+      left: 50%;
+      width: 100vw;
+      transform: translateX(-50%);
+      z-index: -1;
+      background:
+        repeating-linear-gradient(
+          135deg,
+          transparent 0,
+          transparent 50px,
+          rgba(137, 184, 236, 0.044) 51px,
+          transparent 52px,
+          transparent 62px
+        ),
+        linear-gradient(112deg, #0a1d35 0%, #0b203a 58%, #123052 100%);
+    }
+  }
+
+  .home-display-name {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(3.05rem, 4.5vw, 3.85rem);
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -0.03em;
+    color: #f1f5fb;
+    margin: 0 0 0.75rem;
+  }
+
+  .home-position {
+    color: #e3eaf4;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.12rem, 1.85vw, 1.42rem);
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .home-institution {
+    color: #d5e1f0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.02rem, 1.5vw, 1.24rem);
+    line-height: 1.42;
+    margin: 0 0 2rem;
+  }
+
+  .home-hero-summary {
+    color: #e3ecf7;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.16rem, 1.85vw, 1.42rem);
+    font-weight: 400;
+    line-height: 1.47;
+    max-width: 37rem;
+    margin: 0 0 1.6rem;
+  }
+
+  .home-hero-actions {
+    margin: 0 0 1.35rem;
+    gap: 0.88rem;
+  }
+
+  .home-action-primary,
+  .home-action-secondary {
+    border-radius: 3px;
+    min-height: 45px;
+    padding: 0.65rem 1.22rem;
+    font-size: 0.92rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: none;
+  }
+
+  .home-action-primary {
+    background: #2677cd;
+    border-color: #2677cd;
+    color: #ffffff;
+
+    &:hover,
+    &:focus-visible {
+      background: #3989df;
+      border-color: #3989df;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+
+  .home-action-secondary {
+    background: transparent;
+    border-color: rgba(221, 234, 250, 0.55);
+    color: #eff4fb;
+
+    &:hover,
+    &:focus-visible {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: #edf3fb;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+
+  .home-profile-links {
+    border: 0;
+    margin-top: 0.9rem;
+    padding: 0;
+    gap: 0.85rem 1.6rem;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.42rem;
+      color: #b9c8dc;
+      border: 0;
+      font-size: 0.92rem;
+      font-weight: 500;
+      line-height: 1.55;
+      padding: 0;
+      text-decoration: none;
+
+      i {
+        font-size: 1.08rem;
+        line-height: 1;
+      }
+
+      &:hover,
+      &:focus-visible {
+        color: #ffffff;
+        border: 0;
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+      }
+    }
+  }
+
+  .home-portrait {
+    max-width: 396px;
+    width: 100%;
+    justify-self: end;
+  }
+
+  .home-portrait-frame {
+    position: relative;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      right: -17px;
+      bottom: -16px;
+      border: 2px solid #3082d9;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    figure {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+    }
+
+    picture { display: block; }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+      object-position: center 22%;
+      border-radius: 0;
+      box-shadow: none !important;
+    }
+  }
+
+  // Like the reference: a narrow serif editorial column on warm ivory.
+  .home-about {
+    display: block;
+    max-width: 790px;
+    border: 0;
+    margin: 0;
+    padding: 4.35rem 0 4.25rem;
+    scroll-margin-top: 90px;
+  }
+
+  .home-about-aside {
+    padding: 0;
+    margin: 0 0 0.8rem;
+
+    .home-aside-rule {
+      width: 83px;
+      height: 4px;
+      margin: 0 0 0.75rem;
+      background: #2677cd;
+    }
+
+    h2 {
+      color: var(--global-text-color);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 2.05rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+      margin: 0;
+    }
+  }
+
+  .home-about-main { max-width: 790px; }
+
+  .home-about-copy {
+    color: var(--global-text-color);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.1rem, 1.65vw, 1.22rem);
+    line-height: 1.72;
+
+    p {
+      color: var(--global-text-color);
+      margin: 0 0 1.05rem;
+    }
+  }
+
+  .home-experience {
+    margin-top: 2.4rem;
+    padding-top: 1.8rem;
+
+    h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 600;
+      font-size: 1.45rem;
+    }
+  }
+
+  .home-contact {
+    border-top: 1px solid var(--global-divider-color);
+    background: var(--global-card-bg-color);
+
+    .home-action-primary { color: #ffffff; }
+  }
+}
+
+@media (max-width: 900px) {
+  .home-editorial {
+    .home-hero {
+      column-gap: 2.4rem;
+      min-height: auto;
+      padding: 3rem 0 3.7rem;
+    }
+
+    .home-display-name { font-size: clamp(3.05rem, 5.5vw, 3.45rem); }
+    .home-portrait-frame img { height: 380px; }
+    .home-hero-summary { font-size: 1.18rem; }
+    .home-about { padding: 3.8rem 0; }
+  }
+}
+
+@media (max-width: 700px) {
+  .home-editorial {
+    .home-hero {
+      grid-template-columns: 1fr;
+      row-gap: 2.9rem;
+      padding: 2.65rem 0 3.75rem;
+    }
+
+    .home-display-name { font-size: clamp(3.15rem, 10vw, 3.85rem); }
+    .home-institution { margin-bottom: 1.6rem; }
+    .home-hero-summary { font-size: 1.21rem; }
+    .home-profile-links { gap: 0.7rem 1.2rem; }
+
+    .home-portrait {
+      justify-self: start;
+      max-width: 340px;
+      width: calc(100% - 20px);
+      margin: 0;
+    }
+
+    .home-portrait-frame img { height: 375px; }
+    .home-about { padding: 3.25rem 0 3.6rem; }
+    .home-about-copy { font-size: 1.12rem; line-height: 1.7; }
+  }
+}
+
+@media (max-width: 575px) {
+  body.home-dark-header .navbar { min-height: 68px; }
+
+  .home-editorial {
+    .home-display-name { font-size: 3.15rem; }
+    .home-hero-actions { gap: 0.65rem; }
+
+    .home-action-primary,
+    .home-action-secondary {
+      font-size: 0.84rem;
+      padding: 0.57rem 0.8rem;
+    }
+
+    .home-about-aside h2 { font-size: 1.9rem; }
+  }
+}
