@@ -1,5 +1,4 @@
-/* Navy & Paper — a restrained academic identity, not a full-page template.
-   The Home hero echoes the portrait's cool blue; other pages retain paper neutrals. */
+/* Teal & Paper — an editorial academic identity in muted blue-green and warm ivory. */
 
 :root {
   // Two-typeface system: editorial headings and readable interface/body text.
@@ -9,9 +8,9 @@
   --paper-body: #f8f7f3;
   --paper-ink: #293840;
   --paper-muted: #566571;
-  --paper-accent: #4d6476;
-  --paper-rule: #8499a9;
-  --paper-mat: #d9dfe1;
+  --paper-accent: #386c6d;
+  --paper-rule: #8ba9a4;
+  --paper-mat: #d7e1de;
   --paper-line: #d8d7d2;
 }
 
@@ -20,9 +19,9 @@ html[data-theme="dark"] {
   --paper-body: #20262a;
   --paper-ink: #e9ecec;
   --paper-muted: #b8c0c3;
-  --paper-accent: #aec5d6;
-  --paper-rule: #9cb6c9;
-  --paper-mat: #48565e;
+  --paper-accent: #a9d4cc;
+  --paper-rule: #9bbfb9;
+  --paper-mat: #485b59;
   --paper-line: #465056;
 }
 
@@ -80,13 +79,13 @@ body.home-paper-theme [role="main"].container.mt-5 {
     position: relative;
     isolation: isolate;
     display: grid;
-    grid-template-columns: minmax(0, 1.44fr) minmax(0, 0.85fr);
-    column-gap: clamp(3.2rem, 7.5vw, 8rem);
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.88fr);
+    column-gap: clamp(3rem, 6.5vw, 7rem);
     align-items: center;
-    min-height: 480px;
-    padding: 3.2rem 0 3.7rem;
+    min-height: 500px;
+    padding: 3.6rem 0 4rem;
 
-    // Full-width, untextured deep navy. Content stays in the site grid.
+    // Full-width, subtle deep-teal gradient. Content stays in the site grid.
     &::before {
       content: "";
       position: absolute;
@@ -94,7 +93,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
       left: 50%;
       width: 100vw;
       transform: translateX(-50%);
-      background: linear-gradient(115deg, #12273d 0%, #192f46 100%);
+      background: linear-gradient(115deg, #285158 0%, #315d61 100%);
       z-index: -1;
     }
 
@@ -114,7 +113,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
   }
 
   .home-display-name {
-    color: #eaf0f5;
+    color: #f0f5f3;
     font-family: var(--font-display);
     font-size: 2.875rem; // 46px: restrained desktop academic display title.
     line-height: 1.13;
@@ -124,7 +123,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
   }
 
   .home-position {
-    color: #e9eef4;
+    color: #edf4f1;
     font-family: var(--font-reading);
     font-size: 1.25rem; // 20px.
     font-weight: 500;
@@ -133,22 +132,21 @@ body.home-paper-theme [role="main"].container.mt-5 {
   }
 
   .home-institution {
-    color: #e3edf6;
+    color: #e0eeeb;
     font-family: var(--font-reading);
     font-size: 1.0625rem; // 17px.
     font-weight: 400;
     line-height: 1.5;
     margin: 0 0 1.65rem;
 
-    // Explicitly style each child to prevent inherited global span colors
-    // from making the affiliation unreadable on the navy hero.
+    // Keep both institution spans visibly light on the deep-teal background.
     > span {
-      color: #e3edf6;
+      color: #e0eeeb;
     }
   }
 
   .home-hero-summary {
-    color: #e5edf3;
+    color: #e5efed;
     font-family: var(--font-reading);
     font-size: 1.1875rem; // 19px.
     font-weight: 400;
@@ -171,7 +169,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
       align-items: center;
       gap: 0.4rem;
       padding: 0;
-      color: #c3d0dc;
+      color: #c8dfdb;
       border: 0;
       font-family: var(--font-reading);
       font-size: 0.875rem; // 14px.
@@ -220,7 +218,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
       right: -12px;
       bottom: -12px;
       left: 12px;
-      border: 1.5px solid #8ea9bf;
+      border: 1.5px solid #9bb7b4;
       pointer-events: none;
       z-index: 0;
     }
@@ -253,7 +251,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
     display: block;
     border: 0;
     margin: 0;
-    padding: 3.25rem 0 3.7rem;
+    padding: 3.6rem 0 4rem;
     max-width: 960px;
     scroll-margin-top: 90px;
   }
@@ -321,6 +319,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
         color: var(--paper-muted);
         text-align: right;
         font-size: 0.86rem;
+        font-variant-numeric: tabular-nums;
         white-space: nowrap;
       }
     }
@@ -331,8 +330,8 @@ body.home-paper-theme [role="main"].container.mt-5 {
   .home-editorial {
     .home-hero {
       gap: 2.8rem;
-      min-height: 440px;
-      padding: 2.85rem 0 3.35rem;
+      min-height: 450px;
+      padding: 3rem 0 3.45rem;
     }
 
     .home-display-name {
@@ -483,8 +482,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
   }
 }
 
-/* Distinct light navigation on Home: intentionally independent of the navy
-   calling-card hero, including when a dark-mode preference is active. */
+/* The warm-ivory navigation remains distinct from the deep-teal hero. */
 body.home-paper-theme {
   .navbar.navbar-light {
     background-color: #f8f7f3;
@@ -506,7 +504,7 @@ body.home-paper-theme {
 
     .navbar-nav .nav-item.active > .nav-link {
       color: #293840;
-      box-shadow: inset 0 -1px 0 #4d6476;
+      box-shadow: inset 0 -2px 0 #386c6d;
     }
 
     .navbar-toggler .icon-bar {
@@ -520,7 +518,7 @@ body.home-paper-theme {
 
     &:hover,
     &:focus-visible {
-      color: #4d6476;
+      color: #386c6d;
     }
   }
 }
