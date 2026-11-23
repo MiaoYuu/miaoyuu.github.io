@@ -24,7 +24,6 @@ nav_order: 2
         <div class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Guangrui Ma<sup>*</sup></div>
       </li>
     </ul>
-    <p class="research-industry-note"><sup>*</sup> Industry collaborator</p>
   </div>
 
   <div class="research-area">
@@ -46,4 +45,5 @@ nav_order: 2
       </li>
     </ul>
   </div>
+  <p class="research-industry-note"><sup>*</sup> Industry collaborator</p>
 </div>
