@@ -2,33 +2,26 @@
 layout: about
 title: Home
 permalink: /
-subtitle:
-
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-
 news: false
 selected_papers: false
 social: false
 ---
 
-
-<div class="home-bio" markdown="1">
-
-I am an Assistant Professor of Information Systems at the College of Business, City University of Hong Kong. I received my Ph.D. in Information Systems from the HKU Business School. 
-
-My research interests involve (a) examining how algorithms influence human behavior and societal outcomes using econometrics, and (b) developing algorithms to address practical challenges in domains such as public sector services and fraud detection in Fintech, with a particular focus on trustworthy, explainable, and domain-adapted AI.
-
-<nav class="home-links" aria-label="Contact and academic profiles">
-  <a href="mailto:miaoyu@cityu.edu.hk">Email</a>
-  <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-  <a href="https://scholar.google.com/citations?user=NUOaaFQAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-  <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank" rel="noopener noreferrer">SSRN</a>
-</nav>
-
-</div>
+<section class="home-about" id="about" aria-labelledby="home-about-title">
+  <div class="home-about-aside">
+    <p class="home-section-label">01 / Introduction</p>
+    <h2 id="home-about-title">About</h2>
+    <div class="home-aside-rule" aria-hidden="true"></div>
+  </div>
+  <div class="home-about-copy">
+    <p>I am an Assistant Professor of Information Systems at the College of Business, City University of Hong Kong. I received my Ph.D. in Information Systems from the HKU Business School.</p>
+    <p>My research interests involve (a) examining how algorithms influence human behavior and societal outcomes using econometrics, and (b) developing algorithms to address practical challenges in domains such as public sector services and fraud detection in Fintech, with a particular focus on trustworthy, explainable, and domain-adapted AI.</p>
+  </div>
+</section>
 
 <section class="home-experience" aria-labelledby="home-experience-heading">
 <h2 id="home-experience-heading">Academic &amp; Industry Experience</h2>
@@ -56,3 +49,4 @@ My research interests involve (a) examining how algorithms influence human behav
   </li>
 </ul>
 </section>
+
