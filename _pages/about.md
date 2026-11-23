@@ -11,12 +11,8 @@ selected_papers: false
 social: false
 ---
 
-<section class="home-about" id="about" aria-labelledby="home-about-title">
-  <div class="home-about-aside">
-    <div class="home-aside-rule" aria-hidden="true"></div>
-    <h2 id="home-about-title">About</h2>
-  </div>
-
+<section class="home-about" id="about" aria-label="Academic profile and experience">
+  <div class="home-about-marker" aria-hidden="true"></div>
   <div class="home-about-main">
     <div class="home-about-copy">
       <p>I am an Assistant Professor of Information Systems at the College of Business, City University of Hong Kong. I received my Ph.D. in Information Systems from the HKU Business School.</p>
@@ -24,7 +20,7 @@ social: false
     </div>
 
     <div class="home-experience" aria-labelledby="home-experience-heading">
-      <h3 id="home-experience-heading">Academic &amp; Industry Experience</h3>
+      <h2 id="home-experience-heading">Academic &amp; Industry Experience</h2>
       <ul class="home-experience-list">
         <li>
           <strong>City University of Hong Kong</strong>
