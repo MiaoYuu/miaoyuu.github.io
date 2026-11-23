@@ -373,3 +373,45 @@ body.home-paper-theme [role="main"].container.mt-5 {
     }
   }
 }
+
+/* Distinct light navigation on Home: intentionally independent of the navy
+   calling-card hero, including when a dark-mode preference is active. */
+body.home-paper-theme {
+  .navbar.navbar-light {
+    background-color: #F8F7F3;
+    border-bottom: 1px solid #D8D7D2;
+
+    .navbar-brand,
+    .site-wordmark {
+      color: #293840;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      color: #52616B;
+
+      &:hover,
+      &:focus-visible {
+        color: #293840;
+      }
+    }
+
+    .navbar-nav .nav-item.active > .nav-link {
+      color: #293840;
+      box-shadow: inset 0 -1px 0 #4D6476;
+    }
+
+    .navbar-toggler .icon-bar {
+      background-color: #293840;
+    }
+  }
+
+  .navbar #light-toggle,
+  .navbar #search-toggle {
+    color: #293840;
+
+    &:hover,
+    &:focus-visible {
+      color: #4D6476;
+    }
+  }
+}
