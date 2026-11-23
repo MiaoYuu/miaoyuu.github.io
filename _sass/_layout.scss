@@ -93,9 +93,7 @@ body.fixed-top-nav {
   }
 }
 
-[role="main"] > .post.post-teaching {
-  max-width: 875px;
-}
+// Teaching shares the same left edge and content width as Research and Media & Talks.
 
 // Academic pages: a single visual hierarchy, without cards, status badges,
 // filters, redundant links or expandable lists.
@@ -240,11 +238,14 @@ body.fixed-top-nav {
   a {
     color: var(--global-theme-color);
     text-decoration: none;
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 0.2rem;
+    border-bottom: 0;
+
     &:hover,
     &:focus-visible {
       color: var(--global-hover-color);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
     }
   }
 }
@@ -254,6 +255,7 @@ body.fixed-top-nav {
   // Low-saturation blue-gray accents match the navy home hero.
   --research-accent: #4d6476;
   --research-accent-hover: #344d60;
+  --research-rule: #b6bfc2;
 
   .research-area + .research-area {
     margin-top: 3.3rem;
@@ -265,7 +267,7 @@ body.fixed-top-nav {
     align-items: baseline;
     gap: 1.25rem;
     padding-bottom: 0.9rem;
-    border-bottom: 1px solid var(--research-accent);
+    border-bottom: 1px solid var(--research-rule);
   }
 
   .research-area-heading {
@@ -325,12 +327,14 @@ body.fixed-top-nav {
     a {
       color: var(--research-accent);
       text-decoration: none;
-      border-bottom: 1px solid var(--research-accent);
-      padding-bottom: 0.2rem;
+      border-bottom: 0;
+
       &:hover,
       &:focus-visible {
         color: var(--research-accent-hover);
-        border-color: currentColor;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.2em;
       }
     }
   }
@@ -353,6 +357,7 @@ body.fixed-top-nav {
 html[data-theme="dark"] .research-archive {
   --research-accent: #a9bfd0;
   --research-accent-hover: #d6e4ef;
+  --research-rule: #667a84;
 }
 
 @media (max-width: 680px) {
