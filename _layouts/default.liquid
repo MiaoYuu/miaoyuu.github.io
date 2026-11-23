@@ -42,7 +42,7 @@
   </head>
 
   <!-- 正文 -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if page.permalink == '/' %}home-dark-header {% endif %}{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- 头部导航 -->
     {% include header.liquid %}
 
