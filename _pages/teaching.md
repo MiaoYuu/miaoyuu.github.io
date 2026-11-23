@@ -2,7 +2,6 @@
 layout: page
 permalink: /Teaching/
 title: Teaching
-description: "Teaching experience and interests of Miao Yu."
 nav: true
 nav_order: 5
 ---
