@@ -28,7 +28,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          # Workflow changes require elevated "workflows" permission.
+          # This one-time job intentionally formats content files only.
+          git add -A -- . ':(exclude).github/workflows/**'
           if git diff --cached --quiet; then
             echo "Formatting already clean."
           else
