@@ -4,7 +4,6 @@ layout: default
 <div class="post home-editorial">
   <section class="home-hero" aria-labelledby="home-name">
     <div class="home-hero-content">
-      <p class="home-eyebrow">Information Systems · City University of Hong Kong</p>
       <h1 class="home-display-name" id="home-name">
         {% if site.title == 'blank' %}
           {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
@@ -20,10 +19,10 @@ layout: default
         <a class="home-action-secondary" href="mailto:{{ site.email }}?subject=Research%20Collaboration">Research collaboration <span aria-hidden="true">↗</span></a>
       </div>
       <nav class="home-profile-links" aria-label="Academic and contact links">
-        <a href="mailto:{{ site.email }}">Email</a>
-        <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank" rel="noopener noreferrer">SSRN</a>
+        <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer"><i class="ti ti-school" aria-hidden="true"></i> Google Scholar</a>
+        <a href="mailto:{{ site.email }}"><i class="ti ti-mail" aria-hidden="true"></i> Email</a>
+        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank" rel="noopener noreferrer"><i class="ti ti-book-2" aria-hidden="true"></i> SSRN</a>
       </nav>
     </div>
 
@@ -34,7 +33,6 @@ layout: default
           {% capture portrait_sizes %}(min-width: 1100px) 360px, (min-width: 760px) 32vw, 90vw{% endcapture %}
           {% include figure.liquid loading="eager" path=profile_image_path sizes=portrait_sizes alt="Portrait of Miao Yu" cache_bust=true %}
         </div>
-        <p class="home-portrait-caption">Miao Yu · City University of Hong Kong</p>
       </div>
     {% endif %}
   </section>
