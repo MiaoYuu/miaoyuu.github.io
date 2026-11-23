@@ -3,20 +3,20 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  // Muted slate-blue: neutral and readable, rather than the default pink accent.
-  --global-theme-color: #405a70;
-  --global-hover-color: #29445a;
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  // Warm editorial academic palette: ivory canvas, charcoal ink, forest-green accents.
+  --global-bg-color: #F7F4ED;
+  --global-code-bg-color: rgba(49, 91, 82, 0.06);
+  --global-text-color: #29312E;
+  --global-text-color-light: #66726C;
+  --global-theme-color: #315B52;
+  --global-hover-color: #23483F;
+  --global-hover-text-color: #FFFCF7;
+  --global-footer-bg-color: #F7F4ED;
+  --global-footer-text-color: #66726C;
+  --global-footer-link-color: #315B52;
+  --global-distill-app-color: #66726C;
+  --global-divider-color: #DCD7CC;
+  --global-card-bg-color: #FFFCF7;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
@@ -69,20 +69,20 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  // Softer cool-tone links on dark backgrounds, with contrast-safe hover text.
-  --global-theme-color: #b9cede;
-  --global-hover-color: #dbe7ef;
-  --global-hover-text-color: #{$grey-color-dark};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  // The same warm and forest-green design language, tuned for dark-mode contrast.
+  --global-bg-color: #202725;
+  --global-code-bg-color: #27332F;
+  --global-text-color: #EFECE4;
+  --global-text-color-light: #B5BDB4;
+  --global-theme-color: #B6D5C8;
+  --global-hover-color: #DCEBE4;
+  --global-hover-text-color: #202725;
+  --global-footer-bg-color: #202725;
+  --global-footer-text-color: #B5BDB4;
+  --global-footer-link-color: #B6D5C8;
+  --global-distill-app-color: #B5BDB4;
+  --global-divider-color: #46524B;
+  --global-card-bg-color: #29332E;
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
