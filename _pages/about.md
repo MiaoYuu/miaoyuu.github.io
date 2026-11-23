@@ -26,15 +26,15 @@ social: false
         <li>
           <strong>Ping An Technology</strong>
           <div class="home-experience-details">
-            <em>Algorithm Engineer Intern, Risk Control AI Product Team</em>
-            <span>May 2023 – Jun 2026</span>
+            <em>Machine Learning Scientist (Research Intern)</em>
+            <span>Jun 2024 – Present</span>
           </div>
         </li>
         <li>
           <strong>Meituan</strong>
           <div class="home-experience-details">
-            <em>Research Scientist Intern</em>
-            <span>Dec 2021 – Dec 2022</span>
+            <em>Machine Learning Scientist (Research Intern)</em>
+            <span>Dec 2021 – Oct 2022; Apr 2026 – Aug 2026</span>
           </div>
         </li>
       </ul>
