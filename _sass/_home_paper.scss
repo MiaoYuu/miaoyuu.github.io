@@ -181,13 +181,34 @@ body.home-paper-theme [role="main"].container.mt-5 {
   }
 
   .home-portrait-frame {
-    padding: 5px;
-    background: rgba(217, 226, 234, 0.45);
-    border: 1px solid rgba(235, 241, 247, 0.4);
-    box-shadow: 0 14px 36px rgba(4, 16, 29, 0.13);
+    // A restrained offset outline: no gray mat, double border, or drop shadow.
+    position: relative;
+    isolation: isolate;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
 
-    &::after { content: none; }
-    figure, picture { display: block; margin: 0; }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 12px;
+      right: -12px;
+      bottom: -12px;
+      left: 12px;
+      border: 1.5px solid #8EA9BF;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    figure {
+      position: relative;
+      z-index: 1;
+      display: block;
+      margin: 0;
+    }
+
+    picture { display: block; margin: 0; }
 
     img {
       display: block;
