@@ -19,7 +19,7 @@ social: true
 
 I am an Assistant Professor of Information Systems at the College of Business, City University of Hong Kong. I received my Ph.D. in Information Systems from the HKU Business School. 
 
-My research interests involve (a) examining how algorithms influence human behavior and societal outcomes using econometrics, and (b) developing algorithms to address practical challenges in domains such as public sector services and fraud detection in Fintech, with a particular focus on trustworthy, explainable, and domain-adapted AI.
+My research spans two areas. In **Agentic AI Systems**, I develop trustworthy, explainable, and domain-adapted AI for public services and financial risk control. In **Digital Platforms**, I use econometrics and field experiments to study how algorithms shape human behavior and societal outcomes.
 
 To learn more about my work, connect with me on [LinkedIn](https://www.linkedin.com/in/miao-y-86a492118/), [Google Scholar](https://scholar.google.com/citations?user=NUOaaFQAAAAJ), or [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013). You are also welcome to [email me](mailto:miaoyu@cityu.edu.hk) about potential collaborations or research discussions.
 
