@@ -38,8 +38,12 @@ layout: default
           <div class="home-email-options">
             <span class="home-email-address">{{ site.email }}</span>
             <a href="mailto:{{ site.email }}">Open mail app</a>
-            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to={{ site.email | url_encode }}" target="_blank" rel="noopener noreferrer">Compose in Gmail ↗</a>
-            <a href="https://outlook.office.com/mail/deeplink/compose?to={{ site.email | url_encode }}" target="_blank" rel="noopener noreferrer">Compose in Outlook ↗</a>
+            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to={{ site.email | url_encode }}" target="_blank" rel="noopener noreferrer"
+              >Compose in Gmail ↗</a
+            >
+            <a href="https://outlook.office.com/mail/deeplink/compose?to={{ site.email | url_encode }}" target="_blank" rel="noopener noreferrer"
+              >Compose in Outlook ↗</a
+            >
           </div>
         </details>
       </nav>
