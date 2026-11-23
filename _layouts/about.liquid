@@ -14,10 +14,10 @@ layout: default
       <p class="home-position">Assistant Professor of Information Systems</p>
       <p class="home-institution">College of Business · City University of Hong Kong</p>
       <p class="home-hero-summary">I study how algorithms shape human behavior on digital platforms and design trustworthy AI systems for real-world decision-making.</p>
-      <div class="home-hero-actions">
-        <a class="home-action-primary" href="{{ '/Research/' | relative_url }}">Explore research</a>
-        <a class="home-action-secondary" href="mailto:{{ site.email }}?subject=Research%20Collaboration">Research Collaboration</a>
-      </div>
+      <nav class="home-hero-actions" aria-label="Research and collaboration">
+        <a class="home-action-primary" href="{{ '/Research/' | relative_url }}">Research &amp; papers <span aria-hidden="true">↗</span></a>
+        <a class="home-action-secondary" href="mailto:{{ site.email }}?subject=Research%20Inquiry">Get in touch <span aria-hidden="true">↗</span></a>
+      </nav>
       <nav class="home-profile-links" aria-label="Academic and contact links">
         <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn</a>
         <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer"><i class="ti ti-school" aria-hidden="true"></i> Google Scholar</a>
@@ -38,11 +38,4 @@ layout: default
   </section>
 
   {{ content }}
-
-  <section class="home-contact" aria-labelledby="home-contact-title">
-    <p class="home-section-label">Research collaboration</p>
-    <h2 id="home-contact-title">Let’s connect.</h2>
-    <p>For research discussions, collaboration, and academic exchange.</p>
-    <a href="mailto:{{ site.email }}" class="home-action-primary">Email Miao Yu <span aria-hidden="true">↗</span></a>
-  </section>
 </div>
