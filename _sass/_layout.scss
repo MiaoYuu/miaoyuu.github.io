@@ -23,8 +23,16 @@ body.fixed-top-nav {
 }
 
 body.sticky-bottom-footer {
-  // Remove padding below footer.
+  // Normal-flow footer remains at the bottom without covering content.
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   padding-bottom: 0;
+}
+
+body.sticky-bottom-footer > [role="main"] {
+  width: 100%;
+  flex: 1 0 auto;
 }
 
 .container {
@@ -79,6 +87,10 @@ body.fixed-top-nav { padding-top: 75px; }
   }
 }
 
+[role="main"] > .post.post-teaching {
+  max-width: 875px;
+}
+
 // Academic pages: a single visual hierarchy, without cards, status badges,
 // filters, redundant links or expandable lists.
 .faculty-page {
@@ -92,7 +104,7 @@ body.fixed-top-nav { padding-top: 75px; }
 
   .faculty-section-title {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.35rem;
+    font-size: 1.6rem;
     line-height: 1.4;
     font-weight: 500;
     margin: 0 0 0.8rem;
@@ -105,7 +117,7 @@ body.fixed-top-nav { padding-top: 75px; }
 
   .faculty-entry {
     border-bottom: 1px solid var(--global-divider-color);
-    padding: 1.05rem 0 1.15rem;
+    padding: 1rem 0 1.05rem;
     margin: 0;
   }
 
@@ -161,8 +173,8 @@ body.fixed-top-nav { padding-top: 75px; }
   .faculty-entry-secondary,
   .faculty-entry-notes p {
     color: var(--global-text-color-light);
-    font-size: 0.91rem;
-    line-height: 1.6;
+    font-size: 0.93rem;
+    line-height: 1.58;
   }
 
   .faculty-entry-date {
@@ -191,8 +203,10 @@ body.fixed-top-nav { padding-top: 75px; }
       margin-top: 1.5rem;
     }
 
+    .faculty-section-title { font-size: 1.4rem; }
+
     .faculty-entry {
-      padding: 0.95rem 0 1.05rem;
+      padding: 0.9rem 0 0.98rem;
     }
 
     .faculty-entry-title {
@@ -216,7 +230,7 @@ body.fixed-top-nav { padding-top: 75px; }
   margin-top: 1.65rem;
 
   > .faculty-section-title {
-    font-size: 1.14rem;
+    font-size: 1.2rem;
     margin-bottom: 0.65rem;
   }
 }
@@ -232,7 +246,7 @@ body.fixed-top-nav { padding-top: 75px; }
     font-size: 1.04rem;
     line-height: 1.85;
     max-width: 45rem;
-    margin: 0 0 3rem;
+    margin: 0 0 2rem;
   }
 
   .research-area + .research-area { margin-top: 3.3rem; }
@@ -248,7 +262,7 @@ body.fixed-top-nav { padding-top: 75px; }
 
   .research-area-heading {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.85rem;
+    font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: -0.025em;
     line-height: 1.3;
@@ -263,11 +277,8 @@ body.fixed-top-nav { padding-top: 75px; }
 
   .research-paper {
     list-style: none;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 7.2rem;
-    align-items: start;
-    gap: 1.1rem;
-    padding: 1.6rem 0;
+    display: block;
+    padding: 1.4rem 0 1.45rem;
     margin: 0;
     border-bottom: 1px solid var(--global-divider-color);
   }
@@ -296,11 +307,12 @@ body.fixed-top-nav { padding-top: 75px; }
   }
 
   .research-paper-action {
-    font-size: 0.84rem;
+    font-size: 0.86rem;
     line-height: 1.6;
-    text-align: right;
-    padding-top: 0.38rem;
-    white-space: nowrap;
+    text-align: left;
+    margin-top: 0.55rem;
+    padding-top: 0;
+    white-space: normal;
 
     a {
       color: var(--research-accent);
@@ -336,20 +348,15 @@ html[data-theme="dark"] .research-archive {
 
 @media (max-width: 680px) {
   .research-archive {
-    .research-intro { margin-bottom: 2.1rem; }
+    .research-intro { margin-bottom: 1.8rem; }
     .research-area + .research-area { margin-top: 2.5rem; }
-    .research-area-heading { font-size: 1.48rem; }
+    .research-area-heading { font-size: 1.43rem; }
     .research-paper {
-      grid-template-columns: minmax(0, 1fr);
-      gap: 0.6rem;
-      padding: 1.35rem 0;
+      padding: 1.15rem 0 1.25rem;
     }
     .research-paper-title { font-size: 1rem; }
     .research-paper-action {
-      grid-column: 1;
-      text-align: left;
-      padding: 0;
-      margin-top: 0.2rem;
+      margin-top: 0.5rem;
     }
   }
 }

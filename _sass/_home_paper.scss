@@ -6,8 +6,8 @@
   --paper-body: #F8F7F3;
   --paper-ink: #293840;
   --paper-muted: #566571;
-  --paper-accent: #795646;
-  --paper-rule: #936d5c;
+  --paper-accent: #4D6476;
+  --paper-rule: #8499A9;
   --paper-mat: #d9dfe1;
   --paper-line: #d8d7d2;
 }
@@ -17,8 +17,8 @@ html[data-theme="dark"] {
   --paper-body: #20262a;
   --paper-ink: #e9ecec;
   --paper-muted: #b8c0c3;
-  --paper-accent: #e0b9aa;
-  --paper-rule: #c79682;
+  --paper-accent: #AEC5D6;
+  --paper-rule: #9CB6C9;
   --paper-mat: #48565e;
   --paper-line: #465056;
 }
@@ -363,7 +363,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
         padding: 1.05rem 0;
         border-bottom: 1px solid var(--paper-line);
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-        font-size: 0.86rem;
+        font-size: 0.93rem;
         line-height: 1.55;
 
         strong {
@@ -390,7 +390,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
         grid-row: 1;
         color: var(--paper-muted);
         text-align: right;
-        font-size: 0.79rem;
+        font-size: 0.86rem;
         white-space: nowrap;
       }
     }
@@ -422,11 +422,11 @@ body.home-paper-theme [role="main"].container.mt-5 {
 
     .home-portrait {
       justify-self: start;
-      max-width: 340px;
+      max-width: 315px;
       width: calc(100% - 17px);
     }
 
-    .home-portrait-frame img { height: 380px; }
+    .home-portrait-frame img { height: 355px; }
     .home-display-name { font-size: clamp(3.15rem, 10vw, 3.9rem); }
     .home-about { padding: 3.7rem 0 4.6rem; }
     .home-about-copy { font-size: 1.12rem; }
@@ -438,14 +438,27 @@ body.home-paper-theme [role="main"].container.mt-5 {
   body.fixed-top-nav { padding-top: 68px; }
   #progress { top: 68px; }
 
+  .navbar .navbar-nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 44px;
+    padding: 0.65rem 0.7rem;
+  }
+  .navbar .navbar-collapse { padding-bottom: 0.45rem; }
+
   .home-editorial {
+    .home-profile-links {
+      gap: 0.35rem 1.35rem;
+      a { min-height: 44px; padding: 0.4rem 0; }
+    }
     .home-display-name { font-size: 3.1rem; }
     .home-position { font-size: 1.12rem; }
     .home-institution { font-size: 1.08rem; }
     .home-hero-summary { font-size: 1.12rem; }
     .home-hero-actions { gap: 1rem 1.4rem; }
     .home-action-primary, .home-action-secondary { font-size: 0.87rem; }
-    .home-portrait-frame img { height: 370px; }
+    .home-portrait-frame img { height: 340px; }
     .home-experience-list li {
       grid-template-columns: 1fr;
       gap: 0.25rem;
