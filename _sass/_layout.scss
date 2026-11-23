@@ -223,6 +223,10 @@ body.fixed-top-nav { padding-top: 75px; }
 
 /* Research: editorial list on its own page, preserving both research areas. */
 .research-archive {
+  // Low-saturation blue-gray accents match the navy home hero.
+  --research-accent: #4D6476;
+  --research-accent-hover: #344D60;
+
   .research-intro {
     color: var(--global-text-color-light);
     font-size: 1.04rem;
@@ -239,7 +243,7 @@ body.fixed-top-nav { padding-top: 75px; }
     align-items: baseline;
     gap: 1.25rem;
     padding-bottom: 0.9rem;
-    border-bottom: 1px solid var(--global-theme-color);
+    border-bottom: 1px solid var(--research-accent);
   }
 
   .research-area-heading {
@@ -299,12 +303,12 @@ body.fixed-top-nav { padding-top: 75px; }
     white-space: nowrap;
 
     a {
-      color: var(--global-theme-color);
+      color: var(--research-accent);
       text-decoration: none;
-      border-bottom: 1px solid var(--global-text-color-light);
+      border-bottom: 1px solid var(--research-accent);
       padding-bottom: 0.2rem;
       &:hover, &:focus-visible {
-        color: var(--global-hover-color);
+        color: var(--research-accent-hover);
         border-color: currentColor;
       }
     }
@@ -323,6 +327,11 @@ body.fixed-top-nav { padding-top: 75px; }
     line-height: 1.6;
     margin: 1.2rem 0 0;
   }
+}
+
+html[data-theme="dark"] .research-archive {
+  --research-accent: #A9BFD0;
+  --research-accent-hover: #D6E4EF;
 }
 
 @media (max-width: 680px) {
