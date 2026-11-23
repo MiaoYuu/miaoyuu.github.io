@@ -241,14 +241,6 @@ body.fixed-top-nav { padding-top: 75px; }
   --research-accent: #4D6476;
   --research-accent-hover: #344D60;
 
-  .research-intro {
-    color: var(--global-text-color-light);
-    font-size: 1.04rem;
-    line-height: 1.85;
-    max-width: 45rem;
-    margin: 0 0 2rem;
-  }
-
   .research-area + .research-area { margin-top: 3.3rem; }
 
   .research-area-header {
@@ -348,7 +340,6 @@ html[data-theme="dark"] .research-archive {
 
 @media (max-width: 680px) {
   .research-archive {
-    .research-intro { margin-bottom: 1.8rem; }
     .research-area + .research-area { margin-top: 2.5rem; }
     .research-area-heading { font-size: 1.43rem; }
     .research-paper {

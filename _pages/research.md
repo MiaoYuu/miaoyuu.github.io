@@ -7,8 +7,6 @@ nav_order: 2
 ---
 
 <div class="research-archive" aria-label="Research papers">
-  <p class="research-intro">My research spans the design of trustworthy AI systems and the study of how digital platforms shape decisions and behavior.</p>
-
   <section class="research-area" aria-label="Agentic AI Systems">
     <div class="research-area-header">
       <h2 class="research-area-heading">Agentic AI Systems</h2>

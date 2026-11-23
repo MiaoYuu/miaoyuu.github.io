@@ -251,32 +251,14 @@ ul.task-list input[type="checkbox"] {
   opacity: 1;
 }
 
-// Compact MY identity mark in the top navigation, consistent across pages.
+// Academic wordmark without a leading monogram, consistent across pages.
 .navbar .navbar-brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0;
   margin-right: auto;
   font-weight: 500;
   text-decoration: none;
-}
-
-.navbar .site-monogram {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 35px;
-  width: 35px;
-  height: 35px;
-  border-radius: 6px;
-  border: 1px solid #D2C9BA;
-  background: #E8E0D2;
-  color: #29312E;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.22rem;
-  font-weight: 700;
-  letter-spacing: -0.085em;
-  padding-right: 0.13rem;
 }
 
 .navbar .site-wordmark {
@@ -302,7 +284,6 @@ ul.task-list input[type="checkbox"] {
 }
 
 @media (min-width: 576px) and (max-width: 870px) {
-  .navbar .site-wordmark { display: none; }
   .navbar.navbar-light .navbar-nav .nav-item .nav-link {
     font-size: 0.84rem;
     padding-left: 0.48rem;
