@@ -127,12 +127,18 @@ body.home-paper-theme [role="main"].container.mt-5 {
   }
 
   .home-institution {
-    color: #cad6e2;
+    color: #e3edf6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     font-size: 1.0625rem; // 17px.
     font-weight: 400;
     line-height: 1.5;
     margin: 0 0 1.65rem;
+
+    // Explicitly style each child to prevent inherited global span colors
+    // from making the affiliation unreadable on the navy hero.
+    > span {
+      color: #e3edf6;
+    }
   }
 
   .home-hero-summary {
