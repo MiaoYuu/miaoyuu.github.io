@@ -13,9 +13,8 @@ social: false
 
 <section class="home-about" id="about" aria-labelledby="home-about-title">
   <div class="home-about-aside">
-    <p class="home-section-label">01 / Introduction</p>
-    <h2 id="home-about-title">About</h2>
     <div class="home-aside-rule" aria-hidden="true"></div>
+    <h2 id="home-about-title">About</h2>
   </div>
 
   <div class="home-about-main">
