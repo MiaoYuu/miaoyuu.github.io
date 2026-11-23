@@ -5,13 +5,13 @@ permalink: /
 subtitle:
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false
 
 news: false
 selected_papers: false
-social: true
+social: false
 ---
 
 
@@ -21,7 +21,12 @@ I am an Assistant Professor of Information Systems at the College of Business, C
 
 My research interests involve (a) examining how algorithms influence human behavior and societal outcomes using econometrics, and (b) developing algorithms to address practical challenges in domains such as public sector services and fraud detection in Fintech, with a particular focus on trustworthy, explainable, and domain-adapted AI.
 
-To learn more about my work, connect with me on [LinkedIn](https://www.linkedin.com/in/miao-y-86a492118/), [Google Scholar](https://scholar.google.com/citations?user=NUOaaFQAAAAJ), or [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013). You are also welcome to [email me](mailto:miaoyu@cityu.edu.hk) about potential collaborations or research discussions.
+<nav class="home-links" aria-label="Contact and academic profiles">
+  <a href="mailto:miaoyu@cityu.edu.hk">Email</a>
+  <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  <a href="https://scholar.google.com/citations?user=NUOaaFQAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+  <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank" rel="noopener noreferrer">SSRN</a>
+</nav>
 
 </div>
 
