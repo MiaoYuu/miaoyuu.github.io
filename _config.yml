@@ -11,14 +11,10 @@ description: >-
   Miao Yu is an Assistant Professor of Information Systems at City University of Hong Kong.
   Research areas include agentic AI systems, digital platforms, and algorithmic decision-making.
 
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+footer_text: "" # Use a clean copyright line; theme credits remain in the project source.
 keywords:  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: M # ⚛ the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-#icon: 🅼 # 使用带圈的大写字母 M 作为 favicon
+icon: favicon-my.svg # Custom MY monogram in assets/img/
 
 url: https://miaoyuu.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
