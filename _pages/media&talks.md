@@ -24,7 +24,7 @@ nav_order: 3
       <article class="faculty-entry">
         <div class="faculty-entry-heading">
           <h3 class="faculty-entry-title">Hong Kong University of Science and Technology (Guangzhou)</h3>
-          <span class="faculty-entry-date">Nov 2026 (scheduled)</span>
+          <span class="faculty-entry-date">Nov 2026 </span>
         </div>
       </article>
       <article class="faculty-entry">
