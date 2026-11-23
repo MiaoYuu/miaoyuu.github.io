@@ -56,37 +56,59 @@ body.sticky-bottom-footer {
 
 // TODO: redefine projects layout.
 
-/* Home: reproduce the approved minimalist layout without text wrapping
-   underneath the portrait (including on narrow screens). */
+/* Home: editorial two-column layout. Text leads; portrait sits at right.
+   Existing biography text and research content are unchanged. */
 .home-fixed-columns {
-  .post-header .post-title {
-    font-size: 2.4rem;
-    letter-spacing: -0.025em;
-  }
-
   > article {
     display: grid;
-    grid-template-columns: minmax(0, 29%) minmax(0, 1fr);
-    column-gap: 1.9rem;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 33%);
+    column-gap: clamp(2rem, 4.5vw, 4rem);
     align-items: start;
 
-    > .profile {
+    > .post-header {
       grid-column: 1;
       grid-row: 1;
+      margin: 0;
+      padding-top: 0.3rem;
+
+      .home-eyebrow {
+        margin: 0 0 0.9rem;
+        color: var(--global-theme-color);
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        line-height: 1.5;
+      }
+
+      .post-title {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(2.6rem, 5vw, 3.5rem);
+        line-height: 1.12;
+        font-weight: 500;
+        letter-spacing: -0.035em;
+      }
+    }
+
+    > .profile {
+      grid-column: 2;
+      grid-row: 1 / span 2;
       width: 100%;
       float: none;
       margin: 0;
+      align-self: start;
 
       img {
         display: block;
         width: 100%;
         height: auto;
-        border-radius: 3px;
+        border-radius: 4px;
         box-shadow: none !important;
       }
     }
 
-    // Expose just the two semantic page sections as grid children.
+    // The authored bio and experience remain semantic siblings in their wrapper.
     > .clearfix {
       display: contents;
 
@@ -98,41 +120,55 @@ body.sticky-bottom-footer {
     }
 
     .home-bio {
-      grid-column: 2;
-      grid-row: 1;
+      grid-column: 1;
+      grid-row: 2;
       min-width: 0;
-      overflow-wrap: anywhere;
+      margin-top: 1.2rem;
 
       p {
         margin: 0 0 1.05rem;
-        line-height: 1.73;
+        line-height: 1.76;
+        overflow-wrap: break-word;
       }
 
-      // Restrained academic-homepage links: ink-colored with a fine underline.
-      a {
-        color: var(--global-text-color);
-        text-decoration: underline;
-        text-decoration-color: var(--global-text-color-light);
-        text-decoration-thickness: 1px;
-        text-underline-offset: 0.18em;
+      .home-links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.7rem 1.45rem;
+        margin: 1.6rem 0 0;
+        padding-top: 1.05rem;
+        border-top: 1px solid var(--global-divider-color);
 
-        &:hover,
-        &:focus-visible {
+        a {
+          display: inline-block;
           color: var(--global-theme-color);
-          text-decoration-color: currentColor;
+          font-size: 0.92rem;
+          font-weight: 600;
+          text-decoration: none;
+          border-bottom: 1px solid transparent;
+          padding-bottom: 0.18rem;
+          transition: color 150ms ease, border-color 150ms ease;
+
+          &:hover,
+          &:focus-visible {
+            color: var(--global-hover-color);
+            border-bottom-color: currentColor;
+          }
         }
       }
     }
 
     .home-experience {
       grid-column: 1 / -1;
-      grid-row: 2;
+      grid-row: 3;
       min-width: 0;
-      margin-top: 2.25rem;
+      margin-top: 3.5rem;
 
       h2 {
+        font-family: Georgia, "Times New Roman", serif;
         font-size: 1.45rem;
-        font-weight: 600;
+        font-weight: 500;
         margin: 0 0 1.35rem;
       }
 
@@ -180,16 +216,8 @@ body.sticky-bottom-footer {
 
     > .social {
       grid-column: 1 / -1;
-      grid-row: 3;
+      grid-row: 4;
       margin-top: 1.7rem;
-
-      .contact-icons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1.35rem;
-        font-size: 1.55rem;
-      }
     }
 
     > h2 {
@@ -198,44 +226,65 @@ body.sticky-bottom-footer {
   }
 }
 
-@media (max-width: 575px) {
-  .home-fixed-columns {
-    .post-header .post-title {
-      font-size: 2rem;
+@media (max-width: 740px) {
+  .home-fixed-columns > article {
+    grid-template-columns: minmax(0, 1fr);
+    column-gap: 0;
+
+    > .post-header {
+      grid-column: 1;
+      grid-row: 1;
     }
 
-    > article {
-      grid-template-columns: minmax(0, 32%) minmax(0, 1fr);
-      column-gap: 0.85rem;
+    > .profile {
+      grid-column: 1;
+      grid-row: 2;
+      width: min(100%, 285px);
+      justify-self: start;
+      margin: 1.35rem 0 0;
+    }
 
-      .home-bio p {
-        font-size: 0.88rem;
-        line-height: 1.62;
-        margin-bottom: 0.85rem;
-      }
+    .home-bio {
+      grid-column: 1;
+      grid-row: 3;
+      margin-top: 1.5rem;
+    }
 
-      .home-experience {
-        margin-top: 1.7rem;
+    .home-experience {
+      grid-column: 1;
+      grid-row: 4;
+      margin-top: 2.7rem;
+    }
 
-        .home-experience-details {
-          display: block;
-
-          span {
-            display: block;
-            margin-top: 0.25rem;
-          }
-        }
-      }
+    > .social {
+      grid-column: 1;
+      grid-row: 5;
     }
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 575px) {
   .home-fixed-columns > article {
-    column-gap: 0.7rem;
+    > .post-header .post-title {
+      font-size: 2.75rem;
+    }
 
     .home-bio p {
-      font-size: 0.84rem;
+      font-size: 0.97rem;
+      line-height: 1.7;
+    }
+
+    .home-experience {
+      margin-top: 2.35rem;
+
+      .home-experience-details {
+        display: block;
+
+        span {
+          display: block;
+          margin-top: 0.25rem;
+        }
+      }
     }
   }
 }
