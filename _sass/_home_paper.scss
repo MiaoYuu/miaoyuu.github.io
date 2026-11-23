@@ -2,6 +2,9 @@
    The Home hero echoes the portrait's cool blue; other pages retain paper neutrals. */
 
 :root {
+  // Two-typeface system: editorial headings and readable interface/body text.
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-reading: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   --paper-hero: #f8f7f3;
   --paper-body: #f8f7f3;
   --paper-ink: #293840;
@@ -24,6 +27,7 @@ html[data-theme="dark"] {
 }
 
 body {
+  font-family: var(--font-reading);
   overflow-x: clip;
 }
 
@@ -35,6 +39,7 @@ body.fixed-top-nav {
 }
 
 .navbar {
+  font-family: var(--font-reading);
   min-height: 75px;
   background-color: var(--paper-hero);
   border-color: var(--paper-line);
@@ -43,7 +48,7 @@ body.fixed-top-nav {
 
 .navbar .site-wordmark {
   color: var(--paper-ink);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-reading);
   font-size: 1.1rem;
   font-weight: 500;
 }
@@ -55,6 +60,7 @@ body.fixed-top-nav {
 }
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  font-family: var(--font-reading);
   color: var(--paper-muted);
 
   &:hover,
@@ -109,7 +115,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
 
   .home-display-name {
     color: #eaf0f5;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: var(--font-display);
     font-size: 2.875rem; // 46px: restrained desktop academic display title.
     line-height: 1.13;
     letter-spacing: -0.025em;
@@ -119,7 +125,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
 
   .home-position {
     color: #e9eef4;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    font-family: var(--font-reading);
     font-size: 1.25rem; // 20px.
     font-weight: 500;
     line-height: 1.48;
@@ -128,7 +134,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
 
   .home-institution {
     color: #e3edf6;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    font-family: var(--font-reading);
     font-size: 1.0625rem; // 17px.
     font-weight: 400;
     line-height: 1.5;
@@ -143,7 +149,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
 
   .home-hero-summary {
     color: #e5edf3;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    font-family: var(--font-reading);
     font-size: 1.1875rem; // 19px.
     font-weight: 400;
     line-height: 1.6;
@@ -160,15 +166,14 @@ body.home-paper-theme [role="main"].container.mt-5 {
     margin: 0;
     border: 0;
 
-    > a,
-    .home-email-menu > summary {
+    > a {
       display: inline-flex;
       align-items: center;
       gap: 0.4rem;
       padding: 0;
       color: #c3d0dc;
       border: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-family: var(--font-reading);
       font-size: 0.875rem; // 14px.
       font-weight: 500;
       text-decoration: none;
@@ -185,66 +190,16 @@ body.home-paper-theme [role="main"].container.mt-5 {
         text-underline-offset: 0.2em;
       }
     }
+  }
 
-    .home-email-menu {
-      position: relative;
-
-      > summary {
-        list-style: none;
-        cursor: pointer;
-
-        &::-webkit-details-marker {
-          display: none;
-        }
-      }
-
-      &[open] > summary {
-        color: #ffffff;
-      }
-    }
-
-    .home-email-options {
-      position: absolute;
-      top: calc(100% + 0.45rem);
-      right: 0;
-      z-index: 10;
-      width: 255px;
-      max-width: calc(100vw - 2rem);
-      padding: 0.85rem 1rem;
-      background-color: #f8f7f3;
-      border: 1px solid #d8d7d2;
-      border-radius: 3px;
-      box-shadow: 0 12px 25px rgba(4, 16, 29, 0.18);
-      color: #293840;
-
-      .home-email-address {
-        display: block;
-        margin-bottom: 0.45rem;
-        padding-bottom: 0.65rem;
-        border-bottom: 1px solid #d8d7d2;
-        color: #293840;
-        font-size: 0.875rem;
-        line-height: 1.5;
-        user-select: text;
-      }
-
-      a {
-        display: block;
-        padding: 0.35rem 0;
-        color: #4d6476;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-        font-size: 0.875rem;
-        line-height: 1.5;
-        text-decoration: none;
-
-        &:hover,
-        &:focus-visible {
-          color: #293840;
-          text-decoration: underline;
-          text-underline-offset: 0.2em;
-        }
-      }
-    }
+  // Always show the address so visitors without a mail handler can copy it.
+  .home-contact-address {
+    margin: 0.65rem 0 0;
+    color: #b9cbda;
+    font-family: var(--font-reading);
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    user-select: text;
   }
 
   .home-portrait {
@@ -327,7 +282,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
     h2 {
       margin: 0 0 1.45rem;
       color: var(--paper-ink);
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: var(--font-display);
       font-size: 1.65rem;
       font-weight: 500;
       line-height: 1.3;
@@ -347,7 +302,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
         align-items: baseline;
         padding: 1.05rem 0;
         border-bottom: 1px solid var(--paper-line);
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+        font-family: var(--font-reading);
         font-size: 0.93rem;
         line-height: 1.55;
 
@@ -493,8 +448,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
       align-items: center;
       gap: 0.15rem 1.65rem;
 
-      > a,
-      .home-email-menu > summary {
+      > a {
         min-height: 44px;
         padding: 0.4rem 0;
       }

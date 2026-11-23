@@ -48,7 +48,7 @@ body.sticky-bottom-footer > [role="main"] {
 
 // Refined, editorial-style titles without changing body copy or page structure.
 .post-header .post-title {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-display);
   letter-spacing: -0.025em;
 }
 
@@ -81,7 +81,7 @@ body.fixed-top-nav {
     margin-bottom: 2.1rem;
 
     .post-title {
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: var(--font-display);
       font-size: clamp(2.35rem, 3.35vw, 2.9rem);
       font-weight: 500;
       line-height: 1.2;
@@ -107,7 +107,7 @@ body.fixed-top-nav {
   }
 
   .faculty-section-title {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: var(--font-display);
     font-size: 1.6rem;
     line-height: 1.4;
     font-weight: 500;
@@ -126,6 +126,7 @@ body.fixed-top-nav {
   }
 
   .faculty-entry-title {
+    font-family: var(--font-reading);
     font-size: 1.06rem;
     font-weight: 600;
     line-height: 1.52;
@@ -271,7 +272,7 @@ body.fixed-top-nav {
   }
 
   .research-area-heading {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: var(--font-display);
     font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: -0.025em;
@@ -295,6 +296,7 @@ body.fixed-top-nav {
 
   .research-paper-title {
     color: var(--global-text-color);
+    font-family: var(--font-reading);
     font-size: 1.06rem;
     font-weight: 600;
     line-height: 1.55;

@@ -33,20 +33,9 @@ layout: default
         <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank" rel="noopener noreferrer"
           ><i class="ti ti-book-2" aria-hidden="true"></i> SSRN</a
         >
-        <details class="home-email-menu">
-          <summary><i class="ti ti-mail" aria-hidden="true"></i> Email</summary>
-          <div class="home-email-options">
-            <span class="home-email-address">{{ site.email }}</span>
-            <a href="mailto:{{ site.email }}">Open mail app</a>
-            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to={{ site.email | url_encode }}" target="_blank" rel="noopener noreferrer"
-              >Compose in Gmail ↗</a
-            >
-            <a href="https://outlook.office.com/mail/deeplink/compose?to={{ site.email | url_encode }}" target="_blank" rel="noopener noreferrer"
-              >Compose in Outlook ↗</a
-            >
-          </div>
-        </details>
+        <a href="mailto:{{ site.email }}"><i class="ti ti-mail" aria-hidden="true"></i> Email</a>
       </nav>
+      <p class="home-contact-address">{{ site.email }}</p>
     </div>
 
     {% if page.profile and page.profile.image %}
