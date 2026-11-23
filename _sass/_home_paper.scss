@@ -152,6 +152,26 @@ body.home-paper-theme [role="main"].container.mt-5 {
   }
 
   // Lightweight text navigation instead of filled buttons or pill controls.
+  .home-research-label {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: #cbd7e2;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    font-size: 0.77rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    line-height: 1.6;
+    text-transform: uppercase;
+  }
+
+  .home-research-topics {
+    display: block;
+    color: #e9f0f6;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.16rem, 1.6vw, 1.42rem);
+    line-height: 1.52;
+  }
+
   .home-hero-actions {
     display: flex;
     align-items: center;
