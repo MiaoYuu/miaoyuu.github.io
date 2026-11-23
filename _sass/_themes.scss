@@ -3,19 +3,19 @@
  ******************************************************************************/
 
 :root {
-  // Warm editorial academic palette: ivory canvas, charcoal ink, forest-green accents.
+  // Warm ivory canvas, ink-blue type and refined blue links (navy hero is homepage-only).
   --global-bg-color: #F7F4ED;
   --global-code-bg-color: rgba(49, 91, 82, 0.06);
-  --global-text-color: #29312E;
-  --global-text-color-light: #66726C;
-  --global-theme-color: #315B52;
-  --global-hover-color: #23483F;
+  --global-text-color: #293443;
+  --global-text-color-light: #627080;
+  --global-theme-color: #236AB8;
+  --global-hover-color: #18538F;
   --global-hover-text-color: #FFFCF7;
   --global-footer-bg-color: #F7F4ED;
   --global-footer-text-color: #66726C;
-  --global-footer-link-color: #315B52;
+  --global-footer-link-color: #236AB8;
   --global-distill-app-color: #66726C;
-  --global-divider-color: #DCD7CC;
+  --global-divider-color: #DDD9D1;
   --global-card-bg-color: #FFFCF7;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
@@ -74,12 +74,12 @@ html[data-theme="dark"] {
   --global-code-bg-color: #27332F;
   --global-text-color: #EFECE4;
   --global-text-color-light: #B5BDB4;
-  --global-theme-color: #B6D5C8;
-  --global-hover-color: #DCEBE4;
+  --global-theme-color: #9CC9FA;
+  --global-hover-color: #D4E7FE;
   --global-hover-text-color: #202725;
   --global-footer-bg-color: #202725;
   --global-footer-text-color: #B5BDB4;
-  --global-footer-link-color: #B6D5C8;
+  --global-footer-link-color: #9CC9FA;
   --global-distill-app-color: #B5BDB4;
   --global-divider-color: #46524B;
   --global-card-bg-color: #29332E;
