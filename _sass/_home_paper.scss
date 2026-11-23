@@ -1,0 +1,453 @@
+/* Paper Editorial — warm neutral academic visual system, distinct from
+   the former navy Xinyu-inspired treatment. Pages remain independent. */
+
+:root {
+  --paper-hero: #f7f5f0;
+  --paper-body: #fcfbf8;
+  --paper-ink: #293840;
+  --paper-muted: #566571;
+  --paper-accent: #795646;
+  --paper-rule: #936d5c;
+  --paper-mat: #d9dfe1;
+  --paper-line: #d8d7d2;
+}
+
+html[data-theme="dark"] {
+  --paper-hero: #252d32;
+  --paper-body: #20262a;
+  --paper-ink: #e9ecec;
+  --paper-muted: #b8c0c3;
+  --paper-accent: #e0b9aa;
+  --paper-rule: #c79682;
+  --paper-mat: #48565e;
+  --paper-line: #465056;
+}
+
+body {
+  overflow-x: clip;
+}
+
+body.fixed-top-nav { padding-top: 75px; }
+#progress { top: 75px; }
+
+.navbar {
+  min-height: 75px;
+  background-color: var(--paper-hero);
+  border-color: var(--paper-line);
+  box-shadow: none;
+}
+
+.navbar .site-monogram {
+  width: 33px;
+  height: 33px;
+  flex: 0 0 33px;
+  background: transparent;
+  border: 1px solid var(--paper-muted);
+  border-radius: 0;
+  color: var(--paper-ink);
+  font-size: 1.08rem;
+  font-weight: 600;
+  padding-right: 0;
+  letter-spacing: -0.055em;
+}
+
+.navbar .site-wordmark {
+  color: var(--paper-ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  color: var(--paper-ink);
+  font-weight: 600;
+  box-shadow: inset 0 -1px 0 var(--paper-rule);
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: var(--paper-muted);
+
+  &:hover,
+  &:focus-visible { color: var(--paper-ink); }
+}
+
+body.home-paper-theme [role="main"].container.mt-5 {
+  margin-top: 0 !important;
+}
+
+.home-editorial {
+  color: var(--paper-ink);
+
+  .home-hero {
+    position: relative;
+    isolation: isolate;
+    display: grid;
+    grid-template-columns: minmax(0, 1.44fr) minmax(0, 0.85fr);
+    column-gap: clamp(3.2rem, 7.5vw, 8rem);
+    align-items: center;
+    min-height: 575px;
+    padding: 4.8rem 0 5.2rem;
+
+    // Full-width neutral Hero, aligned inside the site container.
+    &::before {
+      content: "";
+      position: absolute;
+      inset-block: 0;
+      left: 50%;
+      width: 100vw;
+      transform: translateX(-50%);
+      background-color: var(--paper-hero);
+      z-index: -1;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 100vw;
+      transform: translateX(-50%);
+      border-bottom: 1px solid var(--paper-line);
+    }
+  }
+
+  .home-hero-content { min-width: 0; }
+
+  .home-display-name {
+    color: var(--paper-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(3.35rem, 4.4vw, 4.3rem);
+    line-height: 1.08;
+    letter-spacing: -0.045em;
+    font-weight: 500;
+    margin: 0 0 1rem;
+  }
+
+  .home-position {
+    color: var(--paper-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.2rem, 1.7vw, 1.48rem);
+    font-weight: 400;
+    line-height: 1.43;
+    margin: 0;
+  }
+
+  .home-institution {
+    color: var(--paper-muted);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.16rem, 1.55vw, 1.34rem);
+    font-weight: 400;
+    line-height: 1.48;
+    margin: 0 0 2rem;
+  }
+
+  .home-hero-summary {
+    color: var(--paper-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.22rem, 1.64vw, 1.46rem);
+    font-weight: 400;
+    line-height: 1.58;
+    max-width: 38.5rem;
+    margin: 0 0 1.75rem;
+  }
+
+  // Two literary-style navigational links, not a copy of the reference CTAs.
+  .home-hero-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem 2rem;
+    margin: 0 0 2rem;
+  }
+
+  .home-action-primary,
+  .home-action-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 34px;
+    gap: 0.6rem;
+    padding: 0 0 0.32rem;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid currentColor;
+    border-radius: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    font-size: 0.91rem;
+    font-weight: 600;
+    line-height: 1.45;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      background: transparent;
+      text-decoration: none;
+      transform: none;
+    }
+
+    span {
+      font-size: 1.06rem;
+      line-height: 1;
+      transition: transform 150ms ease;
+    }
+
+    &:hover span,
+    &:focus-visible span { transform: translate(2px, -2px); }
+  }
+
+  .home-action-primary {
+    color: var(--paper-ink);
+
+    &:hover,
+    &:focus-visible {
+      color: var(--paper-accent);
+      border-color: var(--paper-accent);
+    }
+  }
+
+  .home-action-secondary {
+    color: var(--paper-accent);
+    font-weight: 500;
+    border-color: var(--paper-rule);
+
+    &:hover,
+    &:focus-visible {
+      color: var(--paper-ink);
+      border-color: var(--paper-ink);
+    }
+  }
+
+  .home-profile-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.4rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0;
+      color: var(--paper-muted);
+      border: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      text-decoration: none;
+
+      i { font-size: 1rem; }
+
+      &:hover,
+      &:focus-visible {
+        color: var(--paper-ink);
+        border: 0;
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+      }
+    }
+  }
+
+  .home-portrait {
+    width: 100%;
+    max-width: 365px;
+    position: relative;
+    justify-self: end;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -17px;
+      top: 28px;
+      bottom: 28px;
+      width: 1px;
+      background: var(--paper-rule);
+      opacity: 0.7;
+      pointer-events: none;
+    }
+  }
+
+  .home-portrait-frame {
+    padding: 7px;
+    background: var(--paper-mat);
+    border: 0;
+    box-shadow: none;
+
+    &::after { content: none; }
+    figure, picture { display: block; margin: 0; }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 424px;
+      border: 0;
+      border-radius: 0;
+      object-fit: cover;
+      object-position: center 18%;
+      box-shadow: none !important;
+    }
+  }
+
+  .home-about {
+    display: block;
+    border: 0;
+    margin: 0;
+    padding: 4.8rem 0 5.2rem;
+    max-width: 960px;
+    scroll-margin-top: 90px;
+  }
+
+  .home-about-marker {
+    width: 50px;
+    height: 2px;
+    background: var(--paper-rule);
+    margin: 0 0 1.9rem;
+  }
+
+  .home-about-main { min-width: 0; max-width: 960px; }
+
+  .home-about-copy {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.13rem, 1.55vw, 1.3rem);
+    line-height: 1.78;
+    max-width: 790px;
+    color: var(--paper-ink);
+
+    p {
+      color: var(--paper-ink);
+      margin: 0 0 1.25rem;
+    }
+  }
+
+  .home-experience {
+    max-width: 925px;
+    padding: 1.6rem 0 0;
+    margin: 3.25rem 0 0;
+    border-top: 1px solid var(--paper-line);
+
+    h2 {
+      margin: 0 0 1.45rem;
+      color: var(--paper-ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.65rem;
+      font-weight: 500;
+      line-height: 1.3;
+      letter-spacing: -0.02em;
+    }
+
+    .home-experience-list {
+      padding: 0;
+      margin: 0;
+      border-top: 1px solid var(--paper-line);
+      list-style: none;
+
+      li {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1.65fr) auto;
+        gap: 1.1rem;
+        align-items: baseline;
+        padding: 1.05rem 0;
+        border-bottom: 1px solid var(--paper-line);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+        font-size: 0.86rem;
+        line-height: 1.55;
+
+        strong {
+          grid-column: 1;
+          grid-row: 1;
+          font-weight: 600;
+          color: var(--paper-ink);
+        }
+      }
+    }
+
+    .home-experience-details {
+      display: contents;
+
+      em {
+        grid-column: 2;
+        grid-row: 1;
+        font-style: normal;
+        color: var(--paper-muted);
+      }
+
+      span {
+        grid-column: 3;
+        grid-row: 1;
+        color: var(--paper-muted);
+        text-align: right;
+        font-size: 0.79rem;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+@media (max-width: 1020px) {
+  .home-editorial {
+    .home-hero {
+      gap: 2.8rem;
+      min-height: 520px;
+      padding: 4rem 0 4.5rem;
+    }
+
+    .home-display-name { font-size: 3.6rem; }
+    .home-hero-summary { font-size: 1.25rem; }
+    .home-portrait-frame img { height: 390px; }
+  }
+}
+
+@media (max-width: 740px) {
+  .home-editorial {
+    .home-hero {
+      grid-template-columns: 1fr;
+      gap: 2.4rem;
+      min-height: 0;
+      padding: 3.4rem 0 4.1rem;
+    }
+
+    .home-portrait {
+      justify-self: start;
+      max-width: 340px;
+      width: calc(100% - 17px);
+    }
+
+    .home-portrait-frame img { height: 380px; }
+    .home-display-name { font-size: clamp(3.15rem, 10vw, 3.9rem); }
+    .home-about { padding: 3.7rem 0 4.6rem; }
+    .home-about-copy { font-size: 1.12rem; }
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar { min-height: 68px; }
+  body.fixed-top-nav { padding-top: 68px; }
+  #progress { top: 68px; }
+
+  .home-editorial {
+    .home-display-name { font-size: 3.1rem; }
+    .home-position { font-size: 1.12rem; }
+    .home-institution { font-size: 1.08rem; }
+    .home-hero-summary { font-size: 1.12rem; }
+    .home-hero-actions { gap: 1rem 1.4rem; }
+    .home-action-primary, .home-action-secondary { font-size: 0.87rem; }
+    .home-portrait-frame img { height: 370px; }
+    .home-experience-list li {
+      grid-template-columns: 1fr;
+      gap: 0.25rem;
+    }
+    .home-experience-details em {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    .home-experience-details span {
+      grid-column: 1;
+      grid-row: 3;
+      text-align: left;
+      white-space: normal;
+      margin-top: 0.16rem;
+    }
+  }
+}
