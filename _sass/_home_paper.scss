@@ -192,16 +192,6 @@ body.home-paper-theme [role="main"].container.mt-5 {
     }
   }
 
-  // Always show the address so visitors without a mail handler can copy it.
-  .home-contact-address {
-    margin: 0.65rem 0 0;
-    color: #b9cbda;
-    font-family: var(--font-reading);
-    font-size: 0.8125rem;
-    line-height: 1.5;
-    user-select: text;
-  }
-
   .home-portrait {
     width: 100%;
     max-width: 365px;
