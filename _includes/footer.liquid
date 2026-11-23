@@ -1,7 +1,11 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      &copy; {{ site.time | date: '%Y' }} {{ site.first_name }}{% if site.middle_name != blank %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% if site.footer_text != blank %} · {{ site.footer_text }}{% endif %}
+      &copy; {{ site.time | date: '%Y' }}
+      {{ site.first_name -}}
+      {%- if site.middle_name != blank %} {{ site.middle_name }}{% endif %}
+      {{ site.last_name -}}
+      {%- if site.footer_text != blank %} · {{ site.footer_text }}{% endif %}
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
@@ -17,7 +21,11 @@
     {% endif %}
 
     <div class="container">
-      &copy; {{ site.time | date: '%Y' }} {{ site.first_name }}{% if site.middle_name != blank %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% if site.footer_text != blank %} · {{ site.footer_text }}{% endif %}
+      &copy; {{ site.time | date: '%Y' }}
+      {{ site.first_name -}}
+      {%- if site.middle_name != blank %} {{ site.middle_name }}{% endif %}
+      {{ site.last_name -}}
+      {%- if site.footer_text != blank %} · {{ site.footer_text }}{% endif %}
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
