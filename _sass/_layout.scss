@@ -225,13 +225,25 @@ body.fixed-top-nav { padding-top: 75px; }
 }
 
 
-// Invited Talks is a subsection of Conferences: keep its heading visually subordinate.
+// Invited Talks remains nested semantically, but all section titles share
+// the same visual size and rhythm across Media & Talks.
 .faculty-media-talks > .faculty-section > .faculty-section {
-  margin-top: 1.65rem;
+  margin-top: 1.9rem;
 
   > .faculty-section-title {
-    font-size: 1.2rem;
-    margin-bottom: 0.65rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .faculty-media-talks > .faculty-section > .faculty-section {
+    margin-top: 1.5rem;
+
+    > .faculty-section-title {
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+    }
   }
 }
 
