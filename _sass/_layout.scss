@@ -74,14 +74,14 @@ body.fixed-top-nav { padding-top: 75px; }
   margin-left: auto;
 
   > .post-header {
-    margin-bottom: 2.4rem;
+    margin-bottom: 2.1rem;
 
     .post-title {
       font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(2.65rem, 4.2vw, 3.35rem);
+      font-size: clamp(2.35rem, 3.35vw, 2.9rem);
       font-weight: 500;
-      line-height: 1.15;
-      letter-spacing: -0.032em;
+      line-height: 1.2;
+      letter-spacing: -0.025em;
     }
     .post-description:empty { display: none; }
   }
