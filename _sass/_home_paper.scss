@@ -2,8 +2,8 @@
    The Home hero echoes the portrait's cool blue; other pages retain paper neutrals. */
 
 :root {
-  --paper-hero: #f7f5f0;
-  --paper-body: #fcfbf8;
+  --paper-hero: #F8F7F3;
+  --paper-body: #F8F7F3;
   --paper-ink: #293840;
   --paper-muted: #566571;
   --paper-accent: #795646;
@@ -96,7 +96,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
       left: 50%;
       width: 100vw;
       transform: translateX(-50%);
-      background: linear-gradient(115deg, #10243b 0%, #162e46 100%);
+      background: linear-gradient(115deg, #12273D 0%, #192F46 100%);
       z-index: -1;
     }
 
@@ -114,7 +114,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
   .home-hero-content { min-width: 0; }
 
   .home-display-name {
-    color: #f4f6f8;
+    color: #EAF0F5;
     font-family: Georgia, "Times New Roman", serif;
     font-size: clamp(3.35rem, 4.4vw, 4.3rem);
     line-height: 1.08;
@@ -468,7 +468,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
 /* Only Home has a navy navigation bar. Interior pages keep the paper palette. */
 body.home-paper-theme {
   .navbar.navbar-light {
-    background: #10243b;
+    background: #12273D;
     border-bottom-color: rgba(227, 238, 246, 0.15);
 
     .navbar-brand,
