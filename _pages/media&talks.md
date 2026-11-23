@@ -19,7 +19,6 @@ nav_order: 3
     </div>
   </section>
 
-  </section>
   <section class="faculty-section">
     <h2 class="faculty-section-title">Conferences</h2>
     <div class="faculty-list">
@@ -55,45 +54,46 @@ nav_order: 3
         </div>
       </article>
     </div>
-  </section>
     <section class="faculty-section">
-    <h2 class="faculty-section-title">Invited Talks</h2>
-    <div class="faculty-list">
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">Hong Kong University of Science and Technology (Guangzhou)</h3>
-          <span class="faculty-entry-date">Nov 2026 </span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">City University of Hong Kong</h3>
-          <span class="faculty-entry-date">Feb 2026</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">Shanghai Jiao Tong University</h3>
-          <span class="faculty-entry-date">December 2025</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">University of Queensland</h3>
-          <span class="faculty-entry-date">December 2025</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">University of Macau</h3>
-          <span class="faculty-entry-date">November 2025</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">Renmin University of China</h3>
-          <span class="faculty-entry-date">November 2025</span>
-        </div>
-      </article>
-    </div>
+      <h3 class="faculty-section-title">Invited Talks</h3>
+      <div class="faculty-list">
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">Hong Kong University of Science and Technology (Guangzhou)</h3>
+            <span class="faculty-entry-date">Nov 2026 </span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">City University of Hong Kong</h3>
+            <span class="faculty-entry-date">Feb 2026</span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">Shanghai Jiao Tong University</h3>
+            <span class="faculty-entry-date">December 2025</span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">University of Queensland</h3>
+            <span class="faculty-entry-date">December 2025</span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">University of Macau</h3>
+            <span class="faculty-entry-date">November 2025</span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">Renmin University of China</h3>
+            <span class="faculty-entry-date">November 2025</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </section>
 </div>
