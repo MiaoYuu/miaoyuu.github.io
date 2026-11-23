@@ -3,20 +3,20 @@
  ******************************************************************************/
 
 :root {
-  // Warm ivory canvas, ink-blue type and refined blue links (navy hero is homepage-only).
-  --global-bg-color: #F7F4ED;
-  --global-code-bg-color: rgba(49, 91, 82, 0.06);
-  --global-text-color: #293443;
-  --global-text-color-light: #627080;
-  --global-theme-color: #236AB8;
-  --global-hover-color: #18538F;
-  --global-hover-text-color: #FFFCF7;
-  --global-footer-bg-color: #F7F4ED;
-  --global-footer-text-color: #66726C;
-  --global-footer-link-color: #236AB8;
-  --global-distill-app-color: #66726C;
-  --global-divider-color: #DDD9D1;
-  --global-card-bg-color: #FFFCF7;
+  // Paper Editorial: warm off-white, graphite ink, and a restrained clay accent.
+  --global-bg-color: #FCFBF8;
+  --global-code-bg-color: rgba(41, 56, 64, 0.05);
+  --global-text-color: #293840;
+  --global-text-color-light: #6C7678;
+  --global-theme-color: #795646;
+  --global-hover-color: #543B32;
+  --global-hover-text-color: #FFFFFF;
+  --global-footer-bg-color: #FCFBF8;
+  --global-footer-text-color: #6C7678;
+  --global-footer-link-color: #795646;
+  --global-distill-app-color: #6C7678;
+  --global-divider-color: #D8D7D2;
+  --global-card-bg-color: #F5F1E9;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
@@ -69,20 +69,20 @@
 }
 
 html[data-theme="dark"] {
-  // The same warm and forest-green design language, tuned for dark-mode contrast.
-  --global-bg-color: #202725;
-  --global-code-bg-color: #27332F;
-  --global-text-color: #EFECE4;
-  --global-text-color-light: #B5BDB4;
-  --global-theme-color: #9CC9FA;
-  --global-hover-color: #D4E7FE;
-  --global-hover-text-color: #202725;
-  --global-footer-bg-color: #202725;
-  --global-footer-text-color: #B5BDB4;
-  --global-footer-link-color: #9CC9FA;
-  --global-distill-app-color: #B5BDB4;
-  --global-divider-color: #46524B;
-  --global-card-bg-color: #29332E;
+  // Dark-mode complement of the paper palette, retaining accessible contrast.
+  --global-bg-color: #20262A;
+  --global-code-bg-color: #2D3539;
+  --global-text-color: #E9ECEC;
+  --global-text-color-light: #B8C0C3;
+  --global-theme-color: #E0B9AA;
+  --global-hover-color: #F1D4C8;
+  --global-hover-text-color: #20262A;
+  --global-footer-bg-color: #20262A;
+  --global-footer-text-color: #B8C0C3;
+  --global-footer-link-color: #E0B9AA;
+  --global-distill-app-color: #B8C0C3;
+  --global-divider-color: #465056;
+  --global-card-bg-color: #2D3539;
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
