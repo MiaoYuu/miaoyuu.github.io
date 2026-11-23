@@ -1,64 +1,50 @@
 ---
 layout: default
 ---
-<div class="post home-fixed-columns">
-  <article>
-    <header class="post-header home-hero-header">
+<div class="post home-editorial">
+  <section class="home-hero" aria-labelledby="home-name">
+    <div class="home-hero-content">
       <p class="home-eyebrow">Information Systems · City University of Hong Kong</p>
-      <h1 class="post-title">
+      <h1 class="home-display-name" id="home-name">
         {% if site.title == 'blank' %}
-          <strong>{{ site.first_name }}</strong> {{ site.middle_name }} {{ site.last_name }}
+          {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
         {% else %}
           {{ site.title }}
         {% endif %}
       </h1>
-    </header>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+      <p class="home-position">Assistant Professor of Information Systems</p>
+      <p class="home-institution">College of Business · City University of Hong Kong</p>
+      <p class="home-hero-summary">I study how algorithms shape human behavior on digital platforms and design trustworthy AI systems for real-world decision-making.</p>
+      <div class="home-hero-actions">
+        <a class="home-action-primary" href="{{ '/Research/' | relative_url }}">Explore research <span aria-hidden="true">↗</span></a>
+        <a class="home-action-secondary" href="mailto:{{ site.email }}?subject=Research%20Collaboration">Research collaboration <span aria-hidden="true">↗</span></a>
+      </div>
+      <nav class="home-profile-links" aria-label="Academic and contact links">
+        <a href="mailto:{{ site.email }}">Email</a>
+        <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank" rel="noopener noreferrer">SSRN</a>
+      </nav>
+    </div>
+
+    {% if page.profile and page.profile.image %}
+      <div class="home-portrait">
+        <div class="home-portrait-frame">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Portrait of Miao Yu"
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+          {% capture portrait_sizes %}(min-width: 1100px) 360px, (min-width: 760px) 32vw, 90vw{% endcapture %}
+          {% include figure.liquid loading="eager" path=profile_image_path sizes=portrait_sizes alt="Portrait of Miao Yu" cache_bust=true %}
+        </div>
+        <p class="home-portrait-caption">Miao Yu · City University of Hong Kong</p>
       </div>
     {% endif %}
+  </section>
 
-    <div class="clearfix">{{ content }}</div>
+  {{ content }}
 
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-  
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter.enabled and site.footer_fixed %}
-      {% include scripts/newsletter.liquid center=true %}
-    {% endif %}
-  </article>
+  <section class="home-contact" aria-labelledby="home-contact-title">
+    <p class="home-section-label">Research collaboration</p>
+    <h2 id="home-contact-title">Let’s connect.</h2>
+    <p>For research discussions, collaboration, and academic exchange.</p>
+    <a href="mailto:{{ site.email }}" class="home-action-primary">Email Miao Yu <span aria-hidden="true">↗</span></a>
+  </section>
 </div>
