@@ -6,18 +6,29 @@ layout: default
     <div class="home-hero-content">
       <h1 class="home-display-name" id="home-name">
         {% if site.title == 'blank' %}
-          {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+          {{ site.first_name }}
+          {{ site.middle_name }}
+          {{ site.last_name }}
         {% else %}
           {{ site.title }}
         {% endif %}
       </h1>
       <p class="home-position">Assistant Professor of Information Systems</p>
       <p class="home-institution">College of Business · City University of Hong Kong</p>
-      <p class="home-hero-summary">My research examines how algorithms shape human behavior and welfare on digital platforms, and develops trustworthy AI systems for decision-making in business and public services.</p>
+      <p class="home-hero-summary">
+        My research examines how algorithms shape human behavior and welfare on digital platforms, and develops trustworthy AI systems for
+        decision-making in business and public services.
+      </p>
       <nav class="home-profile-links" aria-label="Academic and contact links">
-        <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn</a>
-        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer"><i class="ti ti-school" aria-hidden="true"></i> Google Scholar</a>
-        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank" rel="noopener noreferrer"><i class="ti ti-book-2" aria-hidden="true"></i> SSRN</a>
+        <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank" rel="noopener noreferrer"
+          ><i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn</a
+        >
+        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer"
+          ><i class="ti ti-school" aria-hidden="true"></i> Google Scholar</a
+        >
+        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4796013" target="_blank" rel="noopener noreferrer"
+          ><i class="ti ti-book-2" aria-hidden="true"></i> SSRN</a
+        >
         <a href="mailto:{{ site.email }}"><i class="ti ti-mail" aria-hidden="true"></i> Email</a>
       </nav>
     </div>

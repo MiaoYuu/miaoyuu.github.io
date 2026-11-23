@@ -65,8 +65,12 @@ body.sticky-bottom-footer > [role="main"] {
 // TODO: redefine projects layout.
 
 /* Shared spacing and type hierarchy for the four independent pages. */
-body.fixed-top-nav { padding-top: 75px; }
-#progress { top: 75px; }
+body.fixed-top-nav {
+  padding-top: 75px;
+}
+#progress {
+  top: 75px;
+}
 
 [role="main"] > .post:not(.home-editorial) {
   max-width: 980px;
@@ -83,7 +87,9 @@ body.fixed-top-nav { padding-top: 75px; }
       line-height: 1.2;
       letter-spacing: -0.025em;
     }
-    .post-description:empty { display: none; }
+    .post-description:empty {
+      display: none;
+    }
   }
 }
 
@@ -203,7 +209,9 @@ body.fixed-top-nav { padding-top: 75px; }
       margin-top: 1.5rem;
     }
 
-    .faculty-section-title { font-size: 1.4rem; }
+    .faculty-section-title {
+      font-size: 1.4rem;
+    }
 
     .faculty-entry {
       padding: 0.9rem 0 0.98rem;
@@ -224,7 +232,6 @@ body.fixed-top-nav { padding-top: 75px; }
   }
 }
 
-
 // All three Media & Talks headings now share the same hierarchy.
 .faculty-media-talks .faculty-entry-action {
   margin-top: 0.55rem;
@@ -235,17 +242,22 @@ body.fixed-top-nav { padding-top: 75px; }
     text-decoration: none;
     border-bottom: 1px solid currentColor;
     padding-bottom: 0.2rem;
-    &:hover, &:focus-visible { color: var(--global-hover-color); }
+    &:hover,
+    &:focus-visible {
+      color: var(--global-hover-color);
+    }
   }
 }
 
 /* Research: editorial list on its own page, preserving both research areas. */
 .research-archive {
   // Low-saturation blue-gray accents match the navy home hero.
-  --research-accent: #4D6476;
-  --research-accent-hover: #344D60;
+  --research-accent: #4d6476;
+  --research-accent-hover: #344d60;
 
-  .research-area + .research-area { margin-top: 3.3rem; }
+  .research-area + .research-area {
+    margin-top: 3.3rem;
+  }
 
   .research-area-header {
     display: flex;
@@ -315,7 +327,8 @@ body.fixed-top-nav { padding-top: 75px; }
       text-decoration: none;
       border-bottom: 1px solid var(--research-accent);
       padding-bottom: 0.2rem;
-      &:hover, &:focus-visible {
+      &:hover,
+      &:focus-visible {
         color: var(--research-accent-hover);
         border-color: currentColor;
       }
@@ -338,18 +351,24 @@ body.fixed-top-nav { padding-top: 75px; }
 }
 
 html[data-theme="dark"] .research-archive {
-  --research-accent: #A9BFD0;
-  --research-accent-hover: #D6E4EF;
+  --research-accent: #a9bfd0;
+  --research-accent-hover: #d6e4ef;
 }
 
 @media (max-width: 680px) {
   .research-archive {
-    .research-area + .research-area { margin-top: 2.5rem; }
-    .research-area-heading { font-size: 1.43rem; }
+    .research-area + .research-area {
+      margin-top: 2.5rem;
+    }
+    .research-area-heading {
+      font-size: 1.43rem;
+    }
     .research-paper {
       padding: 1rem 0 1.08rem;
     }
-    .research-paper-title { font-size: 1rem; }
+    .research-paper-title {
+      font-size: 1rem;
+    }
     .research-paper-action {
       margin-top: 0.5rem;
     }

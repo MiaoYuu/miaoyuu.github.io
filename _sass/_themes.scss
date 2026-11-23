@@ -4,19 +4,19 @@
 
 :root {
   // Paper Editorial: warm off-white, graphite ink, and a restrained blue-grey accent.
-  --global-bg-color: #F8F7F3;
+  --global-bg-color: #f8f7f3;
   --global-code-bg-color: rgba(41, 56, 64, 0.05);
   --global-text-color: #293840;
-  --global-text-color-light: #606D72;
-  --global-theme-color: #4D6476;
-  --global-hover-color: #344D60;
-  --global-hover-text-color: #FFFFFF;
-  --global-footer-bg-color: #F8F7F3;
-  --global-footer-text-color: #6C7678;
-  --global-footer-link-color: #4D6476;
-  --global-distill-app-color: #6C7678;
-  --global-divider-color: #D8D7D2;
-  --global-card-bg-color: #F5F1E9;
+  --global-text-color-light: #606d72;
+  --global-theme-color: #4d6476;
+  --global-hover-color: #344d60;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #f8f7f3;
+  --global-footer-text-color: #6c7678;
+  --global-footer-link-color: #4d6476;
+  --global-distill-app-color: #6c7678;
+  --global-divider-color: #d8d7d2;
+  --global-card-bg-color: #f5f1e9;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
@@ -70,19 +70,19 @@
 
 html[data-theme="dark"] {
   // Dark-mode complement of the paper palette, retaining accessible contrast.
-  --global-bg-color: #20262A;
-  --global-code-bg-color: #2D3539;
-  --global-text-color: #E9ECEC;
-  --global-text-color-light: #B8C0C3;
-  --global-theme-color: #E0B9AA;
-  --global-hover-color: #F1D4C8;
-  --global-hover-text-color: #20262A;
-  --global-footer-bg-color: #20262A;
-  --global-footer-text-color: #B8C0C3;
-  --global-footer-link-color: #E0B9AA;
-  --global-distill-app-color: #B8C0C3;
+  --global-bg-color: #20262a;
+  --global-code-bg-color: #2d3539;
+  --global-text-color: #e9ecec;
+  --global-text-color-light: #b8c0c3;
+  --global-theme-color: #e0b9aa;
+  --global-hover-color: #f1d4c8;
+  --global-hover-text-color: #20262a;
+  --global-footer-bg-color: #20262a;
+  --global-footer-text-color: #b8c0c3;
+  --global-footer-link-color: #e0b9aa;
+  --global-distill-app-color: #b8c0c3;
   --global-divider-color: #465056;
-  --global-card-bg-color: #2D3539;
+  --global-card-bg-color: #2d3539;
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};

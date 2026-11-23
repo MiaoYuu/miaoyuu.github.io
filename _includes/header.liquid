@@ -6,7 +6,9 @@
       <a class="navbar-brand title" href="{{ '/' | relative_url }}" aria-label="Miao Yu, home">
         <span class="site-wordmark">
           {% if site.title == 'blank' %}
-            {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+            {{ site.first_name }}
+            {{ site.middle_name }}
+            {{ site.last_name }}
           {% else %}
             {{ site.title }}
           {% endif %}

@@ -41,5 +41,3 @@ social: false
     </div>
   </div>
 </section>
-
-

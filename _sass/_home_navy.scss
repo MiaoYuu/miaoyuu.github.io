@@ -27,7 +27,9 @@ body.home-dark-header {
       color: #cbd8e8;
 
       &:hover,
-      &:focus-visible { color: #ffffff; }
+      &:focus-visible {
+        color: #ffffff;
+      }
     }
 
     .navbar-nav .nav-item.active > .nav-link {
@@ -55,7 +57,9 @@ body.home-dark-header {
     color: #edf3fa;
 
     &:hover,
-    &:focus-visible { color: #ffffff; }
+    &:focus-visible {
+      color: #ffffff;
+    }
   }
 }
 
@@ -78,8 +82,7 @@ body.home-dark-header {
       width: 100vw;
       transform: translateX(-50%);
       z-index: -1;
-      background:
-        repeating-linear-gradient(
+      background: repeating-linear-gradient(
           135deg,
           transparent 0,
           transparent 50px,
@@ -236,7 +239,9 @@ body.home-dark-header {
       margin: 0;
     }
 
-    picture { display: block; }
+    picture {
+      display: block;
+    }
 
     img {
       display: block;
@@ -281,7 +286,9 @@ body.home-dark-header {
     }
   }
 
-  .home-about-main { max-width: 790px; }
+  .home-about-main {
+    max-width: 790px;
+  }
 
   .home-about-copy {
     color: var(--global-text-color);
@@ -310,7 +317,9 @@ body.home-dark-header {
     border-top: 1px solid var(--global-divider-color);
     background: var(--global-card-bg-color);
 
-    .home-action-primary { color: #ffffff; }
+    .home-action-primary {
+      color: #ffffff;
+    }
   }
 }
 
@@ -322,10 +331,18 @@ body.home-dark-header {
       padding: 3rem 0 3.7rem;
     }
 
-    .home-display-name { font-size: clamp(3.05rem, 5.5vw, 3.45rem); }
-    .home-portrait-frame img { height: 380px; }
-    .home-hero-summary { font-size: 1.18rem; }
-    .home-about { padding: 3.8rem 0; }
+    .home-display-name {
+      font-size: clamp(3.05rem, 5.5vw, 3.45rem);
+    }
+    .home-portrait-frame img {
+      height: 380px;
+    }
+    .home-hero-summary {
+      font-size: 1.18rem;
+    }
+    .home-about {
+      padding: 3.8rem 0;
+    }
   }
 }
 
@@ -337,10 +354,18 @@ body.home-dark-header {
       padding: 2.65rem 0 3.75rem;
     }
 
-    .home-display-name { font-size: clamp(3.15rem, 10vw, 3.85rem); }
-    .home-institution { margin-bottom: 1.6rem; }
-    .home-hero-summary { font-size: 1.21rem; }
-    .home-profile-links { gap: 0.7rem 1.2rem; }
+    .home-display-name {
+      font-size: clamp(3.15rem, 10vw, 3.85rem);
+    }
+    .home-institution {
+      margin-bottom: 1.6rem;
+    }
+    .home-hero-summary {
+      font-size: 1.21rem;
+    }
+    .home-profile-links {
+      gap: 0.7rem 1.2rem;
+    }
 
     .home-portrait {
       justify-self: start;
@@ -349,18 +374,31 @@ body.home-dark-header {
       margin: 0;
     }
 
-    .home-portrait-frame img { height: 375px; }
-    .home-about { padding: 3.25rem 0 3.6rem; }
-    .home-about-copy { font-size: 1.12rem; line-height: 1.7; }
+    .home-portrait-frame img {
+      height: 375px;
+    }
+    .home-about {
+      padding: 3.25rem 0 3.6rem;
+    }
+    .home-about-copy {
+      font-size: 1.12rem;
+      line-height: 1.7;
+    }
   }
 }
 
 @media (max-width: 575px) {
-  body.home-dark-header .navbar { min-height: 68px; }
+  body.home-dark-header .navbar {
+    min-height: 68px;
+  }
 
   .home-editorial {
-    .home-display-name { font-size: 3.15rem; }
-    .home-hero-actions { gap: 0.65rem; }
+    .home-display-name {
+      font-size: 3.15rem;
+    }
+    .home-hero-actions {
+      gap: 0.65rem;
+    }
 
     .home-action-primary,
     .home-action-secondary {
@@ -368,6 +406,8 @@ body.home-dark-header {
       padding: 0.57rem 0.8rem;
     }
 
-    .home-about-aside h2 { font-size: 1.9rem; }
+    .home-about-aside h2 {
+      font-size: 1.9rem;
+    }
   }
 }

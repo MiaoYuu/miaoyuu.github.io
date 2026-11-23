@@ -292,14 +292,22 @@ ul.task-list input[type="checkbox"] {
 }
 
 @media (max-width: 575px) {
-  .navbar { min-height: 68px; }
-  .navbar .site-wordmark { font-size: 1.12rem; }
+  .navbar {
+    min-height: 68px;
+  }
+  .navbar .site-wordmark {
+    font-size: 1.12rem;
+  }
   .navbar .nav-contact > .nav-link {
     display: inline-block;
     margin-top: 0.45rem;
   }
-  body.fixed-top-nav { padding-top: 68px; }
-  #progress { top: 68px; }
+  body.fixed-top-nav {
+    padding-top: 68px;
+  }
+  #progress {
+    top: 68px;
+  }
 }
 
 .navbar .dropdown-menu {
