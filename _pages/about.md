@@ -11,14 +11,8 @@ selected_papers: false
 social: false
 ---
 
-<section class="home-about" id="about" aria-label="Academic profile and experience">
-  <div class="home-about-marker" aria-hidden="true"></div>
+<section class="home-about" id="about" aria-labelledby="home-experience-heading">
   <div class="home-about-main">
-    <div class="home-about-copy">
-      <p>I am an Assistant Professor of Information Systems at the College of Business, City University of Hong Kong. I received my Ph.D. in Information Systems from the HKU Business School.</p>
-      <p>My research interests involve (a) examining how algorithms influence human behavior and societal outcomes using econometrics, and (b) developing algorithms to address practical challenges in domains such as public sector services and fraud detection in Fintech, with a particular focus on trustworthy, explainable, and domain-adapted AI.</p>
-    </div>
-
     <div class="home-experience" aria-labelledby="home-experience-heading">
       <h2 id="home-experience-heading">Academic &amp; Industry Experience</h2>
       <ul class="home-experience-list">
