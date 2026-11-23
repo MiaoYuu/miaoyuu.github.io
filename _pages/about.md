@@ -26,21 +26,21 @@ social: false
           <strong>City University of Hong Kong</strong>
           <div class="home-experience-details">
             <em>Assistant Professor of Information Systems</em>
-            <span>July 2026 – Present</span>
+            <span>Jul 2026 – Present</span>
           </div>
         </li>
         <li>
           <strong>Ping An Technology</strong>
           <div class="home-experience-details">
             <em>Algorithm Engineer Intern, Risk Control AI Product Team</em>
-            <span>May 2023 – June 2026</span>
+            <span>May 2023 – Jun 2026</span>
           </div>
         </li>
         <li>
           <strong>Meituan</strong>
           <div class="home-experience-details">
             <em>Research Scientist Intern</em>
-            <span>December 2021 – December 2022</span>
+            <span>Dec 2021 – Dec 2022</span>
           </div>
         </li>
       </ul>
