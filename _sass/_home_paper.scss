@@ -2,15 +2,15 @@
    Imported after the base theme so every public page uses the same visual system. */
 :root {
   --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --font-reading: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --font-reading: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   --paper-hero: var(--global-bg-color);
   --paper-body: var(--global-bg-color);
-  --paper-ink: #233447;
+  --paper-ink: #202b37;
   --paper-text: var(--global-text-color);
-  --paper-secondary: #435160;
+  --paper-secondary: #4b5563;
   --paper-muted: var(--global-text-color-light);
   --paper-accent: var(--global-theme-color);
-  --paper-rule: #c9d4df;
+  --paper-rule: #cbd5e1;
   --paper-mat: #e0e6ec;
   --paper-line: var(--global-divider-color);
   --home-panel: #f5f7f9;
@@ -76,7 +76,7 @@ footer.sticky-bottom .container {
   color: var(--paper-secondary);
   background: transparent;
   font-family: var(--font-reading);
-  font-size: 1.0625rem;
+  font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
 }
@@ -194,8 +194,8 @@ body.home-paper-theme [role="main"].container.mt-5 { margin-top: 0 !important; }
 
 .home-editorial .home-hero-summary {
   color: var(--paper-text);
-  font-size: 1.1875rem;
-  line-height: 1.65;
+  font-size: 1.125rem;
+  line-height: 1.7;
   max-width: 65ch;
   margin: 0 0 1.45rem;
   text-wrap: pretty;
