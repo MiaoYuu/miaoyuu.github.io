@@ -209,7 +209,7 @@ body.sticky-bottom-footer > [role="main"] {
 .faculty-page .faculty-service-list li { color: var(--paper-text); }
 .faculty-page .faculty-service-list li + li { margin-top: 0.3rem; }
 
-/* Research: blue section rules, subtle paper dividers, and active-paper accents. */
+/* Research: open section headings, subtle paper dividers, and active-paper accents. */
 [role="main"] > .post.post-research {
   max-width: 880px;
   margin-inline: auto;
@@ -219,16 +219,21 @@ body.sticky-bottom-footer > [role="main"] {
 
 .research-archive .research-area-header {
   display: block;
-  margin: 0 0 1.45rem;
-  padding: 0.85rem 0 0;
+  margin: 0 0 1.5rem;
+  padding: 0;
   border: 0;
-  border-top: 3px solid var(--paper-accent);
 }
 
 .research-archive .research-area-heading {
-  font-size: 1.5rem;
+  font-size: 1.625rem;
   font-weight: 600;
+  letter-spacing: -0.025em;
   margin: 0;
+}
+
+/* Distinguish research streams with whitespace, not decorative rules. */
+.research-archive .research-area + .research-area {
+  margin-top: 3.5rem;
 }
 .research-archive .research-papers { list-style: none; padding: 0; margin: 0; }
 .research-archive .research-paper { display: block; list-style: none; padding: 0; margin: 0; border: 0; }
@@ -460,13 +465,13 @@ body.sticky-bottom-footer > [role="main"] {
   .faculty-page .faculty-entry-heading .faculty-entry-date { text-align: left; white-space: normal; }
 
   [role="main"] > .post.post-research > .post-header { margin-bottom: 1.625rem; }
-  .research-archive .research-area-header { padding-top: 0.75rem; margin-bottom: 1.125rem; }
+  .research-archive .research-area-header { margin-bottom: 1.125rem; }
   .research-archive .research-paper-content::before { inset-inline-start: -0.75rem; width: 2px; }
   .research-archive .research-area-heading { font-size: 1.375rem; }
   .research-archive .research-paper-title { font-size: 1.125rem; line-height: 1.5; }
   .research-archive .research-paper-authors { font-size: 1rem; }
   .research-archive .research-paper + .research-paper { margin-top: 1rem; padding-top: 1.0625rem; }
-  .research-archive .research-area + .research-area { margin-top: 2.5rem; }
+  .research-archive .research-area + .research-area { margin-top: 2.75rem; }
   .research-archive .research-details-body { padding-inline-start: 0.75rem; }
   .research-archive .research-paper-meta { font-size: 0.90625rem; }
   .faculty-page.faculty-media-talks #conference-presentations .faculty-entry + .faculty-entry { margin-top: 1.45rem; }
