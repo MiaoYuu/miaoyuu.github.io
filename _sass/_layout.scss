@@ -471,3 +471,148 @@ html[data-theme="dark"] .research-archive {
     }
   }
 }
+
+
+// Teaching & Service: aligned groups, consistent typography, and a quiet hierarchy.
+.faculty-page.faculty-teaching {
+  .faculty-section {
+    margin-top: 2.8rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .faculty-section-title {
+    color: var(--paper-ink);
+    font-size: 1.5rem;
+    line-height: 1.35;
+    margin: 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--paper-rule);
+  }
+
+  .faculty-subsection {
+    display: grid;
+    grid-template-columns: minmax(0, 13.75rem) minmax(0, 1fr);
+    align-items: start;
+    gap: 0.5rem 2rem;
+    margin: 0;
+    padding: 1.15rem 0;
+    border-bottom: 1px solid var(--paper-line);
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .faculty-subsection-title {
+    color: var(--paper-muted);
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.55;
+    margin: 0;
+    overflow-wrap: break-word;
+  }
+
+  .faculty-list {
+    min-width: 0;
+    border: 0;
+  }
+
+  .faculty-entry {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    & + .faculty-entry {
+      margin-top: 0.95rem;
+    }
+  }
+
+  .faculty-entry-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: baseline;
+    gap: 0.15rem 1.25rem;
+  }
+
+  .faculty-entry-title {
+    color: var(--paper-ink);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.55;
+    margin: 0;
+    min-width: 0;
+  }
+
+  .faculty-entry-date,
+  .faculty-entry-secondary {
+    color: var(--paper-muted);
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+
+  .faculty-entry-date {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .faculty-entry-secondary {
+    margin: 0.18rem 0 0;
+  }
+
+  .faculty-service-list {
+    font-size: 1rem;
+    line-height: 1.55;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      color: var(--paper-ink);
+    }
+
+    li + li {
+      margin-top: 0.45rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .faculty-page.faculty-teaching {
+    .faculty-subsection {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.6rem;
+      padding: 1rem 0;
+    }
+
+    .faculty-section {
+      margin-top: 2.1rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .faculty-page.faculty-teaching {
+    .faculty-section-title {
+      font-size: 1.4rem;
+    }
+
+    .faculty-entry-heading {
+      display: block;
+    }
+
+    .faculty-entry-heading .faculty-entry-date {
+      display: block;
+      margin: 0.15rem 0 0;
+      text-align: left;
+      white-space: normal;
+    }
+  }
+}
