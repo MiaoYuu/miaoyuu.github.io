@@ -24,8 +24,6 @@ nav_order: 2
             <details class="research-paper-details">
               <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
               <div class="research-details-body">
-                <h4>Keywords</h4>
-                <p>Retrieval-Augmented Generation, E-Government, Agentic AI</p>
                 <h4>Selected presentations</h4>
                 <ul>
                   <li>INFORMS Annual Meeting, 2025 · Atlanta, USA</li>
@@ -74,8 +72,6 @@ nav_order: 2
             <details class="research-paper-details">
               <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
               <div class="research-details-body">
-                <h4>Keywords</h4>
-                <p>Estimated Time of Arrival, Gig Economy, Worker Welfare</p>
                 <h4>Selected presentations</h4>
                 <ul>
                   <li>Conference on Information Systems and Technology (CIST), 2025 · Atlanta, USA</li>
