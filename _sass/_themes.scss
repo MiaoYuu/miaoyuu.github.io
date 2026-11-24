@@ -3,20 +3,20 @@
  ******************************************************************************/
 
 :root {
-  // Paper Editorial: warm off-white, graphite ink, and a muted teal accent.
-  --global-bg-color: #f8f7f3;
-  --global-code-bg-color: rgba(41, 56, 64, 0.05);
-  --global-text-color: #293840;
-  --global-text-color-light: #606d72;
-  --global-theme-color: #386c6d;
-  --global-hover-color: #285158;
+  // Mist Blue: clean white, blue-gray ink, and a muted blue accent.
+  --global-bg-color: #ffffff;
+  --global-code-bg-color: rgba(38, 61, 80, 0.05);
+  --global-text-color: #263d50;
+  --global-text-color-light: #50667a;
+  --global-theme-color: #446681;
+  --global-hover-color: #263f57;
   --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #f8f7f3;
-  --global-footer-text-color: #6c7678;
-  --global-footer-link-color: #386c6d;
-  --global-distill-app-color: #6c7678;
-  --global-divider-color: #d8d7d2;
-  --global-card-bg-color: #f5f1e9;
+  --global-footer-bg-color: #ffffff;
+  --global-footer-text-color: #50667a;
+  --global-footer-link-color: #446681;
+  --global-distill-app-color: #50667a;
+  --global-divider-color: #dce4eb;
+  --global-card-bg-color: #f4f7fa;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
@@ -74,12 +74,12 @@ html[data-theme="dark"] {
   --global-code-bg-color: #2d3539;
   --global-text-color: #e9ecec;
   --global-text-color-light: #b8c0c3;
-  --global-theme-color: #a9d4cc;
-  --global-hover-color: #d7e5e2;
+  --global-theme-color: #abc6dc;
+  --global-hover-color: #d6e4ef;
   --global-hover-text-color: #20262a;
   --global-footer-bg-color: #20262a;
   --global-footer-text-color: #b8c0c3;
-  --global-footer-link-color: #a9d4cc;
+  --global-footer-link-color: #abc6dc;
   --global-distill-app-color: #b8c0c3;
   --global-divider-color: #465056;
   --global-card-bg-color: #2d3539;

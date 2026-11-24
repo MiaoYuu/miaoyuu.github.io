@@ -253,10 +253,10 @@ body.fixed-top-nav {
 
 /* Research: editorial list on its own page, preserving both research areas. */
 .research-archive {
-  // Accessible muted teal accents complement the new home hero.
-  --research-accent: #386c6d;
-  --research-accent-hover: #285158;
-  --research-rule: #b8c7c4;
+  // Muted blue-gray accents complement the mist-blue home panel.
+  --research-accent: #446681;
+  --research-accent-hover: #263f57;
+  --research-rule: #becddb;
 
   .research-area + .research-area {
     margin-top: 3.3rem;
@@ -357,9 +357,9 @@ body.fixed-top-nav {
 }
 
 html[data-theme="dark"] .research-archive {
-  --research-accent: #a9d4cc;
-  --research-accent-hover: #d7e5e2;
-  --research-rule: #627e7a;
+  --research-accent: #abc6dc;
+  --research-accent-hover: #d6e4ef;
+  --research-rule: #667a84;
 }
 
 @media (max-width: 680px) {
