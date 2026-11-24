@@ -7,8 +7,6 @@ nav_order: 2
 ---
 
 <div class="research-archive" aria-label="Research papers">
-  <p class="research-intro">Designing intelligent decision systems and understanding how AI and algorithms shape business, platform operations, and human behavior.</p>
-
   <section class="research-area" aria-label="Agentic AI Systems">
     <div class="research-area-header">
       <h2 class="research-area-heading">Agentic AI Systems</h2>
