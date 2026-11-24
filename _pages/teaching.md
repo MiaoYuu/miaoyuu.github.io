@@ -40,10 +40,6 @@ nav_order: 5
         </article>
       </div>
     </div>
-    <div class="faculty-subsection faculty-interests">
-      <h3 class="faculty-subsection-title">Teaching Interests</h3>
-      <p>Large language models, retrieval-augmented generation, agentic AI, business analytics, and data science.</p>
-    </div>
   </section>
 
   <section class="faculty-section" id="academic-service">
