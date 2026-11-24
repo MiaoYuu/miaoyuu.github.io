@@ -167,6 +167,32 @@ body.home-paper-theme [role="main"].container.mt-5 {
     margin: 0 0 1.65rem;
   }
 
+  .home-hero-summary {
+    p {
+      color: inherit;
+      margin: 0 0 0.5rem;
+    }
+
+    .home-research-areas {
+      margin: 0;
+      padding-left: 1.15em;
+
+      li {
+        color: inherit;
+        margin: 0 0 0.5rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      strong {
+        color: inherit;
+        font-weight: 600;
+      }
+    }
+  }
+
   .home-profile-links {
     display: flex;
     align-items: center;
