@@ -4,19 +4,19 @@
 
 :root {
   // Slate Blue: neutral reading text, accessible muted metadata, and a restrained blue accent.
-  --global-bg-color: #ffffff;
+  --global-bg-color: #faf8f5;
   --global-code-bg-color: rgba(48, 57, 67, 0.05);
-  --global-text-color: #303943;
-  --global-text-color-light: #5c6978;
-  --global-theme-color: #285e81;
-  --global-hover-color: #202b37;
+  --global-text-color: #30343b;
+  --global-text-color-light: #606975;
+  --global-theme-color: #195ba5;
+  --global-hover-color: #17243b;
   --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #ffffff;
-  --global-footer-text-color: #5c6978;
-  --global-footer-link-color: #285e81;
+  --global-footer-bg-color: #faf8f5;
+  --global-footer-text-color: #606975;
+  --global-footer-link-color: #195ba5;
   --global-distill-app-color: #5c6978;
-  --global-divider-color: #e5e9ef;
-  --global-card-bg-color: #f5f7f9;
+  --global-divider-color: #e3ded6;
+  --global-card-bg-color: #f6f3ee;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
