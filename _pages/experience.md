@@ -26,7 +26,10 @@ nav_order: 5
     <div class="faculty-list">
       <article class="faculty-entry">
         <h3 class="faculty-entry-title">Ping An Technology</h3>
-        <p class="faculty-entry-secondary">Research Collaborator</p>
+        <div class="faculty-detail-row">
+          <p class="faculty-entry-secondary">Research Collaborator</p>
+          <span class="faculty-entry-date">Ongoing</span>
+        </div>
         <div class="faculty-detail-row">
           <p class="faculty-entry-secondary">Former Machine Learning Scientist (Research Intern)</p>
           <span class="faculty-entry-date">Jun 2024 – Apr 2026</span>
@@ -34,7 +37,10 @@ nav_order: 5
       </article>
       <article class="faculty-entry">
         <h3 class="faculty-entry-title">Meituan</h3>
-        <p class="faculty-entry-secondary">Research Collaborator</p>
+        <div class="faculty-detail-row">
+          <p class="faculty-entry-secondary">Research Collaborator</p>
+          <span class="faculty-entry-date">Ongoing</span>
+        </div>
         <div class="faculty-detail-row">
           <p class="faculty-entry-secondary">Former Machine Learning Scientist (Research Intern)</p>
           <span class="faculty-entry-date">Dec 2021 – Oct 2022; Apr 2026 – Aug 2026</span>
