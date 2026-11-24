@@ -2,6 +2,7 @@
 <html lang="{{ site.lang }}">
   <!-- 头部 -->
   <head>
+    {% include scripts/analytics.liquid %}
     <!-- 页面重定向处理 -->
     {% if page.redirect %}
       {% if page.redirect == true %}
@@ -90,7 +91,6 @@
     {% include scripts/badges.liquid %}
     {% include scripts/mathjax.liquid %}
     {% include scripts/pseudocode.liquid %}
-    {% include scripts/analytics.liquid %}
     {% include scripts/progressBar.liquid %}
     {% include scripts/wechatModal.liquid %}
     {% include scripts/imageLayouts.liquid %}
