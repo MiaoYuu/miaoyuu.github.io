@@ -20,21 +20,21 @@ nav_order: 2
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen</p>
           <p class="research-media"><strong>Research coverage</strong> · <a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">FT Chinese <span aria-hidden="true">↗</span></a>, <a href="https://www.hkubs.hku.hk/research/thought-leadership/ft-chinese-column/a-new-chapter-in-smart-governance-ai-empowering-innovation-in-government-services/" target="_blank" rel="noopener noreferrer">HKU Business School <span aria-hidden="true">↗</span></a></p>
           <div class="research-paper-actions">
-            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank" rel="noopener noreferrer">Read on SSRN <span aria-hidden="true">↗</span></a>
-          <details class="research-paper-details">
-            <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
-            <div class="research-details-body">
-              <h4>Keywords</h4>
-              <p>Retrieval-Augmented Generation, E-Government, Agentic AI</p>
-              <h4>Selected presentations</h4>
-              <ul>
-                <li>INFORMS Annual Meeting, 2025 · Atlanta, USA</li>
-                <li>Joint University Summer Workshop on Information Systems (JUSWIS), 2025 · Hong Kong, China</li>
-                <li>Conference on Information Systems and Technology (CIST), 2024 · Seattle, USA</li>
-                <li>Workshop on AI in Business, 2024</li>
-              </ul>
-            </div>
-          </details>
+            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <details class="research-paper-details">
+              <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
+              <div class="research-details-body">
+                <h4>Keywords</h4>
+                <p>Retrieval-Augmented Generation, E-Government, Agentic AI</p>
+                <h4>Selected presentations</h4>
+                <ul>
+                  <li>INFORMS Annual Meeting, 2025 · Atlanta, USA</li>
+                  <li>Joint University Summer Workshop on Information Systems (JUSWIS), 2025 · Hong Kong, China</li>
+                  <li>Conference on Information Systems and Technology (CIST), 2024 · Seattle, USA</li>
+                  <li>Workshop on AI in Business, 2024</li>
+                </ul>
+              </div>
+            </details>
           </div>
         </div>
       </li>
@@ -42,45 +42,18 @@ nav_order: 2
         <div class="research-paper-content">
           <h3 class="research-paper-title">Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</h3>
           <p class="research-paper-authors">Hongwei Zhuang, <strong class="research-owner">Miao Yu</strong>, Hailiang Chen, Jianming Wang<sup>*</sup></p>
-          <div class="research-paper-actions details-only">
-          <details class="research-paper-details">
-            <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
-            <div class="research-details-body">
-              <h4>Keywords</h4>
-              <p>Agentic AI, Automated Feature Engineering, Credit Risk</p>
-            </div>
-          </details>
-          </div>
         </div>
       </li>
       <li class="research-paper">
         <div class="research-paper-content">
           <h3 class="research-paper-title">Integrating Large and Small Language Models with Domain Knowledge for Smart Trip Planning</h3>
           <p class="research-paper-authors">Shuang Zheng, Mingzheng Wang, <strong class="research-owner">Miao Yu</strong></p>
-          <div class="research-paper-actions details-only">
-          <details class="research-paper-details">
-            <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
-            <div class="research-details-body">
-              <h4>Keywords</h4>
-              <p>Large Language Models, Domain Knowledge, Smart Trip Planning</p>
-            </div>
-          </details>
-          </div>
         </div>
       </li>
       <li class="research-paper">
         <div class="research-paper-content">
           <h3 class="research-paper-title">From Optimization to Action: Augmenting Dispatching Decisions with Large Language Models</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Guangrui Ma<sup>*</sup></p>
-          <div class="research-paper-actions details-only">
-          <details class="research-paper-details">
-            <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
-            <div class="research-details-body">
-              <h4>Keywords</h4>
-              <p>Large Language Models, Dispatching, Decision Support</p>
-            </div>
-          </details>
-          </div>
         </div>
       </li>
     </ul>
@@ -97,22 +70,24 @@ nav_order: 2
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen, Yuan Cheng, Yu Jeffrey Hu</p>
           <p class="research-paper-meta">Finalist, POMS-HK International Conference Best Student Paper Award, 2026 (<a href="https://sme.cuhk.edu.cn/en/article/3421" target="_blank" rel="noopener noreferrer">Award announcement <span aria-hidden="true">↗</span></a>)</p>
           <div class="research-paper-actions">
-            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank" rel="noopener noreferrer">Read on SSRN <span aria-hidden="true">↗</span></a>
-          <details class="research-paper-details">
-            <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
-            <div class="research-details-body">
-              <h4>Keywords</h4>
-              <p>Estimated Time of Arrival, Gig Economy, Worker Welfare</p>
-              <h4>Selected presentations</h4>
-              <ul>
-                <li>Conference on Information Systems and Technology (CIST), 2025 · Atlanta, USA</li>
-                <li>Statistical Challenges in Electronic Commerce Research (SCECR), 2025 · Paphos, Cyprus</li>
-                <li>Workshop on Information Systems and Economics (WISE), 2024 · Bangkok, Thailand</li>
-                <li>Joint University Summer Workshop on Information Systems (JUSWIS), 2023 · Hong Kong, China</li>
-                <li>Statistical Challenges in Electronic Commerce Research (SCECR), 2022 · Madrid, Spain</li>
-              </ul>
-            </div>
-          </details>
+            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <details class="research-paper-details">
+              <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
+              <div class="research-details-body">
+                <h4>Keywords</h4>
+                <p>Estimated Time of Arrival, Gig Economy, Worker Welfare</p>
+                <h4>Selected presentations</h4>
+                <ul>
+                  <li>Conference on Information Systems and Technology (CIST), 2025 · Atlanta, USA</li>
+                  <li>Statistical Challenges in Electronic Commerce Research (SCECR), 2025 · Paphos, Cyprus</li>
+                  <li>Workshop on Information Systems and Economics (WISE), 2024 · Bangkok, Thailand</li>
+                  <li>Joint University Summer Workshop on Information Systems (JUSWIS), 2023 · Hong Kong, China</li>
+                  <li>Statistical Challenges in Electronic Commerce Research (SCECR), 2022 · Madrid, Spain</li>
+                </ul>
+                <h4>Patent citation</h4>
+                <p>Listed as an examiner-cited non-patent reference in <a href="https://patents.google.com/patent/CN114529116B/zh#nplCitations" target="_blank" rel="noopener noreferrer">Chinese patent CN114529116B <span aria-hidden="true">↗</span></a>, granted to Meituan in 2025.</p>
+              </div>
+            </details>
           </div>
         </div>
       </li>
@@ -121,14 +96,7 @@ nav_order: 2
           <h3 class="research-paper-title">Sequential ETA Disclosure on On-Demand Platforms: Reference Dependence and Field Evidence</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Ying-Ju Chen</p>
           <div class="research-paper-actions">
-            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank" rel="noopener noreferrer">Read on SSRN <span aria-hidden="true">↗</span></a>
-          <details class="research-paper-details">
-            <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
-            <div class="research-details-body">
-              <h4>Keywords</h4>
-              <p>Estimated Time of Arrival, Reference Dependence, On-Demand Platforms</p>
-            </div>
-          </details>
+            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </li>
@@ -136,15 +104,6 @@ nav_order: 2
         <div class="research-paper-content">
           <h3 class="research-paper-title">Platform-Generated Information and Marketplace Behavior: A Large-Scale Field Experiment on a Delivery-Speed Badge</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Yu Jeffrey Hu</p>
-          <div class="research-paper-actions details-only">
-          <details class="research-paper-details">
-            <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
-            <div class="research-details-body">
-              <h4>Keywords</h4>
-              <p>Digital Platforms, Delivery-Speed Information, Field Experiments</p>
-            </div>
-          </details>
-          </div>
         </div>
       </li>
     </ul>
