@@ -34,7 +34,7 @@ nav_order: 5
         <article class="faculty-entry">
           <div class="faculty-entry-heading">
             <h4 class="faculty-entry-title">MSBA Capstone Project</h4>
-            <span class="faculty-entry-date">Spring 2023–Spring 2025</span>
+            <span class="faculty-entry-date">Spring 2023, 2024, 2025</span>
           </div>
           <p class="faculty-entry-secondary">Student Project Mentor</p>
         </article>
