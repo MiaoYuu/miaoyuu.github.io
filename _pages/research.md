@@ -18,12 +18,13 @@ nav_order: 2
         <div class="research-paper-content">
           <h3 class="research-paper-title">Gov-RAG: Designing AI-Assisted Government Consultation through Institutional Relations</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen</p>
-          <p class="research-media"><strong>Research coverage</strong> · <a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">FT Chinese <span aria-hidden="true">↗</span></a>, <a href="https://www.hkubs.hku.hk/research/thought-leadership/ft-chinese-column/a-new-chapter-in-smart-governance-ai-empowering-innovation-in-government-services/" target="_blank" rel="noopener noreferrer">HKU Business School <span aria-hidden="true">↗</span></a></p>
           <div class="research-paper-actions">
             <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>
             <details class="research-paper-details">
               <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
               <div class="research-details-body">
+                <h4>Research coverage</h4>
+                <p><a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">FT Chinese <span aria-hidden="true">↗</span></a>, <a href="https://www.hkubs.hku.hk/research/thought-leadership/ft-chinese-column/a-new-chapter-in-smart-governance-ai-empowering-innovation-in-government-services/" target="_blank" rel="noopener noreferrer">HKU Business School <span aria-hidden="true">↗</span></a></p>
                 <h4>Selected presentations</h4>
                 <ul>
                   <li>INFORMS Annual Meeting, 2025 · Atlanta, USA</li>
