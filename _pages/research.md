@@ -20,7 +20,7 @@ nav_order: 2
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen</p>
           <p class="research-media"><strong>Research coverage</strong> · <a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">FT Chinese <span aria-hidden="true">↗</span></a>, <a href="https://www.hkubs.hku.hk/research/thought-leadership/ft-chinese-column/a-new-chapter-in-smart-governance-ai-empowering-innovation-in-government-services/" target="_blank" rel="noopener noreferrer">HKU Business School <span aria-hidden="true">↗</span></a></p>
           <div class="research-paper-actions">
-            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>
             <details class="research-paper-details">
               <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
               <div class="research-details-body">
@@ -70,7 +70,7 @@ nav_order: 2
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen, Yuan Cheng, Yu Jeffrey Hu</p>
           <p class="research-paper-meta">Finalist, POMS-HK International Conference Best Student Paper Award, 2026 (<a href="https://sme.cuhk.edu.cn/en/article/3421" target="_blank" rel="noopener noreferrer">Award announcement <span aria-hidden="true">↗</span></a>)</p>
           <div class="research-paper-actions">
-            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>
             <details class="research-paper-details">
               <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
               <div class="research-details-body">
@@ -96,7 +96,7 @@ nav_order: 2
           <h3 class="research-paper-title">Sequential ETA Disclosure on On-Demand Platforms: Reference Dependence and Field Evidence</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Ying-Ju Chen</p>
           <div class="research-paper-actions">
-            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7282599" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </li>
