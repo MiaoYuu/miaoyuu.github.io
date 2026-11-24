@@ -23,11 +23,14 @@ social: false
 
   <section class="home-background-group" aria-labelledby="home-contact">
     <h2 id="home-contact">Contact Information</h2>
-    <div class="home-background-record">
-      <p><strong>Email:</strong> <a href="mailto:miaoyu@cityu.edu.hk">miaoyu@cityu.edu.hk</a></p>
-      <p><strong>Phone:</strong> <a href="tel:+85234429635">+852 3442 9635</a></p>
-      <p><strong>Office:</strong> LAU-6-270, Lau Ming Wai Academic Building</p>
-      <p>City University of Hong Kong, 83 Tat Chee Avenue, Kowloon Tong, Hong Kong</p>
-    </div>
+    <dl class="home-contact-list">
+      <dt>Email</dt>
+      <dd><a href="mailto:miaoyu@cityu.edu.hk">miaoyu@cityu.edu.hk</a></dd>
+      <dt>Phone</dt>
+      <dd><a href="tel:+85234429635">+852 3442 9635</a></dd>
+      <dt>Office</dt>
+      <dd>LAU-6-270, Lau Ming Wai Academic Building<br>
+        City University of Hong Kong, 83 Tat Chee Avenue, Kowloon Tong, Hong Kong</dd>
+    </dl>
   </section>
 </div>
