@@ -232,6 +232,70 @@ body.fixed-top-nav {
   }
 }
 
+// Shared, compact typography for teaching/service and experience records.
+.faculty-page {
+  .faculty-subsection {
+    margin-top: 1.25rem;
+  }
+
+  .faculty-subsection-title {
+    color: var(--global-text-color);
+    font-family: var(--font-reading);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0 0 0.55rem;
+  }
+
+  .faculty-service-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.97rem;
+    line-height: 1.65;
+
+    li + li {
+      margin-top: 0.28rem;
+    }
+  }
+
+  .faculty-detail-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.15rem 1rem;
+
+    .faculty-entry-date {
+      white-space: normal;
+    }
+  }
+
+  .faculty-awards {
+    .faculty-entry {
+      padding: 0.7rem 0;
+    }
+
+    .faculty-entry-title {
+      font-size: 1rem;
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .faculty-page {
+    .faculty-detail-row {
+      display: block;
+    }
+
+    .faculty-awards .faculty-entry-heading .faculty-entry-date {
+      margin: 0.15rem 0 0;
+    }
+  }
+}
+
 // All three Media & Talks headings now share the same hierarchy.
 .faculty-media-talks .faculty-entry-action {
   margin-top: 0.55rem;
