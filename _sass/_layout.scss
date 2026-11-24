@@ -83,7 +83,8 @@ body.fixed-top-nav {
 
     .post-title {
       font-family: var(--font-display);
-      font-size: clamp(2.35rem, 3.35vw, 2.9rem);
+      color: var(--paper-ink);
+      font-size: clamp(2rem, 3.35vw, 2.375rem);
       font-weight: 500;
       line-height: 1.2;
       letter-spacing: -0.025em;
@@ -109,7 +110,7 @@ body.fixed-top-nav {
 
   .faculty-section-title {
     font-family: var(--font-display);
-    font-size: 1.6rem;
+    font-size: 1.625rem;
     line-height: 1.4;
     font-weight: 500;
     margin: 0 0 0.8rem;
@@ -218,7 +219,7 @@ body.fixed-top-nav {
     }
 
     .faculty-entry-title {
-      font-size: 1rem;
+      font-size: 1.0625rem;
     }
 
     .faculty-entry-heading {
@@ -318,10 +319,10 @@ body.fixed-top-nav {
 
 /* Research: editorial list on its own page, preserving both research areas. */
 .research-archive {
-  // Muted blue-gray accents complement the mist-blue home panel.
-  --research-accent: #446681;
-  --research-accent-hover: #263f57;
-  --research-rule: #becddb;
+  // Reuse the shared academic palette rather than a separate research theme.
+  --research-accent: var(--paper-accent);
+  --research-accent-hover: var(--global-hover-color);
+  --research-rule: var(--paper-rule);
 
   .research-area + .research-area {
     margin-top: 2.5rem;
@@ -337,8 +338,9 @@ body.fixed-top-nav {
   }
 
   .research-area-heading {
+    color: var(--paper-ink);
     font-family: var(--font-display);
-    font-size: 1.6rem;
+    font-size: 1.625rem;
     font-weight: 500;
     letter-spacing: -0.025em;
     line-height: 1.3;
@@ -363,13 +365,14 @@ body.fixed-top-nav {
   }
 
   .research-paper-number {
-    color: var(--global-text-color-light);
+    color: var(--paper-muted);
     font-family: var(--font-reading);
-    font-size: 0.8125rem;
-    font-weight: 500;
-    font-variant-numeric: tabular-nums;
-    line-height: 1.55;
-    padding-top: 0.17rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-variant-numeric: lining-nums tabular-nums;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    padding-top: 0.18rem;
   }
 
   .research-paper-content {
@@ -377,9 +380,9 @@ body.fixed-top-nav {
   }
 
   .research-paper-title {
-    color: var(--global-text-color);
+    color: var(--paper-ink);
     font-family: var(--font-reading);
-    font-size: 1.06rem;
+    font-size: 1.125rem;
     font-weight: 600;
     line-height: 1.55;
     letter-spacing: -0.008em;
@@ -389,21 +392,21 @@ body.fixed-top-nav {
   }
 
   .research-paper-authors {
-    color: var(--global-text-color-light);
-    font-size: 0.88rem;
+    color: var(--paper-muted);
+    font-size: 0.9375rem;
     line-height: 1.65;
     margin: 0;
   }
 
   .research-owner {
-    color: var(--global-text-color);
+    color: inherit;
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
   }
 
   .research-paper-action {
-    font-size: 0.86rem;
+    font-size: 0.9375rem;
     line-height: 1.6;
     text-align: left;
     margin-top: 0.55rem;
@@ -426,24 +429,18 @@ body.fixed-top-nav {
   }
 
   .research-paper-meta {
-    color: var(--global-theme-color);
-    font-size: 0.81rem;
+    color: var(--paper-muted);
+    font-size: 0.875rem;
     line-height: 1.58;
     margin: 0.65rem 0 0;
   }
 
   .research-industry-note {
-    font-size: 0.8rem;
-    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    color: var(--paper-muted);
     line-height: 1.6;
     margin: 1.2rem 0 0;
   }
-}
-
-html[data-theme="dark"] .research-archive {
-  --research-accent: #abc6dc;
-  --research-accent-hover: #d6e4ef;
-  --research-rule: #667a84;
 }
 
 @media (max-width: 680px) {
@@ -455,16 +452,16 @@ html[data-theme="dark"] .research-archive {
       font-size: 1.43rem;
     }
     .research-paper {
-      grid-template-columns: 1.4rem minmax(0, 1fr);
+      grid-template-columns: 1.5rem minmax(0, 1fr);
       column-gap: 0.6rem;
       padding: 1rem 0 1.08rem;
     }
 
     .research-paper-number {
-      font-size: 0.75rem;
+      font-size: 0.875rem;
     }
     .research-paper-title {
-      font-size: 1rem;
+      font-size: 1.0625rem;
     }
     .research-paper-action {
       margin-top: 0.5rem;
@@ -486,7 +483,7 @@ html[data-theme="dark"] .research-archive {
 
   .faculty-section-title {
     color: var(--paper-ink);
-    font-size: 1.6rem;
+    font-size: 1.625rem;
     line-height: 1.3;
     margin: 0;
     padding-bottom: 0.85rem;
@@ -507,7 +504,7 @@ html[data-theme="dark"] .research-archive {
 
   .faculty-entry-title {
     color: var(--paper-ink);
-    font-size: 1.03rem;
+    font-size: 1.0625rem;
     font-weight: 500;
     line-height: 1.55;
     margin: 0;
@@ -518,7 +515,7 @@ html[data-theme="dark"] .research-archive {
   .faculty-entry-secondary,
   .faculty-entry-notes li {
     color: var(--paper-muted);
-    font-size: 0.9rem;
+    font-size: 0.9375rem;
     line-height: 1.55;
   }
 
@@ -577,7 +574,7 @@ html[data-theme="dark"] .research-archive {
     list-style: none;
 
     li {
-      color: var(--paper-ink);
+      color: var(--paper-text);
     }
 
     li + li {
@@ -599,8 +596,13 @@ html[data-theme="dark"] .research-archive {
     }
   }
 
+  #invited-talks .faculty-list {
+    padding-top: 0.65rem;
+  }
+
   #invited-talks .faculty-entry {
-    padding: 0.72rem 0;
+    padding: 0.38rem 0;
+    border-bottom: 0;
 
     &:last-child {
       padding-bottom: 0;
@@ -609,6 +611,7 @@ html[data-theme="dark"] .research-archive {
 
   #conference-presentations .faculty-entry-title,
   #media-coverage .faculty-entry-title {
+    font-size: 1.125rem;
     font-weight: 600;
     max-width: 86ch;
   }
@@ -655,7 +658,7 @@ html[data-theme="dark"] .research-archive {
     }
 
     .faculty-entry-title {
-      font-size: 1rem;
+      font-size: 1.0625rem;
     }
 
     .faculty-entry-heading {
@@ -684,7 +687,7 @@ html[data-theme="dark"] .research-archive {
 
   .faculty-section-title {
     color: var(--paper-ink);
-    font-size: 1.6rem;
+    font-size: 1.625rem;
     line-height: 1.3;
     margin: 0;
     padding-bottom: 0.85rem;
@@ -714,7 +717,7 @@ html[data-theme="dark"] .research-archive {
 
   .faculty-entry-title {
     color: var(--paper-ink);
-    font-size: 1.03rem;
+    font-size: 1.0625rem;
     line-height: 1.55;
     font-weight: 500;
     margin: 0 0 0.15rem;
@@ -723,7 +726,7 @@ html[data-theme="dark"] .research-archive {
   .faculty-entry-date,
   .faculty-entry-secondary {
     color: var(--paper-muted);
-    font-size: 0.9rem;
+    font-size: 0.9375rem;
     line-height: 1.55;
   }
 
@@ -776,10 +779,16 @@ html[data-theme="dark"] .research-archive {
   }
 }
 
+/* Course titles are distinct from their descriptions. */
+.faculty-page.faculty-teaching .faculty-entry-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
 /* Brief course descriptions remain subordinate to course titles and teaching roles. */
 .faculty-page.faculty-teaching .faculty-course-description {
-  color: var(--paper-ink);
-  font-size: 0.95rem;
+  color: var(--paper-text);
+  font-size: 1.0625rem;
   line-height: 1.65;
   max-width: 75ch;
   margin: 0.65rem 0 0;

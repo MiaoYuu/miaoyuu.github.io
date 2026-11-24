@@ -3,20 +3,20 @@
  ******************************************************************************/
 
 :root {
-  // Mist Blue: clean white, blue-gray ink, and a muted blue accent.
+  // Slate Blue: neutral reading text, accessible muted metadata, and a restrained blue accent.
   --global-bg-color: #ffffff;
-  --global-code-bg-color: rgba(38, 61, 80, 0.05);
-  --global-text-color: #263d50;
-  --global-text-color-light: #50667a;
-  --global-theme-color: #446681;
-  --global-hover-color: #263f57;
+  --global-code-bg-color: rgba(51, 65, 85, 0.05);
+  --global-text-color: #334155;
+  --global-text-color-light: #64748b;
+  --global-theme-color: #365f80;
+  --global-hover-color: #26384a;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #ffffff;
-  --global-footer-text-color: #50667a;
-  --global-footer-link-color: #446681;
-  --global-distill-app-color: #50667a;
-  --global-divider-color: #dce4eb;
-  --global-card-bg-color: #f4f7fa;
+  --global-footer-text-color: #64748b;
+  --global-footer-link-color: #365f80;
+  --global-distill-app-color: #64748b;
+  --global-divider-color: #e2e8ef;
+  --global-card-bg-color: #f1f5f9;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};

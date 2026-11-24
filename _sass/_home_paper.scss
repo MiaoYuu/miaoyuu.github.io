@@ -1,19 +1,21 @@
-/* Mist Blue — a light editorial academic identity with cool blue-gray ink. */
+/* Modern Academic Editorial — a unified Slate Blue type and color system. */
 
 :root {
   // Two-typeface system: editorial headings and readable interface/body text.
   --font-display: Georgia, "Times New Roman", serif;
-  --font-reading: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-  --paper-hero: #ffffff;
-  --paper-body: #ffffff;
-  --paper-ink: #263d50;
-  --paper-muted: #50667a;
-  --paper-accent: #446681;
-  --paper-rule: #becddb;
-  --paper-mat: #dce4eb;
-  --paper-line: #dce4eb;
-  --home-panel: #f0f4f8;
-  --home-frame: #c0cfdd;
+  --font-reading: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --paper-hero: var(--global-bg-color);
+  --paper-body: var(--global-bg-color);
+  --paper-ink: #26384a;
+  --paper-text: var(--global-text-color);
+  --paper-muted: var(--global-text-color-light);
+  --paper-accent: var(--global-theme-color);
+  --paper-rule: #cbd5e1;
+  --paper-mat: #e2e8ef;
+  --paper-line: var(--global-divider-color);
+  --home-panel: #f1f5f9;
+  --home-panel-muted: #526477;
+  --home-frame: #cbd5e1;
 }
 
 html[data-theme="dark"] {
@@ -26,11 +28,15 @@ html[data-theme="dark"] {
   --paper-mat: #48565e;
   --paper-line: #465056;
   --home-panel: #263848;
+  --home-panel-muted: #c0c9d2;
   --home-frame: #72889a;
 }
 
 body {
   font-family: var(--font-reading);
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.65;
   overflow-x: clip;
 }
 
@@ -66,7 +72,7 @@ body.fixed-top-nav {
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   font-family: var(--font-reading);
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: var(--paper-muted);
   text-decoration: none;
 
@@ -105,6 +111,7 @@ body.home-paper-theme {
   color: var(--paper-ink);
 
   .home-hero {
+    --paper-muted: var(--home-panel-muted);
     position: relative;
     isolation: isolate;
     display: grid;
@@ -179,9 +186,9 @@ body.home-paper-theme {
   }
 
   .home-hero-summary {
-    color: var(--paper-ink);
+    color: var(--paper-text);
     font-family: var(--font-reading);
-    font-size: 1.1875rem; // 19px.
+    font-size: 1.0625rem; // 17px.
     font-weight: 400;
     line-height: 1.66;
     max-width: 36.5rem;
@@ -325,7 +332,7 @@ body.home-paper-theme {
       font-size: 1.0625rem;
     }
     .home-hero-summary {
-      font-size: 1.125rem;
+      font-size: 1.0625rem;
     }
     .home-portrait-frame img {
       height: 345px;
@@ -520,7 +527,7 @@ footer.sticky-bottom {
   .home-background-group h2 {
     color: var(--paper-ink);
     font-family: var(--font-display);
-    font-size: 1.45rem;
+    font-size: 1.625rem;
     font-weight: 500;
     line-height: 1.35;
     letter-spacing: -0.015em;
@@ -536,21 +543,22 @@ footer.sticky-bottom {
   .home-background-record h3 {
     color: var(--paper-ink);
     font-family: var(--font-reading);
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.0625rem;
+    font-weight: 600;
     line-height: 1.5;
     margin: 0 0 0.18rem;
   }
 
   .home-background-record p {
-    color: var(--paper-muted);
-    font-size: 0.92rem;
+    color: var(--paper-text);
+    font-size: 1rem;
     line-height: 1.55;
     margin: 0;
   }
 
   .home-background-record .home-background-date {
-    font-size: 0.85rem;
+    color: var(--paper-muted);
+    font-size: 0.9375rem;
     margin-top: 0.12rem;
     font-variant-numeric: tabular-nums;
   }
@@ -586,7 +594,7 @@ footer.sticky-bottom {
     }
 
     .home-background-group h2 {
-      font-size: 1.35rem;
+      font-size: 1.43rem;
     }
 
     .home-background-link {
