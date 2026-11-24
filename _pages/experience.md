@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Experience/
-title: Background
+title: Profile
 nav: true
 nav_order: 5
 ---

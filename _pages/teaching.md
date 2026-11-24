@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /Teaching/
-title: Teaching & Service
+title: Teaching
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <div class="faculty-page faculty-teaching">
   <section class="faculty-section" id="teaching">
-    <h2 class="faculty-section-title">Teaching</h2>
+    <h2 class="faculty-section-title">Teaching Experience</h2>
     <div class="faculty-subsection">
       <h3 class="faculty-subsection-title">City University of Hong Kong</h3>
       <div class="faculty-list">
@@ -39,33 +39,6 @@ nav_order: 3
           <p class="faculty-entry-secondary">Student Project Mentor</p>
         </article>
       </div>
-    </div>
-  </section>
-
-  <section class="faculty-section" id="academic-service">
-    <h2 class="faculty-section-title">Academic Service</h2>
-    <div class="faculty-subsection">
-      <h3 class="faculty-subsection-title">Journal Reviewing</h3>
-      <ul class="faculty-service-list">
-        <li>Management Science</li>
-        <li>Information &amp; Management</li>
-        <li>Manufacturing &amp; Service Operations Management</li>
-        <li>Production and Operations Management</li>
-      </ul>
-    </div>
-    <div class="faculty-subsection">
-      <h3 class="faculty-subsection-title">Conference Editorial Service</h3>
-      <ul class="faculty-service-list">
-        <li>Associate Editor, Pacific Asia Conference on Information Systems (PACIS)</li>
-      </ul>
-    </div>
-    <div class="faculty-subsection">
-      <h3 class="faculty-subsection-title">Conference Reviewing</h3>
-      <ul class="faculty-service-list">
-        <li>International Conference on Information Systems (ICIS)</li>
-        <li>INFORMS Data Science Workshop</li>
-        <li>INFORMS MSOM Conference</li>
-      </ul>
     </div>
   </section>
 </div>

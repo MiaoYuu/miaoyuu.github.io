@@ -34,5 +34,5 @@ social: false
       <p>Former Machine Learning Scientist (Research Intern)</p>
     </div>
   </section>
-  <p class="home-background-link"><a href="/Experience/">More about my background <span aria-hidden="true">↗</span></a></p>
+  <p class="home-background-link"><a href="/Experience/">View full profile <span aria-hidden="true">↗</span></a></p>
 </div>

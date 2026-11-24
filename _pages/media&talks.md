@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /MediaTalks/
-title: Media & Talks
-keywords: "Media, Talks, Presentations, Press"
+title: Activities
+keywords: "Academic Activities, Media, Talks, Presentations, Service"
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 <div class="faculty-page faculty-media-talks">
@@ -96,6 +96,33 @@ nav_order: 4
           <span class="faculty-entry-date">Nov 2025</span>
         </div>
       </article>
+    </div>
+  </section>
+
+  <section class="faculty-section" id="academic-service">
+    <h2 class="faculty-section-title">Academic Service</h2>
+    <div class="faculty-subsection">
+      <h3 class="faculty-subsection-title">Journal Reviewing</h3>
+      <ul class="faculty-service-list">
+        <li>Management Science</li>
+        <li>Information &amp; Management</li>
+        <li>Manufacturing &amp; Service Operations Management</li>
+        <li>Production and Operations Management</li>
+      </ul>
+    </div>
+    <div class="faculty-subsection">
+      <h3 class="faculty-subsection-title">Conference Editorial Service</h3>
+      <ul class="faculty-service-list">
+        <li>Associate Editor, Pacific Asia Conference on Information Systems (PACIS)</li>
+      </ul>
+    </div>
+    <div class="faculty-subsection">
+      <h3 class="faculty-subsection-title">Conference Reviewing</h3>
+      <ul class="faculty-service-list">
+        <li>International Conference on Information Systems (ICIS)</li>
+        <li>INFORMS Data Science Workshop</li>
+        <li>INFORMS MSOM Conference</li>
+      </ul>
     </div>
   </section>
 </div>

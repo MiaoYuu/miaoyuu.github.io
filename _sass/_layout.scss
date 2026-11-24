@@ -296,7 +296,7 @@ body.fixed-top-nav {
   }
 }
 
-// All three Media & Talks headings now share the same hierarchy.
+// Activities links follow the shared editorial hierarchy.
 .faculty-media-talks .faculty-entry-action {
   margin-top: 0.55rem;
   font-size: 0.86rem;
@@ -533,7 +533,8 @@ html[data-theme="dark"] .research-archive {
 }
 
 /* Teaching and service: aligned category labels and grouped records. */
-.faculty-page.faculty-teaching {
+.faculty-page.faculty-teaching,
+.faculty-page.faculty-media-talks #academic-service {
   .faculty-subsection {
     display: grid;
     grid-template-columns: minmax(0, 13.75rem) minmax(0, 1fr);
@@ -585,7 +586,7 @@ html[data-theme="dark"] .research-archive {
   }
 }
 
-/* Talks & Media: compact invited talks; presentations grouped by paper;
+/* Activities: compact invited talks; presentations grouped by paper;
    media coverage uses the same typography rather than a separate card style. */
 .faculty-page.faculty-media-talks {
   .faculty-entry {
@@ -628,7 +629,8 @@ html[data-theme="dark"] .research-archive {
 }
 
 @media (max-width: 991.98px) {
-  .faculty-page.faculty-teaching {
+  .faculty-page.faculty-teaching,
+  .faculty-page.faculty-media-talks #academic-service {
     .faculty-subsection {
       grid-template-columns: minmax(0, 1fr);
       gap: 0.65rem;
