@@ -12,8 +12,8 @@
   --paper-rule: #becddb;
   --paper-mat: #dce4eb;
   --paper-line: #dce4eb;
-  --home-panel: #e9eff6;
-  --home-frame: #9baec3;
+  --home-panel: #f0f4f8;
+  --home-frame: #c0cfdd;
 }
 
 html[data-theme="dark"] {
@@ -26,7 +26,7 @@ html[data-theme="dark"] {
   --paper-mat: #48565e;
   --paper-line: #465056;
   --home-panel: #263848;
-  --home-frame: #8fa9bf;
+  --home-frame: #72889a;
 }
 
 body {
@@ -130,7 +130,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
     font-size: 2.875rem; // 46px: restrained desktop academic display title.
     line-height: 1.13;
     letter-spacing: -0.025em;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 0 1.1rem;
   }
 
@@ -138,7 +138,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
     color: var(--paper-ink);
     font-family: var(--font-reading);
     font-size: 1.25rem; // 20px.
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.48;
     margin: 0 0 0.25rem;
   }
@@ -226,10 +226,10 @@ body.home-paper-theme [role="main"].container.mt-5 {
     &::after {
       content: "";
       position: absolute;
-      top: 10px;
-      right: -10px;
-      bottom: -10px;
-      left: 10px;
+      top: 7px;
+      right: -7px;
+      bottom: -7px;
+      left: 7px;
       border: 1px solid var(--home-frame);
       pointer-events: none;
       z-index: 0;
@@ -304,6 +304,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
         border-bottom: 1px solid var(--paper-line);
         font-family: var(--font-reading);
         font-size: 0.93rem;
+        font-weight: 400;
         line-height: 1.55;
 
         strong {
@@ -322,6 +323,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
         grid-column: 2;
         grid-row: 1;
         font-style: normal;
+        font-weight: 400;
         color: var(--paper-muted);
       }
 
@@ -331,6 +333,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
         color: var(--paper-muted);
         text-align: right;
         font-size: 0.86rem;
+        font-weight: 400;
         font-variant-numeric: tabular-nums;
         white-space: nowrap;
       }
@@ -397,15 +400,15 @@ body.home-paper-theme [role="main"].container.mt-5 {
   .home-editorial {
     .home-hero {
       grid-template-columns: 1fr;
-      gap: 2.35rem;
+      gap: 1.65rem;
       min-height: 0;
-      padding: 2.6rem 0 3.15rem;
+      padding: 2.4rem 0 2.75rem;
     }
 
     .home-portrait {
       justify-self: start;
       max-width: 315px;
-      width: calc(100% - 17px);
+      width: calc(100% - 7px);
     }
 
     .home-portrait-frame img {
@@ -422,6 +425,7 @@ body.home-paper-theme [role="main"].container.mt-5 {
     }
     .home-hero-summary {
       font-size: 1.0625rem;
+      margin-bottom: 1.1rem;
     }
     .home-about {
       padding: 2.5rem 0 3rem;

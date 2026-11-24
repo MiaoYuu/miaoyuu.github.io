@@ -73,9 +73,10 @@ body.fixed-top-nav {
 }
 
 [role="main"] > .post:not(.home-editorial) {
-  max-width: 980px;
-  margin-right: auto;
-  margin-left: auto;
+  // Match the home content and navigation edges on the shared container grid.
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
 
   > .post-header {
     margin-bottom: 2.1rem;
