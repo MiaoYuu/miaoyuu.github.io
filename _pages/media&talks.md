@@ -9,7 +9,7 @@ nav_order: 3
 
 <div class="faculty-page faculty-media-talks">
   <section class="faculty-section">
-    <h2 class="faculty-section-title">Media</h2>
+    <h2 class="faculty-section-title">Media Coverage</h2>
     <div class="faculty-list">
       <article class="faculty-entry">
         <h3 class="faculty-entry-title">From Manual Windows to Intelligent Question Answering: Large Language Models and RAG Technology Reshape Government Services</h3>
@@ -20,7 +20,7 @@ nav_order: 3
   </section>
 
   <section class="faculty-section">
-    <h2 class="faculty-section-title">Conferences</h2>
+    <h2 class="faculty-section-title">Conference Presentations</h2>
     <div class="faculty-list">
       <article class="faculty-entry">
         <h3 class="faculty-entry-title">GovLegal-RAG: Leveraging Retrieval-Augmented Generation for Government and Legal Consultation</h3>
@@ -62,7 +62,7 @@ nav_order: 3
       <div class="faculty-list">
         <article class="faculty-entry">
           <div class="faculty-entry-heading">
-            <h3 class="faculty-entry-title">Hong Kong University of Science and Technology (Guangzhou)</h3>
+            <h3 class="faculty-entry-title">The Hong Kong University of Science and Technology (Guangzhou)</h3>
             <span class="faculty-entry-date">Nov 2026</span>
           </div>
         </article>
@@ -80,7 +80,7 @@ nav_order: 3
         </article>
         <article class="faculty-entry">
           <div class="faculty-entry-heading">
-            <h3 class="faculty-entry-title">University of Queensland</h3>
+            <h3 class="faculty-entry-title">The University of Queensland</h3>
             <span class="faculty-entry-date">Dec 2025</span>
           </div>
         </article>

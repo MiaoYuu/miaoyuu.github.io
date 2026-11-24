@@ -27,7 +27,7 @@ nav_order: 2
       </li>
       <li class="research-paper">
         <div class="research-paper-content">
-          <h3 class="research-paper-title">An Integrating Large-and-Small Model Collaborative Framework with Domain Knowledge for Smart Trip Planning</h3>
+          <h3 class="research-paper-title">Integrating Large and Small Language Models with Domain Knowledge for Smart Trip Planning</h3>
           <p class="research-paper-authors">Shuang Zheng, Mingzheng Wang, <strong class="research-owner">Miao Yu</strong></p>
         </div>
       </li>
