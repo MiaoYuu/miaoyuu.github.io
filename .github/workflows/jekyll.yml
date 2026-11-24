@@ -13,10 +13,12 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  # Publish only the newest revision; do not finish obsolete builds.
+  cancel-in-progress: true
 
 jobs:
   build:
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

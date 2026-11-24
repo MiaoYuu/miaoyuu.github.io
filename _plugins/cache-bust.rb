@@ -43,7 +43,18 @@ module Jekyll
     end
 
     def bust_css_cache(file_name)
-      CacheDigester.new(file_name: file_name, directory: 'assets/_sass').digest!
+      # The site's Sass sources live in _sass, not assets/_sass.
+      # Include the stylesheet entry point and configuration (e.g. max_width).
+      files = (Dir.glob('_sass/**/*') + ['assets/css/main.scss', '_config.yml'])
+              .select { |path| File.file?(path) }.uniq.sort
+      digest = Digest::MD5.new
+      files.each do |path|
+        digest.update(path)
+        digest.update("\0")
+        digest.update(File.binread(path))
+        digest.update("\0")
+      end
+      "#{file_name}?#{digest.hexdigest}"
     end
   end
 end
