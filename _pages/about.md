@@ -26,7 +26,7 @@ social: false
         <li>
           <strong>Ping An Technology</strong>
           <div class="home-experience-details">
-            <em>Former Machine Learning Scientist (Research Intern); Research Collaborator</em>
+            <em>Research Collaborator<span class="home-former-role">Former Machine Learning Scientist (Research Intern)</span></em>
             <span>Jun 2024 – Present</span>
           </div>
         </li>

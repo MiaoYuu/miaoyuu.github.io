@@ -100,7 +100,7 @@ body.fixed-top-nav {
 // filters, redundant links or expandable lists.
 .faculty-page {
   .faculty-section {
-    margin-top: 1.9rem;
+    margin-top: 2.5rem;
 
     &:first-child {
       margin-top: 0;
@@ -206,7 +206,7 @@ body.fixed-top-nav {
 @media (max-width: 575px) {
   .faculty-page {
     .faculty-section {
-      margin-top: 1.5rem;
+      margin-top: 2rem;
     }
 
     .faculty-section-title {
@@ -260,7 +260,7 @@ body.fixed-top-nav {
   --research-rule: #becddb;
 
   .research-area + .research-area {
-    margin-top: 3.3rem;
+    margin-top: 2.5rem;
   }
 
   .research-area-header {
@@ -302,6 +302,8 @@ body.fixed-top-nav {
     font-weight: 600;
     line-height: 1.55;
     letter-spacing: -0.008em;
+    max-width: 86ch;
+    overflow-wrap: break-word;
     margin: 0 0 0.4rem;
   }
 
@@ -366,7 +368,7 @@ html[data-theme="dark"] .research-archive {
 @media (max-width: 680px) {
   .research-archive {
     .research-area + .research-area {
-      margin-top: 2.5rem;
+      margin-top: 2rem;
     }
     .research-area-heading {
       font-size: 1.43rem;
