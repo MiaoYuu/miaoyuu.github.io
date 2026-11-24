@@ -1,37 +1,17 @@
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      &copy; {{ site.time | date: '%Y' }}
-      {{ site.first_name -}}
-      {%- if site.middle_name != blank %} {{ site.middle_name }}{% endif %}
-      {{ site.last_name -}}
-      {%- if site.footer_text != blank %} · {{ site.footer_text }}{% endif %}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
+<footer class="sticky-bottom academic-footer" role="contentinfo">
+  <div class="container">
+    <div class="academic-footer-main">
+      <div class="academic-footer-identity">
+        <a class="academic-footer-name" href="{{ '/' | relative_url }}">Miao Yu</a>
+        <p>Assistant Professor of Information Systems</p>
+        <p>City University of Hong Kong</p>
+      </div>
+      <nav class="academic-footer-links" aria-label="Academic profile links">
+        <a href="https://www.linkedin.com/in/miao-y-86a492118/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="mailto:{{ site.email }}">Email</a>
+      </nav>
     </div>
-  </footer>
-{% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include scripts/newsletter.liquid %}
-    {% endif %}
-
-    <div class="container">
-      &copy; {{ site.time | date: '%Y' }}
-      {{ site.first_name -}}
-      {%- if site.middle_name != blank %} {{ site.middle_name }}{% endif %}
-      {{ site.last_name -}}
-      {%- if site.footer_text != blank %} · {{ site.footer_text }}{% endif %}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
-    </div>
-  </footer>
-{% endif %}
+    <div class="academic-footer-copyright">&copy; {{ site.time | date: '%Y' }} Miao Yu</div>
+  </div>
+</footer>
