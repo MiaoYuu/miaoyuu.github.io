@@ -1,22 +1,53 @@
 ---
 layout: page
 permalink: /MediaTalks/
-title: Media & Talks
+title: Talks & Media
 keywords: "Media, Talks, Presentations, Press"
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <div class="faculty-page faculty-media-talks">
   <section class="faculty-section">
-    <h2 class="faculty-section-title">Media Coverage</h2>
-    <div class="faculty-list">
-      <article class="faculty-entry">
-        <h3 class="faculty-entry-title">From Manual Windows to Intelligent Question Answering: Large Language Models and RAG Technology Reshape Government Services</h3>
-        <p class="faculty-entry-secondary">Financial Times</p>
-        <div class="faculty-entry-action"><a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></div>
-      </article>
-    </div>
+    <h2 class="faculty-section-title">Invited Talks</h2>
+      <div class="faculty-list">
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">The Hong Kong University of Science and Technology (Guangzhou)</h3>
+            <span class="faculty-entry-date">Nov 2026</span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">City University of Hong Kong</h3>
+            <span class="faculty-entry-date">Feb 2026</span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">Shanghai Jiao Tong University</h3>
+            <span class="faculty-entry-date">Dec 2025</span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">The University of Queensland</h3>
+            <span class="faculty-entry-date">Dec 2025</span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">University of Macau</h3>
+            <span class="faculty-entry-date">Nov 2025</span>
+          </div>
+        </article>
+        <article class="faculty-entry">
+          <div class="faculty-entry-heading">
+            <h3 class="faculty-entry-title">Renmin University of China</h3>
+            <span class="faculty-entry-date">Nov 2025</span>
+          </div>
+        </article>
+      </div>
   </section>
 
   <section class="faculty-section">
@@ -58,44 +89,13 @@ nav_order: 3
   </section>
 
   <section class="faculty-section">
-    <h2 class="faculty-section-title">Invited Talks</h2>
-      <div class="faculty-list">
-        <article class="faculty-entry">
-          <div class="faculty-entry-heading">
-            <h3 class="faculty-entry-title">The Hong Kong University of Science and Technology (Guangzhou)</h3>
-            <span class="faculty-entry-date">Nov 2026</span>
-          </div>
-        </article>
-        <article class="faculty-entry">
-          <div class="faculty-entry-heading">
-            <h3 class="faculty-entry-title">City University of Hong Kong</h3>
-            <span class="faculty-entry-date">Feb 2026</span>
-          </div>
-        </article>
-        <article class="faculty-entry">
-          <div class="faculty-entry-heading">
-            <h3 class="faculty-entry-title">Shanghai Jiao Tong University</h3>
-            <span class="faculty-entry-date">Dec 2025</span>
-          </div>
-        </article>
-        <article class="faculty-entry">
-          <div class="faculty-entry-heading">
-            <h3 class="faculty-entry-title">The University of Queensland</h3>
-            <span class="faculty-entry-date">Dec 2025</span>
-          </div>
-        </article>
-        <article class="faculty-entry">
-          <div class="faculty-entry-heading">
-            <h3 class="faculty-entry-title">University of Macau</h3>
-            <span class="faculty-entry-date">Nov 2025</span>
-          </div>
-        </article>
-        <article class="faculty-entry">
-          <div class="faculty-entry-heading">
-            <h3 class="faculty-entry-title">Renmin University of China</h3>
-            <span class="faculty-entry-date">Nov 2025</span>
-          </div>
-        </article>
-      </div>
+    <h2 class="faculty-section-title">Media Coverage</h2>
+    <div class="faculty-list">
+      <article class="faculty-entry">
+        <h3 class="faculty-entry-title">From Manual Windows to Intelligent Question Answering: Large Language Models and RAG Technology Reshape Government Services</h3>
+        <p class="faculty-entry-secondary">Financial Times</p>
+        <div class="faculty-entry-action"><a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></div>
+      </article>
+    </div>
   </section>
 </div>

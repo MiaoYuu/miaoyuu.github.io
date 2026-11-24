@@ -3,7 +3,7 @@ layout: page
 permalink: /Teaching/
 title: Teaching & Service
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
 <div class="faculty-page faculty-teaching">
