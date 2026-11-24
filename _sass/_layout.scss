@@ -257,7 +257,7 @@ body.sticky-bottom-footer > [role="main"] {
   inset-inline-start: -1rem;
   inset-block: 0.08rem;
   width: 3px;
-  background: var(--paper-accent);
+  background: var(--paper-active-accent);
   opacity: 0;
   pointer-events: none;
 }
@@ -282,7 +282,7 @@ body.sticky-bottom-footer > [role="main"] {
 .research-archive .research-paper-title {
   font-family: var(--font-reading);
   font-size: var(--academic-entry-size);
-  font-weight: 600;
+  font-weight: 550;
   line-height: 1.42;
   letter-spacing: -0.005em;
   color: var(--paper-ink);
@@ -328,7 +328,7 @@ body.sticky-bottom-footer > [role="main"] {
 
 .research-archive .research-paper-link {
   color: var(--paper-accent);
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   padding-block: 0.15rem;
   white-space: nowrap;
@@ -343,8 +343,8 @@ body.sticky-bottom-footer > [role="main"] {
   gap: 0.5em;
   align-items: center;
   cursor: pointer;
-  color: var(--paper-secondary);
-  font-weight: 500;
+  color: var(--paper-accent);
+  font-weight: 400;
   list-style: none;
   padding: 0.15rem 0;
   line-height: 1.5;
@@ -378,31 +378,53 @@ body.sticky-bottom-footer > [role="main"] {
   line-height: 1.6;
 }
 
-.research-archive .research-details-body h4 {
-  font-family: var(--font-interface);
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--paper-ink);
-  margin: 0 0 0.35rem;
-}
-
-.research-archive .research-details-body p,
-.research-archive .research-details-body ul,
-.research-archive .research-details-body li {
-  color: var(--paper-secondary);
-  font-size: var(--academic-body-size);
-  line-height: 1.6;
+/* Definition-list rows keep the label and supporting evidence aligned. */
+.research-archive .research-detail-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 10.25rem) minmax(0, 1fr);
+  gap: 0.65rem 1.15rem;
   margin: 0;
 }
 
-.research-archive .research-details-body ul { padding-inline-start: 1.1rem; list-style: disc; }
-.research-archive .research-details-body li::marker { color: var(--paper-muted); font-size: 0.75em; }
-.research-archive .research-details-body li + li { margin-top: 0.25rem; }
-.research-archive .research-details-body p + h4,
-.research-archive .research-details-body ul + h4 { margin-top: 1rem; }
-.research-archive .research-details-body a,
-.research-archive .research-details-body a span { color: var(--paper-accent); }
-.research-archive .research-details-body a { text-decoration: underline; text-underline-offset: 0.16em; }
+.research-archive .research-detail-grid dt,
+.research-archive .research-detail-grid dd {
+  font-family: var(--font-reading);
+  font-size: var(--academic-body-size);
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+  min-width: 0;
+}
+
+.research-archive .research-detail-grid dt {
+  color: var(--paper-muted);
+}
+
+.research-archive .research-detail-grid dd,
+.research-archive .research-detail-grid dd p,
+.research-archive .research-detail-grid dd li {
+  color: var(--paper-secondary);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.research-archive .research-detail-grid dd p,
+.research-archive .research-detail-grid dd ul {
+  margin: 0;
+}
+
+.research-archive .research-detail-grid dd ul {
+  padding: 0;
+  list-style: none;
+}
+
+.research-archive .research-detail-grid dd li + li {
+  margin-top: 0.2rem;
+}
+
+.research-archive .research-detail-grid a,
+.research-archive .research-detail-grid a span { color: var(--paper-accent); }
+.research-archive .research-detail-grid a { text-decoration: underline; text-underline-offset: 0.16em; }
 
 /* Activities: clear parent papers and indented conference records. */
 .faculty-page.faculty-media-talks #media-coverage .faculty-entry-title,
@@ -474,6 +496,8 @@ body.sticky-bottom-footer > [role="main"] {
   .research-archive .research-paper + .research-paper { margin-top: 1rem; padding-top: 1.0625rem; }
   .research-archive .research-area + .research-area { margin-top: 2.75rem; }
   .research-archive .research-details-body { padding-inline-start: 0.75rem; }
+  .research-archive .research-detail-grid { grid-template-columns: minmax(0, 1fr); gap: 0.15rem; }
+  .research-archive .research-detail-grid dt:not(:first-child) { margin-top: 0.65rem; }
   .research-archive .research-paper-meta { font-size: 0.90625rem; }
   .faculty-page.faculty-media-talks #conference-presentations .faculty-entry + .faculty-entry { margin-top: 1.45rem; }
 }

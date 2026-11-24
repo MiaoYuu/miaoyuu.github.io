@@ -17,7 +17,7 @@ social: false
     <div class="home-background-record home-experience-records">
       <p><span class="home-experience-label"><strong>City University of Hong Kong</strong> — Assistant Professor of Information Systems</span><span class="home-experience-date">Jul 2026 – Present</span></p>
       <p><span class="home-experience-label"><strong>Ping An Technology</strong> — Machine Learning Scientist (Research Intern)</span><span class="home-experience-date">Jun 2024 – Apr 2026</span></p>
-      <p><span class="home-experience-label"><strong>Meituan</strong> — Machine Learning Scientist (Research Intern)</span><span class="home-experience-date">Dec 2021 – Oct 2022; Apr 2026 – Aug 2026</span></p>
+      <p><span class="home-experience-label"><strong>Meituan</strong> — Machine Learning Scientist (Research Intern)</span><span class="home-experience-date"><span class="home-date-period">Dec 2021 – Oct 2022;</span> <span class="home-date-period">Apr 2026 – Aug 2026</span></span></p>
     </div>
   </section>
 

@@ -21,15 +21,21 @@ nav_order: 2
             <details class="research-paper-details">
               <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
               <div class="research-details-body">
-                <h4>Media coverage</h4>
-                <p><a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">FT Chinese <span aria-hidden="true">↗</span></a>, <a href="https://www.hkubs.hku.hk/research/thought-leadership/ft-chinese-column/a-new-chapter-in-smart-governance-ai-empowering-innovation-in-government-services/" target="_blank" rel="noopener noreferrer">HKU Business School <span aria-hidden="true">↗</span></a></p>
-                <h4>Selected presentations</h4>
-                <ul>
-                  <li>INFORMS Annual Meeting, 2025 · Atlanta, USA</li>
-                  <li>Joint University Summer Workshop on Information Systems (JUSWIS), 2025 · Hong Kong, China</li>
-                  <li>Conference on Information Systems and Technology (CIST), 2024 · Seattle, USA</li>
-                  <li>Workshop on AI in Business, 2024</li>
-                </ul>
+                <dl class="research-detail-grid">
+                  <dt>Media coverage</dt>
+                  <dd>
+                    <p><a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">FT Chinese <span aria-hidden="true">↗</span></a>, <a href="https://www.hkubs.hku.hk/research/thought-leadership/ft-chinese-column/a-new-chapter-in-smart-governance-ai-empowering-innovation-in-government-services/" target="_blank" rel="noopener noreferrer">HKU Business School <span aria-hidden="true">↗</span></a></p>
+                  </dd>
+                  <dt>Selected presentations</dt>
+                  <dd>
+                    <ul>
+                      <li>INFORMS Annual Meeting, 2025 · Atlanta, USA</li>
+                      <li>Joint University Summer Workshop on Information Systems (JUSWIS), 2025 · Hong Kong, China</li>
+                      <li>Conference on Information Systems and Technology (CIST), 2024 · Seattle, USA</li>
+                      <li>Workshop on AI in Business, 2024</li>
+                    </ul>
+                  </dd>
+                </dl>
               </div>
             </details>
           </div>
@@ -71,16 +77,22 @@ nav_order: 2
             <details class="research-paper-details">
               <summary><span class="details-closed">Details</span><span class="details-open">Hide details</span></summary>
               <div class="research-details-body">
-                <h4>Selected presentations</h4>
-                <ul>
-                  <li>Conference on Information Systems and Technology (CIST), 2025 · Atlanta, USA</li>
-                  <li>Statistical Challenges in Electronic Commerce Research (SCECR), 2025 · Paphos, Cyprus</li>
-                  <li>Workshop on Information Systems and Economics (WISE), 2024 · Bangkok, Thailand</li>
-                  <li>Joint University Summer Workshop on Information Systems (JUSWIS), 2023 · Hong Kong, China</li>
-                  <li>Statistical Challenges in Electronic Commerce Research (SCECR), 2022 · Madrid, Spain</li>
-                </ul>
-                <h4>Patent citation</h4>
-                <p>Listed as an examiner-cited non-patent reference in <a href="https://patents.google.com/patent/CN114529116B/zh#nplCitations" target="_blank" rel="noopener noreferrer">Chinese patent CN114529116B <span aria-hidden="true">↗</span></a>, granted to Meituan in 2025.</p>
+                <dl class="research-detail-grid">
+                  <dt>Selected presentations</dt>
+                  <dd>
+                    <ul>
+                      <li>Conference on Information Systems and Technology (CIST), 2025 · Atlanta, USA</li>
+                      <li>Statistical Challenges in Electronic Commerce Research (SCECR), 2025 · Paphos, Cyprus</li>
+                      <li>Workshop on Information Systems and Economics (WISE), 2024 · Bangkok, Thailand</li>
+                      <li>Joint University Summer Workshop on Information Systems (JUSWIS), 2023 · Hong Kong, China</li>
+                      <li>Statistical Challenges in Electronic Commerce Research (SCECR), 2022 · Madrid, Spain</li>
+                    </ul>
+                  </dd>
+                  <dt>Patent citation</dt>
+                  <dd>
+                    <p>Listed as an examiner-cited non-patent reference in <a href="https://patents.google.com/patent/CN114529116B/zh#nplCitations" target="_blank" rel="noopener noreferrer">Chinese patent CN114529116B <span aria-hidden="true">↗</span></a>, granted to Meituan in 2025.</p>
+                  </dd>
+                </dl>
               </div>
             </details>
           </div>
