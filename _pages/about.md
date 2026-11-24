@@ -22,7 +22,7 @@ social: false
   </section>
 
   <section class="home-background-group" aria-labelledby="home-industry">
-    <h2 id="home-industry">Industry Experience &amp; Collaboration</h2>
+    <h2 id="home-industry">Industry Experience</h2>
     <div class="home-background-record">
       <h3>Ping An Technology</h3>
       <p>Research Collaborator</p>
