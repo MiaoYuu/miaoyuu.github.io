@@ -85,7 +85,7 @@ footer.sticky-bottom .container {
 }
 
 body.home-paper-theme {
-  background-color: var(--home-panel);
+  background-color: var(--paper-body);
 
   [role="main"].container.mt-5 {
     display: flex;
@@ -97,7 +97,7 @@ body.home-paper-theme {
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 
@@ -482,4 +482,102 @@ footer.sticky-bottom {
   border-top-color: var(--paper-line);
   padding: 1.4rem 0;
   margin-top: auto !important;
+}
+
+/* Concise homepage background, distinct from the full Background page. */
+.home-background-summary {
+  padding: 2.5rem 0 2.8rem;
+  border-top: 1px solid var(--paper-line);
+
+  .home-background-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.8rem clamp(2rem, 5.8vw, 5.2rem);
+    align-items: start;
+  }
+
+  .home-background-column {
+    min-width: 0;
+  }
+
+  .home-background-group + .home-background-group {
+    margin-top: 1.8rem;
+  }
+
+  .home-background-group h2 {
+    color: var(--paper-ink);
+    font-family: var(--font-display);
+    font-size: 1.45rem;
+    font-weight: 500;
+    line-height: 1.35;
+    letter-spacing: -0.015em;
+    margin: 0 0 1rem;
+    padding-bottom: 0.55rem;
+    border-bottom: 1px solid var(--paper-rule);
+  }
+
+  .home-background-record + .home-background-record {
+    margin-top: 1.05rem;
+  }
+
+  .home-background-record h3 {
+    color: var(--paper-ink);
+    font-family: var(--font-reading);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0 0 0.18rem;
+  }
+
+  .home-background-record p {
+    color: var(--paper-muted);
+    font-size: 0.92rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .home-background-record .home-background-date {
+    font-size: 0.85rem;
+    margin-top: 0.12rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .home-background-link {
+    margin: 1.5rem 0 0;
+    font-size: 0.875rem;
+
+    a,
+    a span {
+      color: var(--paper-accent);
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover,
+      &:focus-visible {
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+      }
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .home-background-summary {
+    padding: 1.75rem 0 2rem;
+
+    .home-background-grid {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1.75rem;
+    }
+
+    .home-background-group h2 {
+      font-size: 1.35rem;
+    }
+
+    .home-background-link {
+      margin-top: 1.3rem;
+    }
+  }
 }
