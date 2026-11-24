@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post home-editorial">
   <section class="home-hero" aria-labelledby="home-name">
-    <div class="home-hero-content">
+    <div class="home-hero-identity">
       <h1 class="home-display-name" id="home-name">
         {% if site.title == 'blank' %}
           {{ site.first_name }}
@@ -20,6 +20,9 @@ layout: default
         <span class="home-institution-separator" aria-hidden="true"> · </span>
         <span class="home-institution-university">City University of Hong Kong</span>
       </p>
+    </div>
+
+    <div class="home-hero-research">
       <div class="home-hero-summary">
         <p>My research centers on two areas:</p>
         <ul class="home-research-areas">
@@ -50,7 +53,7 @@ layout: default
       <div class="home-portrait">
         <div class="home-portrait-frame">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% capture portrait_sizes %}(min-width: 1100px) 360px, (min-width: 760px) 32vw, 90vw{% endcapture %}
+          {% capture portrait_sizes %}(min-width: 992px) 304px, (min-width: 761px) 256px, 256px{% endcapture %}
           {% include figure.liquid loading="eager" path=profile_image_path sizes=portrait_sizes alt="Portrait of Miao Yu" cache_bust=true %}
         </div>
       </div>

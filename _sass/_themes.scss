@@ -5,18 +5,18 @@
 :root {
   // Slate Blue: neutral reading text, accessible muted metadata, and a restrained blue accent.
   --global-bg-color: #ffffff;
-  --global-code-bg-color: rgba(51, 65, 85, 0.05);
-  --global-text-color: #334155;
-  --global-text-color-light: #64748b;
-  --global-theme-color: #365f80;
-  --global-hover-color: #26384a;
+  --global-code-bg-color: rgba(48, 57, 67, 0.05);
+  --global-text-color: #303943;
+  --global-text-color-light: #5c6978;
+  --global-theme-color: #2c5b82;
+  --global-hover-color: #233447;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #ffffff;
-  --global-footer-text-color: #64748b;
-  --global-footer-link-color: #365f80;
-  --global-distill-app-color: #64748b;
-  --global-divider-color: #e2e8ef;
-  --global-card-bg-color: #f1f5f9;
+  --global-footer-text-color: #5c6978;
+  --global-footer-link-color: #2c5b82;
+  --global-distill-app-color: #5c6978;
+  --global-divider-color: #e0e6ec;
+  --global-card-bg-color: #f5f7f9;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
