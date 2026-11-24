@@ -18,6 +18,7 @@ nav_order: 4
             <span class="faculty-entry-date">Fall 2026</span>
           </div>
           <p class="faculty-entry-secondary">Instructor · Master's level</p>
+          <p class="faculty-course-description">This course covers the foundations of generative AI and large language models, strategic AI adoption, and responsible implementation. Through industry case studies, guest lectures, and hands-on projects, students explore how generative AI can address real-world business problems in marketing, financial services, insurance, and retail.</p>
         </article>
       </div>
     </div>

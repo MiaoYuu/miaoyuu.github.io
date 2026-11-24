@@ -775,3 +775,12 @@ html[data-theme="dark"] .research-archive {
     }
   }
 }
+
+/* Brief course descriptions remain subordinate to course titles and teaching roles. */
+.faculty-page.faculty-teaching .faculty-course-description {
+  color: var(--paper-ink);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  max-width: 75ch;
+  margin: 0.65rem 0 0;
+}
