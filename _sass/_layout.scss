@@ -472,11 +472,12 @@ html[data-theme="dark"] .research-archive {
   }
 }
 
-
-// Teaching & Service: aligned groups, consistent typography, and a quiet hierarchy.
-.faculty-page.faculty-teaching {
+/* Teaching, service and outreach: one restrained editorial hierarchy. */
+.faculty-page.faculty-teaching,
+.faculty-page.faculty-media-talks {
   .faculty-section {
     margin-top: 2.8rem;
+    scroll-margin-top: 90px;
 
     &:first-child {
       margin-top: 0;
@@ -485,13 +486,54 @@ html[data-theme="dark"] .research-archive {
 
   .faculty-section-title {
     color: var(--paper-ink);
-    font-size: 1.5rem;
-    line-height: 1.35;
+    font-size: 1.6rem;
+    line-height: 1.3;
     margin: 0;
-    padding-bottom: 0.75rem;
+    padding-bottom: 0.85rem;
     border-bottom: 1px solid var(--paper-rule);
   }
 
+  .faculty-list {
+    min-width: 0;
+    border: 0;
+  }
+
+  .faculty-entry-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: baseline;
+    gap: 0.15rem 1.5rem;
+  }
+
+  .faculty-entry-title {
+    color: var(--paper-ink);
+    font-size: 1.03rem;
+    font-weight: 500;
+    line-height: 1.55;
+    margin: 0;
+    min-width: 0;
+  }
+
+  .faculty-entry-date,
+  .faculty-entry-secondary,
+  .faculty-entry-notes li {
+    color: var(--paper-muted);
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .faculty-entry-date {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .faculty-entry-secondary {
+    margin: 0.2rem 0 0;
+  }
+}
+
+/* Teaching and service: aligned category labels and grouped records. */
+.faculty-page.faculty-teaching {
   .faculty-subsection {
     display: grid;
     grid-template-columns: minmax(0, 13.75rem) minmax(0, 1fr);
@@ -509,16 +551,11 @@ html[data-theme="dark"] .research-archive {
 
   .faculty-subsection-title {
     color: var(--paper-muted);
-    font-size: 0.95rem;
+    font-size: 0.96rem;
     font-weight: 600;
     line-height: 1.55;
     margin: 0;
     overflow-wrap: break-word;
-  }
-
-  .faculty-list {
-    min-width: 0;
-    border: 0;
   }
 
   .faculty-entry {
@@ -527,40 +564,8 @@ html[data-theme="dark"] .research-archive {
     border: 0;
 
     & + .faculty-entry {
-      margin-top: 0.95rem;
+      margin-top: 1.1rem;
     }
-  }
-
-  .faculty-entry-heading {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: baseline;
-    gap: 0.15rem 1.25rem;
-  }
-
-  .faculty-entry-title {
-    color: var(--paper-ink);
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.55;
-    margin: 0;
-    min-width: 0;
-  }
-
-  .faculty-entry-date,
-  .faculty-entry-secondary {
-    color: var(--paper-muted);
-    font-size: 0.88rem;
-    line-height: 1.5;
-  }
-
-  .faculty-entry-date {
-    text-align: right;
-    white-space: nowrap;
-  }
-
-  .faculty-entry-secondary {
-    margin: 0.18rem 0 0;
   }
 
   .faculty-service-list {
@@ -580,14 +585,61 @@ html[data-theme="dark"] .research-archive {
   }
 }
 
-@media (max-width: 800px) {
+/* Talks & Media: compact invited talks; presentations grouped by paper;
+   media coverage uses the same typography rather than a separate card style. */
+.faculty-page.faculty-media-talks {
+  .faculty-entry {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--paper-line);
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  #invited-talks .faculty-entry {
+    padding: 0.72rem 0;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  #conference-presentations .faculty-entry-title,
+  #media-coverage .faculty-entry-title {
+    font-weight: 600;
+    max-width: 86ch;
+  }
+
+  .faculty-entry-notes {
+    margin: 0.45rem 0 0;
+    padding: 0;
+    list-style: none;
+
+    li + li {
+      margin-top: 0.22rem;
+    }
+  }
+
+  .faculty-entry-action a {
+    color: var(--paper-accent);
+  }
+}
+
+@media (max-width: 991.98px) {
   .faculty-page.faculty-teaching {
     .faculty-subsection {
       grid-template-columns: minmax(0, 1fr);
-      gap: 0.6rem;
+      gap: 0.65rem;
       padding: 1rem 0;
     }
+  }
+}
 
+@media (max-width: 680px) {
+  .faculty-page.faculty-teaching,
+  .faculty-page.faculty-media-talks {
     .faculty-section {
       margin-top: 2.1rem;
 
@@ -595,13 +647,13 @@ html[data-theme="dark"] .research-archive {
         margin-top: 0;
       }
     }
-  }
-}
 
-@media (max-width: 575px) {
-  .faculty-page.faculty-teaching {
     .faculty-section-title {
-      font-size: 1.4rem;
+      font-size: 1.43rem;
+    }
+
+    .faculty-entry-title {
+      font-size: 1rem;
     }
 
     .faculty-entry-heading {
