@@ -66,7 +66,8 @@ nav_order: 5
           <h3 class="faculty-entry-title">Nankai University</h3>
           <span class="faculty-entry-date">2013–2017</span>
         </div>
-        <p class="faculty-entry-secondary">B.S. in Logistics Management, with highest honors</p>
+        <p class="faculty-entry-secondary">B.S. in Logistics Management (Rank: 1st)</p>
+        <p class="faculty-entry-secondary">Department of Management Science and Engineering, Business School</p>
       </article>
     </div>
   </section>
