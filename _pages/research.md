@@ -18,7 +18,7 @@ nav_order: 2
         <div class="research-paper-content">
           <h3 class="research-paper-title">Gov-RAG: Designing AI-Assisted Government Consultation through Institutional Relations</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen</p>
-          <p class="research-media"><strong>Media coverage</strong> · <a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">Financial Times <span aria-hidden="true">↗</span></a></p>
+          <p class="research-media"><strong>Research coverage</strong> · <a href="https://www.ftchinese.com/story/001105201" target="_blank" rel="noopener noreferrer">FT Chinese <span aria-hidden="true">↗</span></a>, <a href="https://www.hkubs.hku.hk/research/thought-leadership/ft-chinese-column/a-new-chapter-in-smart-governance-ai-empowering-innovation-in-government-services/" target="_blank" rel="noopener noreferrer">HKU Business School <span aria-hidden="true">↗</span></a></p>
           <div class="research-paper-actions">
             <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5111865" target="_blank" rel="noopener noreferrer">Read on SSRN <span aria-hidden="true">↗</span></a>
           <details class="research-paper-details">
@@ -95,7 +95,7 @@ nav_order: 2
         <div class="research-paper-content">
           <h3 class="research-paper-title">Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithms on Food Delivery Rider Behaviors</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen, Yuan Cheng, Yu Jeffrey Hu</p>
-          <p class="research-paper-meta">Finalist, POMS-HK International Conference Best Student Paper Award, 2026</p>
+          <p class="research-paper-meta">Finalist, POMS-HK International Conference Best Student Paper Award, 2026 (<a href="https://sme.cuhk.edu.cn/en/article/3421" target="_blank" rel="noopener noreferrer">Award announcement <span aria-hidden="true">↗</span></a>)</p>
           <div class="research-paper-actions">
             <a class="research-paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4631152" target="_blank" rel="noopener noreferrer">Read on SSRN <span aria-hidden="true">↗</span></a>
           <details class="research-paper-details">
