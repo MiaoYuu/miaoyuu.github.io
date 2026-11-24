@@ -11,8 +11,9 @@ nav_order: 2
     <div class="research-area-header">
       <h2 class="research-area-heading">Agentic AI Systems</h2>
     </div>
-    <ul class="research-papers">
+    <ol class="research-papers">
       <li class="research-paper">
+        <span class="research-paper-number" aria-hidden="true">01</span>
         <div class="research-paper-content">
           <h3 class="research-paper-title">Gov-RAG: Designing AI-Assisted Government Consultation through Institutional Relations</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen</p>
@@ -20,32 +21,36 @@ nav_order: 2
         </div>
       </li>
       <li class="research-paper">
+        <span class="research-paper-number" aria-hidden="true">02</span>
         <div class="research-paper-content">
           <h3 class="research-paper-title">Agent-RF: Automated Risk Factor Engineering with Agentic AI in Bank Risk Control</h3>
           <p class="research-paper-authors">Hongwei Zhuang, <strong class="research-owner">Miao Yu</strong>, Hailiang Chen, Jianming Wang<sup>*</sup></p>
         </div>
       </li>
       <li class="research-paper">
+        <span class="research-paper-number" aria-hidden="true">03</span>
         <div class="research-paper-content">
           <h3 class="research-paper-title">Integrating Large and Small Language Models with Domain Knowledge for Smart Trip Planning</h3>
           <p class="research-paper-authors">Shuang Zheng, Mingzheng Wang, <strong class="research-owner">Miao Yu</strong></p>
         </div>
       </li>
       <li class="research-paper">
+        <span class="research-paper-number" aria-hidden="true">04</span>
         <div class="research-paper-content">
           <h3 class="research-paper-title">From Optimization to Action: Augmenting Dispatching Decisions with Large Language Models</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Guangrui Ma<sup>*</sup></p>
         </div>
       </li>
-    </ul>
+    </ol>
   </section>
 
   <section class="research-area" aria-label="Digital Platforms">
     <div class="research-area-header">
       <h2 class="research-area-heading">Digital Platforms</h2>
     </div>
-    <ul class="research-papers">
+    <ol class="research-papers" start="5">
       <li class="research-paper">
+        <span class="research-paper-number" aria-hidden="true">05</span>
         <div class="research-paper-content">
           <h3 class="research-paper-title">Less Pressure, More Prosperity? The Impact of Conservative Estimated Time of Arrival Algorithms on Food Delivery Rider Behaviors</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Hailiang Chen, Yuan Cheng, Yu Jeffrey Hu</p>
@@ -54,6 +59,7 @@ nav_order: 2
         </div>
       </li>
       <li class="research-paper">
+        <span class="research-paper-number" aria-hidden="true">06</span>
         <div class="research-paper-content">
           <h3 class="research-paper-title">Sequential ETA Disclosure on On-Demand Platforms: Reference Dependence and Field Evidence</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Ying-Ju Chen</p>
@@ -61,12 +67,13 @@ nav_order: 2
         </div>
       </li>
       <li class="research-paper">
+        <span class="research-paper-number" aria-hidden="true">07</span>
         <div class="research-paper-content">
           <h3 class="research-paper-title">Platform-Generated Information and Marketplace Behavior: A Large-Scale Field Experiment on a Delivery-Speed Badge</h3>
           <p class="research-paper-authors"><strong class="research-owner">Miao Yu</strong>, Yu Jeffrey Hu</p>
         </div>
       </li>
-    </ul>
+    </ol>
   </section>
 
   <p class="research-industry-note"><sup>*</sup> Industry collaborator</p>
