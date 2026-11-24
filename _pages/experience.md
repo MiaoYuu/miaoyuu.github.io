@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Experience/
-title: Profile
+title: Experience
 nav: true
 nav_order: 5
 ---
@@ -17,6 +17,28 @@ nav_order: 5
         </div>
         <p class="faculty-entry-secondary">Assistant Professor of Information Systems</p>
         <p class="faculty-entry-secondary">College of Business</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="faculty-section" id="industry-experience">
+    <h2 class="faculty-section-title">Industry Experience &amp; Collaboration</h2>
+    <div class="faculty-list">
+      <article class="faculty-entry">
+        <div class="faculty-entry-heading">
+          <h3 class="faculty-entry-title">Ping An Technology</h3>
+          <span class="faculty-entry-date">Jun 2024 – Present</span>
+        </div>
+        <p class="faculty-entry-secondary">Research Collaborator</p>
+        <p class="faculty-entry-secondary">Former Machine Learning Scientist (Research Intern)</p>
+      </article>
+      <article class="faculty-entry">
+        <h3 class="faculty-entry-title">Meituan</h3>
+        <p class="faculty-entry-secondary">Research Collaborator</p>
+        <div class="faculty-detail-row">
+          <p class="faculty-entry-secondary">Former Machine Learning Scientist (Research Intern)</p>
+          <span class="faculty-entry-date">Dec 2021 – Oct 2022; Apr 2026 – Aug 2026</span>
+        </div>
       </article>
     </div>
   </section>
@@ -45,28 +67,6 @@ nav_order: 5
           <span class="faculty-entry-date">2013–2017</span>
         </div>
         <p class="faculty-entry-secondary">B.S. in Logistics Management, with highest honors</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="faculty-section" id="industry-experience">
-    <h2 class="faculty-section-title">Industry Experience &amp; Collaboration</h2>
-    <div class="faculty-list">
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">Ping An Technology</h3>
-          <span class="faculty-entry-date">Jun 2024 – Present</span>
-        </div>
-        <p class="faculty-entry-secondary">Research Collaborator</p>
-        <p class="faculty-entry-secondary">Former Machine Learning Scientist (Research Intern)</p>
-      </article>
-      <article class="faculty-entry">
-        <h3 class="faculty-entry-title">Meituan</h3>
-        <p class="faculty-entry-secondary">Research Collaborator</p>
-        <div class="faculty-detail-row">
-          <p class="faculty-entry-secondary">Former Machine Learning Scientist (Research Intern)</p>
-          <span class="faculty-entry-date">Dec 2021 – Oct 2022; Apr 2026 – Aug 2026</span>
-        </div>
       </article>
     </div>
   </section>

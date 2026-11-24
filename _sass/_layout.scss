@@ -670,3 +670,108 @@ html[data-theme="dark"] .research-archive {
     }
   }
 }
+
+/* Experience: a compact academic timeline, using the same type and rules as Activities. */
+.faculty-page.faculty-experience {
+  .faculty-section {
+    margin-top: 2.65rem;
+    scroll-margin-top: 90px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .faculty-section-title {
+    color: var(--paper-ink);
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin: 0;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid var(--paper-rule);
+  }
+
+  .faculty-list {
+    border: 0;
+  }
+
+  .faculty-entry {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--paper-line);
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .faculty-entry-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.15rem 1.5rem;
+    align-items: baseline;
+  }
+
+  .faculty-entry-title {
+    color: var(--paper-ink);
+    font-size: 1.03rem;
+    line-height: 1.55;
+    font-weight: 500;
+    margin: 0 0 0.15rem;
+  }
+
+  .faculty-entry-date,
+  .faculty-entry-secondary {
+    color: var(--paper-muted);
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .faculty-entry-date {
+    text-align: right;
+  }
+
+  .faculty-awards {
+    .faculty-entry {
+      padding: 0.6rem 0;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+
+    .faculty-entry-title {
+      font-size: 0.98rem;
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .faculty-page.faculty-experience {
+    .faculty-section {
+      margin-top: 2.1rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    .faculty-section-title {
+      font-size: 1.43rem;
+    }
+
+    .faculty-entry-heading {
+      display: block;
+    }
+
+    .faculty-entry-heading .faculty-entry-date,
+    .faculty-detail-row .faculty-entry-date {
+      display: block;
+      margin: 0.15rem 0;
+      text-align: left;
+      white-space: normal;
+    }
+  }
+}
