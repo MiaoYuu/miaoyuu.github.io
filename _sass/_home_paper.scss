@@ -139,7 +139,20 @@ body.home-paper-theme {
     line-height: 1.13;
     letter-spacing: -0.025em;
     font-weight: 600;
+    margin: 0 0 0.3rem;
+  }
+
+  .home-name-pronunciation {
+    color: var(--paper-muted);
+    font-family: var(--font-reading);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
     margin: 0 0 1.1rem;
+
+    span {
+      color: inherit;
+    }
   }
 
   .home-position {
