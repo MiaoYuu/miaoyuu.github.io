@@ -285,7 +285,7 @@ body.sticky-bottom-footer > [role="main"] {
   }
 }
 
-/* Research: paper-first reading hierarchy, without numbering or row borders. */
+/* Research: paper-first hierarchy, with subtle separators only between papers. */
 .research-archive {
   .research-intro {
     color: var(--paper-secondary);
@@ -316,7 +316,9 @@ body.sticky-bottom-footer > [role="main"] {
     border: 0;
 
     & + .research-paper {
-      margin-top: 2rem;
+      margin-top: 1.25rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--paper-line);
     }
   }
 
@@ -514,7 +516,8 @@ body.sticky-bottom-footer > [role="main"] {
 
   .research-archive .research-paper {
     & + .research-paper {
-      margin-top: 1.65rem;
+      margin-top: 1rem;
+      padding-top: 1rem;
     }
   }
 }
