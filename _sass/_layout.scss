@@ -86,8 +86,8 @@ body.sticky-bottom-footer > [role="main"] {
   padding-bottom: 3.25rem;
 }
 
-/* The same reading column on all five public pages; the home hero background still spans the viewport. */
-[role="main"] > .post:is(.home-editorial, .post-research, .post-activities, .post-teaching, .post-experience) {
+/* A shared reading column for interior pages; the home page retains its wider identity layout. */
+[role="main"] > .post:is(.post-research, .post-activities, .post-teaching, .post-experience) {
   max-width: var(--academic-reading-width);
   margin-inline: auto;
 }
@@ -104,10 +104,9 @@ body.sticky-bottom-footer > [role="main"] {
   margin: 0;
 }
 
-/* One shared editorial heading treatment for Home, Research, Activities, Teaching and Experience. */
+/* Shared editorial accents for interior pages. Home uses a quieter, separate heading treatment. */
 .faculty-page .faculty-section-title,
-.research-archive .research-area-header,
-.home-background-summary .home-background-group h2 {
+.research-archive .research-area-header {
   display: block;
   padding: 0;
   border: 0;
@@ -115,8 +114,7 @@ body.sticky-bottom-footer > [role="main"] {
 }
 
 .faculty-page .faculty-section-title::before,
-.research-archive .research-area-header::before,
-.home-background-summary .home-background-group h2::before {
+.research-archive .research-area-header::before {
   content: "";
   display: block;
   width: var(--academic-section-accent-width);
@@ -138,8 +136,7 @@ body.sticky-bottom-footer > [role="main"] {
 }
 
 .faculty-page .faculty-section + .faculty-section,
-.research-archive .research-area + .research-area,
-.home-background-summary .home-background-group + .home-background-group {
+.research-archive .research-area + .research-area {
   margin-top: var(--academic-section-gap);
 }
 

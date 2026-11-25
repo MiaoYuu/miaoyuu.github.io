@@ -287,6 +287,17 @@ body.home-paper-theme [role="main"].container.mt-5 { margin-top: 0 !important; }
 
 .home-background-summary { padding-block: 2.9rem 3.25rem; }
 
+/* Home is a profile, not an index: preserve its previous lightweight section rules. */
+.home-background-summary .home-background-group h2 {
+  border-bottom: 1px solid var(--paper-rule);
+  padding-bottom: 0.65rem;
+  margin: 0 0 1.25rem;
+}
+
+.home-background-summary .home-background-group + .home-background-group {
+  margin-top: 3rem;
+}
+
 .home-background-summary .home-background-record p {
   color: var(--paper-text);
   font-size: var(--academic-body-size);
@@ -296,7 +307,7 @@ body.home-paper-theme [role="main"].container.mt-5 { margin-top: 0 !important; }
 
 .home-background-summary .home-background-record p + p { margin-top: 0.65rem; }
 
-.home-background-summary .home-background-record strong { color: var(--paper-ink); font-weight: 550; }
+.home-background-summary .home-background-record strong { color: var(--paper-ink); font-weight: 600; }
 
 .home-background-summary .home-experience-records p {
   display: grid;
@@ -394,6 +405,10 @@ footer.academic-footer .academic-footer-copyright {
   .home-background-summary { padding-block: 2.15rem 2.5rem; }
   body:not(.home-paper-theme) [role="main"].container.mt-5 { padding-top: 2rem; }
   footer.academic-footer { padding-block: 0.9rem; }
+}
+
+@media (max-width: 680px) {
+  .home-background-summary .home-background-group + .home-background-group { margin-top: 2.35rem; }
 }
 
 @media (max-width: 480px) {
