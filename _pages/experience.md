@@ -72,7 +72,7 @@ nav_order: 5
           <h3 class="faculty-entry-title">Nankai University</h3>
           <span class="faculty-entry-date">2013–2017</span>
         </div>
-        <p class="faculty-entry-secondary">B.S. in Management Science and Engineering (Ranked 1st)</p>
+        <p class="faculty-entry-secondary">B.S. in Management Science and Engineering <span class="faculty-degree-rank">(1/29)</span></p>
       </article>
     </div>
   </section>

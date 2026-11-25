@@ -229,10 +229,10 @@ body.sticky-bottom-footer > [role="main"] {
 .research-archive .research-area-header::before {
   content: "";
   display: block;
-  width: 2rem;
+  width: 3.5rem;
   height: 2px;
   background: var(--paper-accent);
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.6875rem;
 }
 
 .research-archive .research-area-heading {
@@ -464,6 +464,13 @@ body.sticky-bottom-footer > [role="main"] {
 }
 
 /* Experience: date columns, no separators between individual records or awards. */
+.faculty-page.faculty-experience .faculty-degree-rank {
+  color: var(--paper-muted);
+  font-size: 0.9375em;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .faculty-page.faculty-experience .faculty-entry-title { font-size: 1.0625rem; font-weight: 600; }
 .faculty-page.faculty-experience .faculty-awards .faculty-entry { border: 0; padding: 0; }
 .faculty-page.faculty-experience .faculty-awards .faculty-entry + .faculty-entry { margin-top: 0.65rem; }
