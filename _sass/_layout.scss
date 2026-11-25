@@ -436,21 +436,150 @@ body.sticky-bottom-footer > [role="main"] {
 .research-archive .research-detail-grid a span { color: var(--paper-accent); }
 .research-archive .research-detail-grid a { text-decoration: underline; text-underline-offset: 0.16em; }
 
-/* Activities: clear parent papers and indented conference records. */
-.faculty-page.faculty-media-talks #media-coverage .faculty-entry-title,
-.faculty-page.faculty-media-talks #conference-presentations .faculty-entry-title { max-width: 80ch; }
-
-.faculty-page.faculty-media-talks #conference-presentations .faculty-entry + .faculty-entry { margin-top: 1.8rem; }
-
-.faculty-page.faculty-media-talks #conference-presentations .faculty-entry-notes {
-  padding-inline-start: 1.15rem;
-  list-style: disc;
-  margin-top: 0.55rem;
+/* Activities: the same reading column and section accents as Research. */
+[role="main"] > .post.post-activities {
+  max-width: 880px;
+  margin-inline: auto;
 }
 
-.faculty-page.faculty-media-talks #conference-presentations .faculty-entry-notes li::marker { color: var(--paper-muted); font-size: 0.75em; }
-.faculty-page.faculty-media-talks #invited-talks .faculty-entry-title { font-size: var(--academic-body-size); font-weight: 400; color: var(--paper-text); }
+[role="main"] > .post.post-activities > .post-header { margin-bottom: 2.125rem; }
+
+.faculty-page.faculty-media-talks .faculty-section-title {
+  padding: 0;
+  border: 0;
+  margin: 0 0 1.25rem;
+}
+
+.faculty-page.faculty-media-talks .faculty-section-title::before {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: 2px;
+  background: var(--paper-accent);
+  margin-bottom: 0.6875rem;
+}
+
+.faculty-page.faculty-media-talks .faculty-section + .faculty-section { margin-top: 3.5rem; }
+
+.faculty-page.faculty-media-talks #media-coverage .faculty-entry-title {
+  max-width: 80ch;
+  font-weight: 550;
+}
+
+.faculty-page.faculty-media-talks .activity-media-sources {
+  color: var(--paper-accent);
+  font-family: var(--font-reading);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin: 0.4rem 0 0;
+}
+
+.faculty-page.faculty-media-talks .activity-media-sources a,
+.faculty-page.faculty-media-talks .activity-media-sources a span { color: var(--paper-accent); }
+
+.faculty-page.faculty-media-talks .activity-year-group {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr);
+  align-items: baseline;
+  gap: 0.35rem 1.35rem;
+}
+
+.faculty-page.faculty-media-talks .activity-year-group + .activity-year-group { margin-top: 1.4rem; }
+
+.faculty-page.faculty-media-talks .activity-year {
+  font-family: var(--font-interface);
+  font-size: var(--academic-meta-size);
+  font-weight: 500;
+  line-height: 1.6;
+  font-variant-numeric: tabular-nums;
+  color: var(--paper-muted);
+  margin: 0;
+}
+
+.faculty-page.faculty-media-talks .activity-presentations {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  min-width: 0;
+}
+
+.faculty-page.faculty-media-talks .activity-presentations > li + li { margin-top: 0.4rem; }
+
+.faculty-page.faculty-media-talks .activity-presentation summary {
+  font-family: var(--font-reading);
+  font-size: var(--academic-body-size);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--paper-text);
+  cursor: pointer;
+  list-style: none;
+  overflow-wrap: break-word;
+}
+
+.faculty-page.faculty-media-talks .activity-presentation summary::-webkit-details-marker { display: none; }
+.faculty-page.faculty-media-talks .activity-presentation summary::marker { content: ""; }
+.faculty-page.faculty-media-talks .activity-conference-name { color: var(--paper-text); }
+.faculty-page.faculty-media-talks .activity-conference-location { color: var(--paper-muted); }
+
+.faculty-page.faculty-media-talks .activity-details-chevron {
+  display: inline-block;
+  vertical-align: 0.16em;
+  margin-left: 0.5em;
+  width: 0.36em;
+  height: 0.36em;
+  border-right: 1px solid var(--paper-muted);
+  border-bottom: 1px solid var(--paper-muted);
+  transform: rotate(45deg);
+}
+
+.faculty-page.faculty-media-talks .activity-presentation[open] .activity-details-chevron { transform: rotate(225deg); }
+.faculty-page.faculty-media-talks .activity-presentation summary:hover .activity-conference-name { color: var(--paper-accent); }
+
+.faculty-page.faculty-media-talks .activity-presentation summary:focus-visible {
+  outline: 2px solid var(--paper-accent);
+  outline-offset: 3px;
+}
+
+.faculty-page.faculty-media-talks .activity-presentation-paper {
+  color: var(--paper-secondary);
+  font-family: var(--font-reading);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  padding: 0.1rem 0 0.1rem 0.8rem;
+  border-inline-start: 2px solid var(--paper-rule);
+  margin: 0.35rem 0 0.6rem;
+}
+
+.faculty-page.faculty-media-talks #invited-talks .faculty-entry-title {
+  font-size: var(--academic-body-size);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--paper-text);
+}
+
 .faculty-page.faculty-media-talks #invited-talks .faculty-entry + .faculty-entry { margin-top: 0.65rem; }
+
+.faculty-page.faculty-media-talks .activity-service { margin: 0; }
+.faculty-page.faculty-media-talks .activity-service-group + .activity-service-group { margin-top: 1rem; }
+
+.faculty-page.faculty-media-talks .activity-service dt {
+  font-family: var(--font-interface);
+  font-size: var(--academic-meta-size);
+  font-weight: 500;
+  color: var(--paper-muted);
+  line-height: 1.5;
+  margin: 0 0 0.25rem;
+}
+
+.faculty-page.faculty-media-talks .activity-service dd,
+.faculty-page.faculty-media-talks .activity-service dd em {
+  color: var(--paper-text);
+  font-family: var(--font-reading);
+  font-size: var(--academic-body-size);
+  font-weight: 400;
+  line-height: 1.65;
+  margin: 0;
+}
 
 /* Teaching: a comfortable long-text measure, separate from term and role. */
 .faculty-page.faculty-teaching .faculty-course-description {
@@ -516,7 +645,12 @@ body.sticky-bottom-footer > [role="main"] {
   .research-archive .research-detail-grid { grid-template-columns: minmax(0, 1fr); gap: 0.15rem; }
   .research-archive .research-detail-grid dt:not(:first-child) { margin-top: 0.65rem; }
   .research-archive .research-paper-meta { font-size: 0.90625rem; }
-  .faculty-page.faculty-media-talks #conference-presentations .faculty-entry + .faculty-entry { margin-top: 1.45rem; }
+  [role="main"] > .post.post-activities > .post-header { margin-bottom: 1.625rem; }
+  .faculty-page.faculty-media-talks .faculty-section + .faculty-section { margin-top: 2.75rem; }
+  .faculty-page.faculty-media-talks .activity-year-group { grid-template-columns: 2.75rem minmax(0, 1fr); column-gap: 0.75rem; }
+  .faculty-page.faculty-media-talks .activity-year-group + .activity-year-group { margin-top: 1.15rem; }
+  .faculty-page.faculty-media-talks #invited-talks .faculty-entry-heading { grid-template-columns: minmax(0, 1fr) auto; gap: 0.2rem 0.8rem; }
+  .faculty-page.faculty-media-talks #invited-talks .faculty-entry-date { text-align: right; white-space: nowrap; }
 }
 
 @media (min-width: 540px) and (max-width: 680px) {
