@@ -287,10 +287,6 @@ body.home-paper-theme [role="main"].container.mt-5 { margin-top: 0 !important; }
 
 .home-background-summary { padding-block: 2.9rem 3.25rem; }
 
-.home-background-summary .home-background-group + .home-background-group {
-  margin-top: var(--academic-section-gap);
-}
-
 .home-background-summary .home-background-record p {
   color: var(--paper-text);
   font-size: var(--academic-body-size);
@@ -300,7 +296,7 @@ body.home-paper-theme [role="main"].container.mt-5 { margin-top: 0 !important; }
 
 .home-background-summary .home-background-record p + p { margin-top: 0.65rem; }
 
-.home-background-summary .home-background-record strong { color: var(--paper-ink); font-weight: 600; }
+.home-background-summary .home-background-record strong { color: var(--paper-ink); font-weight: 550; }
 
 .home-background-summary .home-experience-records p {
   display: grid;
