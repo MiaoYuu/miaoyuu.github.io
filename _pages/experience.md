@@ -130,12 +130,6 @@ nav_order: 5
       </article>
       <article class="faculty-entry">
         <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">Distinguished Undergraduate Award, Nankai University</h3>
-          <span class="faculty-entry-date">2017</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
           <h3 class="faculty-entry-title">First Prize, National Undergraduate Innovative Research Program</h3>
           <span class="faculty-entry-date">May 2017</span>
         </div>
@@ -162,12 +156,6 @@ nav_order: 5
         <div class="faculty-entry-heading">
           <h3 class="faculty-entry-title">First Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM)</h3>
           <span class="faculty-entry-date">Sep 2015</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">The 1st Outstanding Student Scholarship</h3>
-          <span class="faculty-entry-date">2013–2014</span>
         </div>
       </article>
     </div>
