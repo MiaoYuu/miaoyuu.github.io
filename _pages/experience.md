@@ -88,6 +88,12 @@ nav_order: 5
       </article>
       <article class="faculty-entry">
         <div class="faculty-entry-heading">
+          <h3 class="faculty-entry-title">Dissertation Year Fellowship, The University of Hong Kong</h3>
+          <span class="faculty-entry-date">2025–2026</span>
+        </div>
+      </article>
+      <article class="faculty-entry">
+        <div class="faculty-entry-heading">
           <h3 class="faculty-entry-title">Selected Fellow, International Conference on Information Systems (ICIS) Doctoral Consortium</h3>
           <span class="faculty-entry-date">2025</span>
         </div>
@@ -96,12 +102,6 @@ nav_order: 5
         <div class="faculty-entry-heading">
           <h3 class="faculty-entry-title">Selected Fellow, INFORMS ISS Doctoral Consortium</h3>
           <span class="faculty-entry-date">2025</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">Dissertation Year Fellowship, The University of Hong Kong</h3>
-          <span class="faculty-entry-date">2025–2026</span>
         </div>
       </article>
       <article class="faculty-entry">
@@ -136,26 +136,14 @@ nav_order: 5
       </article>
       <article class="faculty-entry">
         <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">Tianjin Government Scholarship</h3>
-          <span class="faculty-entry-date">2015–2016</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">The National Southwest Associated University Scholarship</h3>
-          <span class="faculty-entry-date">2014–2015</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
-          <h3 class="faculty-entry-title">The 1st Outstanding Student Scholarship</h3>
-          <span class="faculty-entry-date">2013–2014</span>
-        </div>
-      </article>
-      <article class="faculty-entry">
-        <div class="faculty-entry-heading">
           <h3 class="faculty-entry-title">First Prize, National Undergraduate Innovative Research Program</h3>
           <span class="faculty-entry-date">May 2017</span>
+        </div>
+      </article>
+      <article class="faculty-entry">
+        <div class="faculty-entry-heading">
+          <h3 class="faculty-entry-title">Tianjin Government Scholarship</h3>
+          <span class="faculty-entry-date">2015–2016</span>
         </div>
       </article>
       <article class="faculty-entry">
@@ -166,8 +154,20 @@ nav_order: 5
       </article>
       <article class="faculty-entry">
         <div class="faculty-entry-heading">
+          <h3 class="faculty-entry-title">The National Southwest Associated University Scholarship</h3>
+          <span class="faculty-entry-date">2014–2015</span>
+        </div>
+      </article>
+      <article class="faculty-entry">
+        <div class="faculty-entry-heading">
           <h3 class="faculty-entry-title">First Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM)</h3>
           <span class="faculty-entry-date">Sep 2015</span>
+        </div>
+      </article>
+      <article class="faculty-entry">
+        <div class="faculty-entry-heading">
+          <h3 class="faculty-entry-title">The 1st Outstanding Student Scholarship</h3>
+          <span class="faculty-entry-date">2013–2014</span>
         </div>
       </article>
     </div>

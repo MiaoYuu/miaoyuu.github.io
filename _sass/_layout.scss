@@ -225,6 +225,16 @@ body.sticky-bottom-footer > [role="main"] {
   border: 0;
 }
 
+/* A short editorial accent marks each research stream, not a full-width rule. */
+.research-archive .research-area-header::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2px;
+  background: var(--paper-accent);
+  margin-bottom: 0.55rem;
+}
+
 .research-archive .research-area-heading {
   font-size: var(--academic-section-size);
   font-weight: 600;
@@ -232,7 +242,7 @@ body.sticky-bottom-footer > [role="main"] {
   margin: 0;
 }
 
-/* Distinguish research streams with whitespace, not decorative rules. */
+/* Whitespace remains the main separator between research streams. */
 .research-archive .research-area + .research-area {
   margin-top: 3.5rem;
 }
