@@ -65,14 +65,13 @@ nav_order: 5
           <span class="faculty-entry-date">2017–2019</span>
         </div>
         <p class="faculty-entry-secondary">M.S. in Technology and Operations</p>
-        <p class="faculty-entry-secondary">Stephen M. Ross School of Business</p>
       </article>
       <article class="faculty-entry">
         <div class="faculty-entry-heading">
           <h3 class="faculty-entry-title">Nankai University</h3>
           <span class="faculty-entry-date">2013–2017</span>
         </div>
-        <p class="faculty-entry-secondary">B.S. in Management Science and Engineering <span class="faculty-degree-rank">(Rank: 1/29)</span></p>
+        <p class="faculty-entry-secondary">B.S. in Management Science and Engineering</p>
       </article>
     </div>
   </section>
