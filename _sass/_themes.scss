@@ -3,20 +3,20 @@
  ******************************************************************************/
 
 :root {
-  // Forest Green: warm paper, ink-green headings, and a restrained botanical accent.
-  --global-bg-color: #faf8f3;
-  --global-code-bg-color: rgba(54, 92, 71, 0.05);
-  --global-text-color: #343833;
-  --global-text-color-light: #616b62;
-  --global-theme-color: #365c47;
-  --global-hover-color: #26352d;
+  // Modern Academic Blue: near-neutral white, ink-blue headings, and a fresh blue accent.
+  --global-bg-color: #fcfcfb;
+  --global-code-bg-color: rgba(54, 60, 68, 0.05);
+  --global-text-color: #363c44;
+  --global-text-color-light: #626c78;
+  --global-theme-color: #1c60b3;
+  --global-hover-color: #203149;
   --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #faf8f3;
-  --global-footer-text-color: #616b62;
-  --global-footer-link-color: #365c47;
-  --global-distill-app-color: #616b62;
-  --global-divider-color: #deded5;
-  --global-card-bg-color: #f1f0e9;
+  --global-footer-bg-color: #fcfcfb;
+  --global-footer-text-color: #626c78;
+  --global-footer-link-color: #1c60b3;
+  --global-distill-app-color: #626c78;
+  --global-divider-color: #e5e5e3;
+  --global-card-bg-color: #f4f5f7;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
@@ -70,19 +70,19 @@
 
 html[data-theme="dark"] {
   // Dark-mode complement of the paper palette, retaining accessible contrast.
-  --global-bg-color: #222822;
-  --global-code-bg-color: #303a31;
-  --global-text-color: #e4eae2;
-  --global-text-color-light: #b0beb1;
-  --global-theme-color: #b0d2b8;
-  --global-hover-color: #edf2ea;
-  --global-hover-text-color: #222822;
-  --global-footer-bg-color: #222822;
-  --global-footer-text-color: #b0beb1;
-  --global-footer-link-color: #b0d2b8;
-  --global-distill-app-color: #b0beb1;
-  --global-divider-color: #49564b;
-  --global-card-bg-color: #303a31;
+  --global-bg-color: #20262a;
+  --global-code-bg-color: #2d3539;
+  --global-text-color: #e9ecec;
+  --global-text-color-light: #b8c0c3;
+  --global-theme-color: #abc6dc;
+  --global-hover-color: #d6e4ef;
+  --global-hover-text-color: #20262a;
+  --global-footer-bg-color: #20262a;
+  --global-footer-text-color: #b8c0c3;
+  --global-footer-link-color: #abc6dc;
+  --global-distill-app-color: #b8c0c3;
+  --global-divider-color: #465056;
+  --global-card-bg-color: #2d3539;
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
